@@ -26,6 +26,24 @@ type GenOptions struct {
 	Language   string
 }
 
+func writePO(po poEntry, b *bytes.Buffer) {
+	b.WriteRune('\n')
+	if len(po.TranslatorComment) > 0 {
+		fmt.Fprintf(b, "# %s\n", po.TranslatorComment)
+	}
+	if len(po.Reference) > 0 {
+		fmt.Fprintf(b, "#: %s\n", po.Reference)
+	}
+	if len(po.Context) > 0 {
+		fmt.Fprintf(b, `msgctxt %q`, po.Context)
+		b.WriteRune('\n')
+	}
+	fmt.Fprintf(b, `msgid %q`, po.ID)
+	b.WriteRune('\n')
+	fmt.Fprintf(b, `msgstr %q`, po.Str)
+	b.WriteRune('\n')
+}
+
 func Gen(o GenOptions) ([]byte, error) {
 	eng := etree.NewDocument()
 	if err := eng.ReadFromBytes(o.Original); err != nil {
@@ -35,7 +53,6 @@ func Gen(o GenOptions) ([]byte, error) {
 	if err := d.ReadFromBytes(o.Translated); err != nil {
 		return nil, err
 	}
-	e := d.SelectElement("Language")
 	b := new(bytes.Buffer)
 	fmt.Fprintf(b, `# Stationeers translation
 #
@@ -48,50 +65,55 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 `, o.Language)
-	for _, part := range e.ChildElements() {
+	for _, part := range eng.SelectElement("Language").ChildElements() {
 		switch part.Tag {
 		case "Name", "Code", "Font":
 			continue
 		}
-		for _, e := range part.ChildElements() {
-			elemKey := e.SelectElement("Key").Text()
-			engPath := e.GetPath() + "[Key='" + elemKey + "']"
-			engElem := eng.FindElement(engPath)
-			if engElem == nil {
-				return nil, fmt.Errorf("path: %q failed", engPath)
+		for i, c := range part.ChildElements() {
+			k := c.SelectElement("Key")
+			if k == nil {
+				dPath := c.GetPath() + fmt.Sprintf("[%d]", i)
+				dElem := d.FindElement(dPath)
+				po := poEntry{
+					Context:   part.Tag,
+					ID:        c.Text(),
+					Str:       c.Text(),
+					Reference: fmt.Sprintf("%s/%s:%d", part.Tag, c.Tag, i),
+				}
+				if dElem != nil {
+					po.Str = dElem.Text()
+				}
+				writePO(po, b)
+				continue
 			}
-			for _, elemPart := range e.ChildElements() {
+			elemKey := c.SelectElement("Key").Text()
+			dPath := c.GetPath() + "[Key='" + elemKey + "']"
+			dElem := d.FindElement(dPath)
+			if dElem == nil {
+				return nil, fmt.Errorf("path: %q failed", dPath)
+			}
+			for _, elemPart := range c.ChildElements() {
 				switch elemPart.Tag {
 				case "Key":
 					continue
 				}
-				p := elemPart.GetRelativePath(e)
-				engPart := engElem.FindElement(p)
+				p := elemPart.GetRelativePath(c)
+				dPart := dElem.FindElement(p)
 				simplePath := path.Join(part.Tag, elemKey)
 				if elemPart.Tag != "Value" {
 					simplePath = path.Join(simplePath, elemPart.Tag)
 				}
 				po := poEntry{
 					Context:           simplePath,
-					ID:                engPart.Text(),
-					Str:               elemPart.Text(),
+					Str:               dPart.Text(),
+					ID:                elemPart.Text(),
 					TranslatorComment: simplePath,
 				}
 				if po.ID == "" {
 					po.TranslatorComment += " (Blank)"
 				}
-				fmt.Fprintf(b, "\n# %s\n", po.TranslatorComment)
-				if len(po.Reference) > 0 {
-					fmt.Fprintf(b, "#: %s\n", po.Reference)
-				}
-				if len(po.Context) > 0 {
-					fmt.Fprintf(b, `msgctxt %q`, po.Context)
-					b.WriteRune('\n')
-				}
-				fmt.Fprintf(b, `msgid %q`, po.ID)
-				b.WriteRune('\n')
-				fmt.Fprintf(b, `msgstr %q`, po.Str)
-				b.WriteRune('\n')
+				writePO(po, b)
 			}
 		}
 	}
@@ -142,7 +164,13 @@ func Bake(o Options) ([]byte, error) {
 			continue
 		}
 		for _, e := range part.ChildElements() {
-			elemKey := e.SelectElement("Key").Text()
+			k := e.SelectElement("Key")
+			if k == nil {
+				translated := t.GetC(e.Text(), part.Tag)
+				e.SetText(translated)
+				continue
+			}
+			elemKey := k.Text()
 			engPath := e.GetPath() + "[Key='" + elemKey + "']"
 			engElem := eng.FindElement(engPath)
 			if engElem == nil {
