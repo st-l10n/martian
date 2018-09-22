@@ -1,0 +1,1615 @@
+# Stationeers translation
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: v0.1n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# Keys/None (Blank)
+msgctxt "Keys/None"
+msgid ""
+msgstr "None"
+
+# Keys/Backspace
+msgctxt "Keys/Backspace"
+msgid "Backspace"
+msgstr "Backspace"
+
+# Keys/Tab
+msgctxt "Keys/Tab"
+msgid "Tab"
+msgstr "Tab"
+
+# Keys/Clear
+msgctxt "Keys/Clear"
+msgid "Clear"
+msgstr "Clear"
+
+# Keys/Return
+msgctxt "Keys/Return"
+msgid "Return"
+msgstr "Return"
+
+# Keys/Pause
+msgctxt "Keys/Pause"
+msgid "Pause"
+msgstr "Pause"
+
+# Keys/Escape
+msgctxt "Keys/Escape"
+msgid "Escape"
+msgstr "Escape"
+
+# Keys/Space
+msgctxt "Keys/Space"
+msgid "Space"
+msgstr "Space"
+
+# Keys/Exclaim
+msgctxt "Keys/Exclaim"
+msgid "!"
+msgstr "!"
+
+# Keys/DoubleQuote
+msgctxt "Keys/DoubleQuote"
+msgid "\""
+msgstr "\""
+
+# Keys/Hash
+msgctxt "Keys/Hash"
+msgid "#"
+msgstr "#"
+
+# Keys/Dollar
+msgctxt "Keys/Dollar"
+msgid "$"
+msgstr "$"
+
+# Keys/Ampersand
+msgctxt "Keys/Ampersand"
+msgid "&"
+msgstr "Ampersand"
+
+# Keys/Quote
+msgctxt "Keys/Quote"
+msgid "\""
+msgstr "Quote"
+
+# Keys/LeftParen
+msgctxt "Keys/LeftParen"
+msgid "("
+msgstr "Left Paren"
+
+# Keys/RightParen
+msgctxt "Keys/RightParen"
+msgid ")"
+msgstr "Right Paren"
+
+# Keys/Asterisk
+msgctxt "Keys/Asterisk"
+msgid "*"
+msgstr "*"
+
+# Keys/Plus
+msgctxt "Keys/Plus"
+msgid "+"
+msgstr "+"
+
+# Keys/Comma
+msgctxt "Keys/Comma"
+msgid ","
+msgstr ","
+
+# Keys/Minus
+msgctxt "Keys/Minus"
+msgid "-"
+msgstr "-"
+
+# Keys/Period
+msgctxt "Keys/Period"
+msgid "."
+msgstr "."
+
+# Keys/Slash
+msgctxt "Keys/Slash"
+msgid "/"
+msgstr "/"
+
+# Keys/Alpha0
+msgctxt "Keys/Alpha0"
+msgid "0"
+msgstr "0"
+
+# Keys/Alpha1
+msgctxt "Keys/Alpha1"
+msgid "1"
+msgstr "1"
+
+# Keys/Alpha2
+msgctxt "Keys/Alpha2"
+msgid "2"
+msgstr "2"
+
+# Keys/Alpha3
+msgctxt "Keys/Alpha3"
+msgid "3"
+msgstr "3"
+
+# Keys/Alpha4
+msgctxt "Keys/Alpha4"
+msgid "4"
+msgstr "4"
+
+# Keys/Alpha5
+msgctxt "Keys/Alpha5"
+msgid "5"
+msgstr "5"
+
+# Keys/Alpha6
+msgctxt "Keys/Alpha6"
+msgid "6"
+msgstr "6"
+
+# Keys/Alpha7
+msgctxt "Keys/Alpha7"
+msgid "7"
+msgstr "7"
+
+# Keys/Alpha8
+msgctxt "Keys/Alpha8"
+msgid "8"
+msgstr "8"
+
+# Keys/Alpha9
+msgctxt "Keys/Alpha9"
+msgid "9"
+msgstr "9"
+
+# Keys/Colon
+msgctxt "Keys/Colon"
+msgid ":"
+msgstr ":"
+
+# Keys/Semicolon
+msgctxt "Keys/Semicolon"
+msgid ";"
+msgstr ";"
+
+# Keys/Less
+msgctxt "Keys/Less"
+msgid "Less"
+msgstr "Less"
+
+# Keys/Equals
+msgctxt "Keys/Equals"
+msgid "="
+msgstr "="
+
+# Keys/Greater
+msgctxt "Keys/Greater"
+msgid "Greater"
+msgstr "Greater"
+
+# Keys/Question
+msgctxt "Keys/Question"
+msgid "?"
+msgstr "?"
+
+# Keys/At
+msgctxt "Keys/At"
+msgid "@"
+msgstr "@"
+
+# Keys/LeftBracket
+msgctxt "Keys/LeftBracket"
+msgid "["
+msgstr "Left Bracket"
+
+# Keys/Backslash
+msgctxt "Keys/Backslash"
+msgid "\\"
+msgstr "\\"
+
+# Keys/RightBracket
+msgctxt "Keys/RightBracket"
+msgid "]"
+msgstr "Right Bracket"
+
+# Keys/Caret
+msgctxt "Keys/Caret"
+msgid "Caret"
+msgstr "Caret"
+
+# Keys/Underscore
+msgctxt "Keys/Underscore"
+msgid "_"
+msgstr "_"
+
+# Keys/BackQuote
+msgctxt "Keys/BackQuote"
+msgid "`"
+msgstr "Back Quote"
+
+# Keys/A
+msgctxt "Keys/A"
+msgid "A"
+msgstr "A"
+
+# Keys/B
+msgctxt "Keys/B"
+msgid "B"
+msgstr "B"
+
+# Keys/C
+msgctxt "Keys/C"
+msgid "C"
+msgstr "C"
+
+# Keys/D
+msgctxt "Keys/D"
+msgid "D"
+msgstr "D"
+
+# Keys/E
+msgctxt "Keys/E"
+msgid "E"
+msgstr "E"
+
+# Keys/F
+msgctxt "Keys/F"
+msgid "F"
+msgstr "F"
+
+# Keys/G
+msgctxt "Keys/G"
+msgid "G"
+msgstr "G"
+
+# Keys/H
+msgctxt "Keys/H"
+msgid "H"
+msgstr "H"
+
+# Keys/I
+msgctxt "Keys/I"
+msgid "I"
+msgstr "I"
+
+# Keys/J
+msgctxt "Keys/J"
+msgid "J"
+msgstr "J"
+
+# Keys/K
+msgctxt "Keys/K"
+msgid "K"
+msgstr "K"
+
+# Keys/L
+msgctxt "Keys/L"
+msgid "L"
+msgstr "L"
+
+# Keys/M
+msgctxt "Keys/M"
+msgid "M"
+msgstr "M"
+
+# Keys/N
+msgctxt "Keys/N"
+msgid "N"
+msgstr "N"
+
+# Keys/O
+msgctxt "Keys/O"
+msgid "O"
+msgstr "O"
+
+# Keys/P
+msgctxt "Keys/P"
+msgid "P"
+msgstr "P"
+
+# Keys/Q
+msgctxt "Keys/Q"
+msgid "Q"
+msgstr "Q"
+
+# Keys/R
+msgctxt "Keys/R"
+msgid "R"
+msgstr "R"
+
+# Keys/S
+msgctxt "Keys/S"
+msgid "S"
+msgstr "S"
+
+# Keys/T
+msgctxt "Keys/T"
+msgid "T"
+msgstr "T"
+
+# Keys/U
+msgctxt "Keys/U"
+msgid "U"
+msgstr "U"
+
+# Keys/V
+msgctxt "Keys/V"
+msgid "V"
+msgstr "V"
+
+# Keys/W
+msgctxt "Keys/W"
+msgid "W"
+msgstr "W"
+
+# Keys/X
+msgctxt "Keys/X"
+msgid "X"
+msgstr "X"
+
+# Keys/Y
+msgctxt "Keys/Y"
+msgid "Y"
+msgstr "Y"
+
+# Keys/Z
+msgctxt "Keys/Z"
+msgid "Z"
+msgstr "Z"
+
+# Keys/Delete
+msgctxt "Keys/Delete"
+msgid "Delete"
+msgstr "Delete"
+
+# Keys/Keypad0
+msgctxt "Keys/Keypad0"
+msgid "<size=40%>Keypad</size>\n0"
+msgstr "<size=40%>Keypad</size>\n0"
+
+# Keys/Keypad1
+msgctxt "Keys/Keypad1"
+msgid "<size=40%>Keypad</size>\n1"
+msgstr "<size=40%>Keypad</size>\n1"
+
+# Keys/Keypad2
+msgctxt "Keys/Keypad2"
+msgid "<size=40%>Keypad</size>\n2"
+msgstr "<size=40%>Keypad</size>\n2"
+
+# Keys/Keypad3
+msgctxt "Keys/Keypad3"
+msgid "<size=40%>Keypad</size>\n3"
+msgstr "<size=40%>Keypad</size>\n3"
+
+# Keys/Keypad4
+msgctxt "Keys/Keypad4"
+msgid "<size=40%>Keypad</size>\n4"
+msgstr "<size=40%>Keypad</size>\n4"
+
+# Keys/Keypad5
+msgctxt "Keys/Keypad5"
+msgid "<size=40%>Keypad</size>\n5"
+msgstr "<size=40%>Keypad</size>\n5"
+
+# Keys/Keypad6
+msgctxt "Keys/Keypad6"
+msgid "<size=40%>Keypad</size>\n6"
+msgstr "<size=40%>Keypad</size>\n6"
+
+# Keys/Keypad7
+msgctxt "Keys/Keypad7"
+msgid "<size=40%>Keypad</size>\n7"
+msgstr "<size=40%>Keypad</size>\n7"
+
+# Keys/Keypad8
+msgctxt "Keys/Keypad8"
+msgid "<size=40%>Keypad</size>\n8"
+msgstr "<size=40%>Keypad</size>\n8"
+
+# Keys/Keypad9
+msgctxt "Keys/Keypad9"
+msgid "<size=40%>Keypad</size>\n9"
+msgstr "<size=40%>Keypad</size>\n9"
+
+# Keys/KeypadPeriod
+msgctxt "Keys/KeypadPeriod"
+msgid "<size=40%>Keypad</size>\n ."
+msgstr "<size=40%>Keypad</size>\n ."
+
+# Keys/KeypadDivide
+msgctxt "Keys/KeypadDivide"
+msgid "<size=40%>Keypad</size>\n /"
+msgstr "<size=40%>Keypad</size>\n /"
+
+# Keys/KeypadMultiply
+msgctxt "Keys/KeypadMultiply"
+msgid "<size=40%>Keypad</size>\n *"
+msgstr "<size=40%>Keypad</size>\n *"
+
+# Keys/KeypadMinus
+msgctxt "Keys/KeypadMinus"
+msgid "<size=40%>Keypad</size>\n -"
+msgstr "<size=40%>Keypad</size>\n -"
+
+# Keys/KeypadPlus
+msgctxt "Keys/KeypadPlus"
+msgid "<size=40%>Keypad</size>\n +"
+msgstr "<size=40%>Keypad</size>\n +"
+
+# Keys/KeypadEnter
+msgctxt "Keys/KeypadEnter"
+msgid "<size=40%>Keypad</size>\n Enter"
+msgstr "<size=40%>Keypad</size>\n Enter"
+
+# Keys/KeypadEquals
+msgctxt "Keys/KeypadEquals"
+msgid "<size=40%>Keypad</size>\n ="
+msgstr "<size=40%>Keypad</size>\n ="
+
+# Keys/UpArrow
+msgctxt "Keys/UpArrow"
+msgid "Up Arrow"
+msgstr "Up Arrow"
+
+# Keys/DownArrow
+msgctxt "Keys/DownArrow"
+msgid "Down Arrow"
+msgstr "Down Arrow"
+
+# Keys/RightArrow
+msgctxt "Keys/RightArrow"
+msgid "Right Arrow"
+msgstr "Right Arrow"
+
+# Keys/LeftArrow
+msgctxt "Keys/LeftArrow"
+msgid "Left Arrow"
+msgstr "Left Arrow"
+
+# Keys/Insert
+msgctxt "Keys/Insert"
+msgid "Insert"
+msgstr "Insert"
+
+# Keys/Home
+msgctxt "Keys/Home"
+msgid "Home"
+msgstr "Home"
+
+# Keys/End
+msgctxt "Keys/End"
+msgid "End"
+msgstr "End"
+
+# Keys/PageUp
+msgctxt "Keys/PageUp"
+msgid "Page Up"
+msgstr "Page Up"
+
+# Keys/PageDown
+msgctxt "Keys/PageDown"
+msgid "Page Down"
+msgstr "Page Down"
+
+# Keys/F1
+msgctxt "Keys/F1"
+msgid "F1"
+msgstr "F1"
+
+# Keys/F2
+msgctxt "Keys/F2"
+msgid "F2"
+msgstr "F2"
+
+# Keys/F3
+msgctxt "Keys/F3"
+msgid "F3"
+msgstr "F3"
+
+# Keys/F4
+msgctxt "Keys/F4"
+msgid "F4"
+msgstr "F4"
+
+# Keys/F5
+msgctxt "Keys/F5"
+msgid "F5"
+msgstr "F5"
+
+# Keys/F6
+msgctxt "Keys/F6"
+msgid "F6"
+msgstr "F6"
+
+# Keys/F7
+msgctxt "Keys/F7"
+msgid "F7"
+msgstr "F7"
+
+# Keys/F8
+msgctxt "Keys/F8"
+msgid "F8"
+msgstr "F8"
+
+# Keys/F9
+msgctxt "Keys/F9"
+msgid "F9"
+msgstr "F9"
+
+# Keys/F10
+msgctxt "Keys/F10"
+msgid "F10"
+msgstr "F10"
+
+# Keys/F11
+msgctxt "Keys/F11"
+msgid "F11"
+msgstr "F11"
+
+# Keys/F12
+msgctxt "Keys/F12"
+msgid "F12"
+msgstr "F12"
+
+# Keys/F13
+msgctxt "Keys/F13"
+msgid "F13"
+msgstr "F13"
+
+# Keys/F14
+msgctxt "Keys/F14"
+msgid "F14"
+msgstr "F14"
+
+# Keys/F15
+msgctxt "Keys/F15"
+msgid "F15"
+msgstr "F15"
+
+# Keys/Numlock
+msgctxt "Keys/Numlock"
+msgid "Numlock"
+msgstr "Numlock"
+
+# Keys/CapsLock
+msgctxt "Keys/CapsLock"
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+# Keys/ScrollLock
+msgctxt "Keys/ScrollLock"
+msgid "Scroll Lock"
+msgstr "Scroll Lock"
+
+# Keys/RightShift
+msgctxt "Keys/RightShift"
+msgid "Right Shift"
+msgstr "Right Shift"
+
+# Keys/LeftShift
+msgctxt "Keys/LeftShift"
+msgid "Left Shift"
+msgstr "Left Shift"
+
+# Keys/RightControl
+msgctxt "Keys/RightControl"
+msgid "Right Control"
+msgstr "Right Control"
+
+# Keys/LeftControl
+msgctxt "Keys/LeftControl"
+msgid "Left Control"
+msgstr "Left Control"
+
+# Keys/RightAlt
+msgctxt "Keys/RightAlt"
+msgid "Right Alt"
+msgstr "Right Alt"
+
+# Keys/LeftAlt
+msgctxt "Keys/LeftAlt"
+msgid "Left Alt"
+msgstr "Left Alt"
+
+# Keys/RightApple
+msgctxt "Keys/RightApple"
+msgid "Right Apple"
+msgstr "Right Apple"
+
+# Keys/RightCommand
+msgctxt "Keys/RightCommand"
+msgid "Right Command"
+msgstr "Right Command"
+
+# Keys/LeftCommand
+msgctxt "Keys/LeftCommand"
+msgid "Left Command"
+msgstr "Left Command"
+
+# Keys/LeftApple
+msgctxt "Keys/LeftApple"
+msgid "Left Apple"
+msgstr "Left Apple"
+
+# Keys/LeftWindows
+msgctxt "Keys/LeftWindows"
+msgid "Left Windows"
+msgstr "Left Windows"
+
+# Keys/RightWindows
+msgctxt "Keys/RightWindows"
+msgid "Right Windows"
+msgstr "Right Windows"
+
+# Keys/AltGr
+msgctxt "Keys/AltGr"
+msgid "Alt Gr"
+msgstr "Alt Gr"
+
+# Keys/Help
+msgctxt "Keys/Help"
+msgid "Help"
+msgstr "Help"
+
+# Keys/Print
+msgctxt "Keys/Print"
+msgid "Print"
+msgstr "Print"
+
+# Keys/SysReq
+msgctxt "Keys/SysReq"
+msgid "Sys Req"
+msgstr "Sys Req"
+
+# Keys/Break
+msgctxt "Keys/Break"
+msgid "Break"
+msgstr "Break"
+
+# Keys/Menu
+msgctxt "Keys/Menu"
+msgid "Menu"
+msgstr "Menu"
+
+# Keys/Mouse0
+msgctxt "Keys/Mouse0"
+msgid "Left Mouse"
+msgstr "<size=40%>Mouse</size>\n0"
+
+# Keys/Mouse1
+msgctxt "Keys/Mouse1"
+msgid "Right Mouse"
+msgstr "<size=40%>Mouse</size>\n1"
+
+# Keys/Mouse2
+msgctxt "Keys/Mouse2"
+msgid "Middle Mouse"
+msgstr "<size=40%>Mouse</size>\n2"
+
+# Keys/Mouse3
+msgctxt "Keys/Mouse3"
+msgid "Mouse3"
+msgstr "<size=40%>Mouse</size>\n3"
+
+# Keys/Mouse4
+msgctxt "Keys/Mouse4"
+msgid "Mouse4"
+msgstr "<size=40%>Mouse</size>\n4"
+
+# Keys/Mouse5
+msgctxt "Keys/Mouse5"
+msgid "Mouse5"
+msgstr "<size=40%>Mouse</size>\n5"
+
+# Keys/Mouse6
+msgctxt "Keys/Mouse6"
+msgid "Mouse46"
+msgstr "<size=40%>Mouse</size>\n6"
+
+# Keys/JoystickButton0
+msgctxt "Keys/JoystickButton0"
+msgid "<size=40%>Joystick</size>\n0"
+msgstr "<size=40%>Joystick</size>\n0"
+
+# Keys/JoystickButton1
+msgctxt "Keys/JoystickButton1"
+msgid "<size=40%>Joystick</size>\n1"
+msgstr "<size=40%>Joystick</size>\n1"
+
+# Keys/JoystickButton2
+msgctxt "Keys/JoystickButton2"
+msgid "<size=40%>Joystick</size>\n2"
+msgstr "<size=40%>Joystick</size>\n2"
+
+# Keys/JoystickButton3
+msgctxt "Keys/JoystickButton3"
+msgid "<size=40%>Joystick</size>\n3"
+msgstr "<size=40%>Joystick</size>\n3"
+
+# Keys/JoystickButton4
+msgctxt "Keys/JoystickButton4"
+msgid "<size=40%>Joystick</size>\n4"
+msgstr "<size=40%>Joystick</size>\n4"
+
+# Keys/JoystickButton5
+msgctxt "Keys/JoystickButton5"
+msgid "<size=40%>Joystick</size>\n5"
+msgstr "<size=40%>Joystick</size>\n5"
+
+# Keys/JoystickButton6
+msgctxt "Keys/JoystickButton6"
+msgid "<size=40%>Joystick</size>\n6"
+msgstr "<size=40%>Joystick</size>\n6"
+
+# Keys/JoystickButton7
+msgctxt "Keys/JoystickButton7"
+msgid "<size=40%>Joystick</size>\n7"
+msgstr "<size=40%>Joystick</size>\n7"
+
+# Keys/JoystickButton8
+msgctxt "Keys/JoystickButton8"
+msgid "<size=40%>Joystick</size>\n8"
+msgstr "<size=40%>Joystick</size>\n8"
+
+# Keys/JoystickButton9
+msgctxt "Keys/JoystickButton9"
+msgid "<size=40%>Joystick</size>\n9"
+msgstr "<size=40%>Joystick</size>\n9"
+
+# Keys/JoystickButton10
+msgctxt "Keys/JoystickButton10"
+msgid "<size=40%>Joystick</size>\n10"
+msgstr "<size=40%>Joystick</size>\n10"
+
+# Keys/JoystickButton11
+msgctxt "Keys/JoystickButton11"
+msgid "<size=40%>Joystick</size>\n11"
+msgstr "<size=40%>Joystick</size>\n11"
+
+# Keys/JoystickButton12
+msgctxt "Keys/JoystickButton12"
+msgid "<size=40%>Joystick</size>\n12"
+msgstr "<size=40%>Joystick</size>\n12"
+
+# Keys/JoystickButton13
+msgctxt "Keys/JoystickButton13"
+msgid "<size=40%>Joystick</size>\n13"
+msgstr "<size=40%>Joystick</size>\n13"
+
+# Keys/JoystickButton14
+msgctxt "Keys/JoystickButton14"
+msgid "<size=40%>Joystick</size>\n14"
+msgstr "<size=40%>Joystick</size>\n14"
+
+# Keys/JoystickButton15
+msgctxt "Keys/JoystickButton15"
+msgid "<size=40%>Joystick</size>\n15"
+msgstr "<size=40%>Joystick</size>\n15"
+
+# Keys/JoystickButton16
+msgctxt "Keys/JoystickButton16"
+msgid "<size=40%>Joystick</size>\n16"
+msgstr "<size=40%>Joystick</size>\n16"
+
+# Keys/JoystickButton17
+msgctxt "Keys/JoystickButton17"
+msgid "<size=40%>Joystick</size>\n17"
+msgstr "<size=40%>Joystick</size>\n17"
+
+# Keys/JoystickButton18
+msgctxt "Keys/JoystickButton18"
+msgid "<size=40%>Joystick</size>\n18"
+msgstr "<size=40%>Joystick</size>\n18"
+
+# Keys/JoystickButton19
+msgctxt "Keys/JoystickButton19"
+msgid "<size=40%>Joystick</size>\n19"
+msgstr "<size=40%>Joystick</size>\n19"
+
+# Keys/Joystick1Button0
+msgctxt "Keys/Joystick1Button0"
+msgid "<size=40%>Joystick1</size>\n0"
+msgstr "<size=40%>Joystick1</size>\n0"
+
+# Keys/Joystick1Button1
+msgctxt "Keys/Joystick1Button1"
+msgid "<size=40%>Joystick1</size>\n1"
+msgstr "<size=40%>Joystick1</size>\n1"
+
+# Keys/Joystick1Button2
+msgctxt "Keys/Joystick1Button2"
+msgid "<size=40%>Joystick1</size>\n2"
+msgstr "<size=40%>Joystick1</size>\n2"
+
+# Keys/Joystick1Button3
+msgctxt "Keys/Joystick1Button3"
+msgid "<size=40%>Joystick1</size>\n3"
+msgstr "<size=40%>Joystick1</size>\n3"
+
+# Keys/Joystick1Button4
+msgctxt "Keys/Joystick1Button4"
+msgid "<size=40%>Joystick1</size>\n4"
+msgstr "<size=40%>Joystick1</size>\n4"
+
+# Keys/Joystick1Button5
+msgctxt "Keys/Joystick1Button5"
+msgid "<size=40%>Joystick1</size>\n5"
+msgstr "<size=40%>Joystick1</size>\n5"
+
+# Keys/Joystick1Button6
+msgctxt "Keys/Joystick1Button6"
+msgid "<size=40%>Joystick1</size>\n6"
+msgstr "<size=40%>Joystick1</size>\n6"
+
+# Keys/Joystick1Button7
+msgctxt "Keys/Joystick1Button7"
+msgid "<size=40%>Joystick1</size>\n7"
+msgstr "<size=40%>Joystick1</size>\n7"
+
+# Keys/Joystick1Button8
+msgctxt "Keys/Joystick1Button8"
+msgid "<size=40%>Joystick1</size>\n8"
+msgstr "<size=40%>Joystick1</size>\n8"
+
+# Keys/Joystick1Button9
+msgctxt "Keys/Joystick1Button9"
+msgid "<size=40%>Joystick1</size>\n9"
+msgstr "<size=40%>Joystick1</size>\n9"
+
+# Keys/Joystick1Button10
+msgctxt "Keys/Joystick1Button10"
+msgid "<size=40%>Joystick1</size>\n10"
+msgstr "<size=40%>Joystick1</size>\n10"
+
+# Keys/Joystick1Button11
+msgctxt "Keys/Joystick1Button11"
+msgid "<size=40%>Joystick1</size>\n11"
+msgstr "<size=40%>Joystick1</size>\n11"
+
+# Keys/Joystick1Button12
+msgctxt "Keys/Joystick1Button12"
+msgid "<size=40%>Joystick1</size>\n12"
+msgstr "<size=40%>Joystick1</size>\n12"
+
+# Keys/Joystick1Button13
+msgctxt "Keys/Joystick1Button13"
+msgid "<size=40%>Joystick1</size>\n13"
+msgstr "<size=40%>Joystick1</size>\n13"
+
+# Keys/Joystick1Button14
+msgctxt "Keys/Joystick1Button14"
+msgid "<size=40%>Joystick1</size>\n14"
+msgstr "<size=40%>Joystick1</size>\n14"
+
+# Keys/Joystick1Button15
+msgctxt "Keys/Joystick1Button15"
+msgid "<size=40%>Joystick1</size>\n15"
+msgstr "<size=40%>Joystick1</size>\n15"
+
+# Keys/Joystick1Button16
+msgctxt "Keys/Joystick1Button16"
+msgid "<size=40%>Joystick1</size>\n16"
+msgstr "<size=40%>Joystick1</size>\n16"
+
+# Keys/Joystick1Button17
+msgctxt "Keys/Joystick1Button17"
+msgid "<size=40%>Joystick1</size>\n17"
+msgstr "<size=40%>Joystick1</size>\n17"
+
+# Keys/Joystick1Button18
+msgctxt "Keys/Joystick1Button18"
+msgid "<size=40%>Joystick1</size>\n18"
+msgstr "<size=40%>Joystick1</size>\n18"
+
+# Keys/Joystick1Button19
+msgctxt "Keys/Joystick1Button19"
+msgid "<size=40%>Joystick1</size>\n19"
+msgstr "<size=40%>Joystick1</size>\n19"
+
+# Keys/Joystick2Button0
+msgctxt "Keys/Joystick2Button0"
+msgid "Joystick2 Button0"
+msgstr "Joystick2 Button0"
+
+# Keys/Joystick2Button1
+msgctxt "Keys/Joystick2Button1"
+msgid "Joystick2 Button1"
+msgstr "Joystick2 Button1"
+
+# Keys/Joystick2Button2
+msgctxt "Keys/Joystick2Button2"
+msgid "Joystick2 Button2"
+msgstr "Joystick2 Button2"
+
+# Keys/Joystick2Button3
+msgctxt "Keys/Joystick2Button3"
+msgid "Joystick2 Button3"
+msgstr "Joystick2 Button3"
+
+# Keys/Joystick2Button4
+msgctxt "Keys/Joystick2Button4"
+msgid "Joystick2 Button4"
+msgstr "Joystick2 Button4"
+
+# Keys/Joystick2Button5
+msgctxt "Keys/Joystick2Button5"
+msgid "Joystick2 Button5"
+msgstr "Joystick2 Button5"
+
+# Keys/Joystick2Button6
+msgctxt "Keys/Joystick2Button6"
+msgid "Joystick2 Button6"
+msgstr "Joystick2 Button6"
+
+# Keys/Joystick2Button7
+msgctxt "Keys/Joystick2Button7"
+msgid "Joystick2 Button7"
+msgstr "Joystick2 Button7"
+
+# Keys/Joystick2Button8
+msgctxt "Keys/Joystick2Button8"
+msgid "Joystick2 Button8"
+msgstr "Joystick2 Button8"
+
+# Keys/Joystick2Button9
+msgctxt "Keys/Joystick2Button9"
+msgid "Joystick2 Button9"
+msgstr "Joystick2 Button9"
+
+# Keys/Joystick2Button10
+msgctxt "Keys/Joystick2Button10"
+msgid "Joystick2 Button10"
+msgstr "Joystick2 Button10"
+
+# Keys/Joystick2Button11
+msgctxt "Keys/Joystick2Button11"
+msgid "Joystick2 Button11"
+msgstr "Joystick2 Button11"
+
+# Keys/Joystick2Button12
+msgctxt "Keys/Joystick2Button12"
+msgid "Joystick2 Button12"
+msgstr "Joystick2 Button12"
+
+# Keys/Joystick2Button13
+msgctxt "Keys/Joystick2Button13"
+msgid "Joystick2 Button13"
+msgstr "Joystick2 Button13"
+
+# Keys/Joystick2Button14
+msgctxt "Keys/Joystick2Button14"
+msgid "Joystick2 Button14"
+msgstr "Joystick2 Button14"
+
+# Keys/Joystick2Button15
+msgctxt "Keys/Joystick2Button15"
+msgid "Joystick2 Button15"
+msgstr "Joystick2 Button15"
+
+# Keys/Joystick2Button16
+msgctxt "Keys/Joystick2Button16"
+msgid "Joystick2 Button16"
+msgstr "Joystick2 Button16"
+
+# Keys/Joystick2Button17
+msgctxt "Keys/Joystick2Button17"
+msgid "Joystick2 Button17"
+msgstr "Joystick2 Button17"
+
+# Keys/Joystick2Button18
+msgctxt "Keys/Joystick2Button18"
+msgid "Joystick2 Button18"
+msgstr "Joystick2 Button18"
+
+# Keys/Joystick2Button19
+msgctxt "Keys/Joystick2Button19"
+msgid "Joystick2 Button19"
+msgstr "Joystick2 Button19"
+
+# Keys/Joystick3Button0
+msgctxt "Keys/Joystick3Button0"
+msgid "Joystick3 Button0"
+msgstr "Joystick3 Button0"
+
+# Keys/Joystick3Button1
+msgctxt "Keys/Joystick3Button1"
+msgid "Joystick3 Button1"
+msgstr "Joystick3 Button1"
+
+# Keys/Joystick3Button2
+msgctxt "Keys/Joystick3Button2"
+msgid "Joystick3 Button2"
+msgstr "Joystick3 Button2"
+
+# Keys/Joystick3Button3
+msgctxt "Keys/Joystick3Button3"
+msgid "Joystick3 Button3"
+msgstr "Joystick3 Button3"
+
+# Keys/Joystick3Button4
+msgctxt "Keys/Joystick3Button4"
+msgid "Joystick3 Button4"
+msgstr "Joystick3 Button4"
+
+# Keys/Joystick3Button5
+msgctxt "Keys/Joystick3Button5"
+msgid "Joystick3 Button5"
+msgstr "Joystick3 Button5"
+
+# Keys/Joystick3Button6
+msgctxt "Keys/Joystick3Button6"
+msgid "Joystick3 Button6"
+msgstr "Joystick3 Button6"
+
+# Keys/Joystick3Button7
+msgctxt "Keys/Joystick3Button7"
+msgid "Joystick3 Button7"
+msgstr "Joystick3 Button7"
+
+# Keys/Joystick3Button8
+msgctxt "Keys/Joystick3Button8"
+msgid "Joystick3 Button8"
+msgstr "Joystick3 Button8"
+
+# Keys/Joystick3Button9
+msgctxt "Keys/Joystick3Button9"
+msgid "Joystick3 Button9"
+msgstr "Joystick3 Button9"
+
+# Keys/Joystick3Button10
+msgctxt "Keys/Joystick3Button10"
+msgid "Joystick3 Button10"
+msgstr "Joystick3 Button10"
+
+# Keys/Joystick3Button11
+msgctxt "Keys/Joystick3Button11"
+msgid "Joystick3 Button11"
+msgstr "Joystick3 Button11"
+
+# Keys/Joystick3Button12
+msgctxt "Keys/Joystick3Button12"
+msgid "Joystick3 Button12"
+msgstr "Joystick3 Button12"
+
+# Keys/Joystick3Button13
+msgctxt "Keys/Joystick3Button13"
+msgid "Joystick3 Button13"
+msgstr "Joystick3 Button13"
+
+# Keys/Joystick3Button14
+msgctxt "Keys/Joystick3Button14"
+msgid "Joystick3 Button14"
+msgstr "Joystick3 Button14"
+
+# Keys/Joystick3Button15
+msgctxt "Keys/Joystick3Button15"
+msgid "Joystick3 Button15"
+msgstr "Joystick3 Button15"
+
+# Keys/Joystick3Button16
+msgctxt "Keys/Joystick3Button16"
+msgid "Joystick3 Button16"
+msgstr "Joystick3 Button16"
+
+# Keys/Joystick3Button17
+msgctxt "Keys/Joystick3Button17"
+msgid "Joystick3 Button17"
+msgstr "Joystick3 Button17"
+
+# Keys/Joystick3Button18
+msgctxt "Keys/Joystick3Button18"
+msgid "Joystick3 Button18"
+msgstr "Joystick3 Button18"
+
+# Keys/Joystick3Button19
+msgctxt "Keys/Joystick3Button19"
+msgid "Joystick3 Button19"
+msgstr "Joystick3 Button19"
+
+# Keys/Joystick4Button0
+msgctxt "Keys/Joystick4Button0"
+msgid "Joystick4 Button0"
+msgstr "Joystick4 Button0"
+
+# Keys/Joystick4Button1
+msgctxt "Keys/Joystick4Button1"
+msgid "Joystick4 Button1"
+msgstr "Joystick4 Button1"
+
+# Keys/Joystick4Button2
+msgctxt "Keys/Joystick4Button2"
+msgid "Joystick4 Button2"
+msgstr "Joystick4 Button2"
+
+# Keys/Joystick4Button3
+msgctxt "Keys/Joystick4Button3"
+msgid "Joystick4 Button3"
+msgstr "Joystick4 Button3"
+
+# Keys/Joystick4Button4
+msgctxt "Keys/Joystick4Button4"
+msgid "Joystick4 Button4"
+msgstr "Joystick4 Button4"
+
+# Keys/Joystick4Button5
+msgctxt "Keys/Joystick4Button5"
+msgid "Joystick4 Button5"
+msgstr "Joystick4 Button5"
+
+# Keys/Joystick4Button6
+msgctxt "Keys/Joystick4Button6"
+msgid "Joystick4 Button6"
+msgstr "Joystick4 Button6"
+
+# Keys/Joystick4Button7
+msgctxt "Keys/Joystick4Button7"
+msgid "Joystick4 Button7"
+msgstr "Joystick4 Button7"
+
+# Keys/Joystick4Button8
+msgctxt "Keys/Joystick4Button8"
+msgid "Joystick4 Button8"
+msgstr "Joystick4 Button8"
+
+# Keys/Joystick4Button9
+msgctxt "Keys/Joystick4Button9"
+msgid "Joystick4 Button9"
+msgstr "Joystick4 Button9"
+
+# Keys/Joystick4Button10
+msgctxt "Keys/Joystick4Button10"
+msgid "Joystick4 Button10"
+msgstr "Joystick4 Button10"
+
+# Keys/Joystick4Button11
+msgctxt "Keys/Joystick4Button11"
+msgid "Joystick4 Button11"
+msgstr "Joystick4 Button11"
+
+# Keys/Joystick4Button12
+msgctxt "Keys/Joystick4Button12"
+msgid "Joystick4 Button12"
+msgstr "Joystick4 Button12"
+
+# Keys/Joystick4Button13
+msgctxt "Keys/Joystick4Button13"
+msgid "Joystick4 Button13"
+msgstr "Joystick4 Button13"
+
+# Keys/Joystick4Button14
+msgctxt "Keys/Joystick4Button14"
+msgid "Joystick4 Button14"
+msgstr "Joystick4 Button14"
+
+# Keys/Joystick4Button15
+msgctxt "Keys/Joystick4Button15"
+msgid "Joystick4 Button15"
+msgstr "Joystick4 Button15"
+
+# Keys/Joystick4Button16
+msgctxt "Keys/Joystick4Button16"
+msgid "Joystick4 Button16"
+msgstr "Joystick4 Button16"
+
+# Keys/Joystick4Button17
+msgctxt "Keys/Joystick4Button17"
+msgid "Joystick4 Button17"
+msgstr "Joystick4 Button17"
+
+# Keys/Joystick4Button18
+msgctxt "Keys/Joystick4Button18"
+msgid "Joystick4 Button18"
+msgstr "Joystick4 Button18"
+
+# Keys/Joystick4Button19
+msgctxt "Keys/Joystick4Button19"
+msgid "Joystick4 Button19"
+msgstr "Joystick4 Button19"
+
+# Keys/Joystick5Button0
+msgctxt "Keys/Joystick5Button0"
+msgid "Joystick5 Button0"
+msgstr "Joystick5 Button0"
+
+# Keys/Joystick5Button1
+msgctxt "Keys/Joystick5Button1"
+msgid "Joystick5 Button1"
+msgstr "Joystick5 Button1"
+
+# Keys/Joystick5Button2
+msgctxt "Keys/Joystick5Button2"
+msgid "Joystick5 Button2"
+msgstr "Joystick5 Button2"
+
+# Keys/Joystick5Button3
+msgctxt "Keys/Joystick5Button3"
+msgid "Joystick5 Button3"
+msgstr "Joystick5 Button3"
+
+# Keys/Joystick5Button4
+msgctxt "Keys/Joystick5Button4"
+msgid "Joystick5 Button4"
+msgstr "Joystick5 Button4"
+
+# Keys/Joystick5Button5
+msgctxt "Keys/Joystick5Button5"
+msgid "Joystick5 Button5"
+msgstr "Joystick5 Button5"
+
+# Keys/Joystick5Button6
+msgctxt "Keys/Joystick5Button6"
+msgid "Joystick5 Button6"
+msgstr "Joystick5 Button6"
+
+# Keys/Joystick5Button7
+msgctxt "Keys/Joystick5Button7"
+msgid "Joystick5 Button7"
+msgstr "Joystick5 Button7"
+
+# Keys/Joystick5Button8
+msgctxt "Keys/Joystick5Button8"
+msgid "Joystick5 Button8"
+msgstr "Joystick5 Button8"
+
+# Keys/Joystick5Button9
+msgctxt "Keys/Joystick5Button9"
+msgid "Joystick5 Button9"
+msgstr "Joystick5 Button9"
+
+# Keys/Joystick5Button10
+msgctxt "Keys/Joystick5Button10"
+msgid "Joystick5 Button10"
+msgstr "Joystick5 Button10"
+
+# Keys/Joystick5Button11
+msgctxt "Keys/Joystick5Button11"
+msgid "Joystick5 Button11"
+msgstr "Joystick5 Button11"
+
+# Keys/Joystick5Button12
+msgctxt "Keys/Joystick5Button12"
+msgid "Joystick5 Button12"
+msgstr "Joystick5 Button12"
+
+# Keys/Joystick5Button13
+msgctxt "Keys/Joystick5Button13"
+msgid "Joystick5 Button13"
+msgstr "Joystick5 Button13"
+
+# Keys/Joystick5Button14
+msgctxt "Keys/Joystick5Button14"
+msgid "Joystick5 Button14"
+msgstr "Joystick5 Button14"
+
+# Keys/Joystick5Button15
+msgctxt "Keys/Joystick5Button15"
+msgid "Joystick5 Button15"
+msgstr "Joystick5 Button15"
+
+# Keys/Joystick5Button16
+msgctxt "Keys/Joystick5Button16"
+msgid "Joystick5 Button16"
+msgstr "Joystick5 Button16"
+
+# Keys/Joystick5Button17
+msgctxt "Keys/Joystick5Button17"
+msgid "Joystick5 Button17"
+msgstr "Joystick5 Button17"
+
+# Keys/Joystick5Button18
+msgctxt "Keys/Joystick5Button18"
+msgid "Joystick5 Button18"
+msgstr "Joystick5 Button18"
+
+# Keys/Joystick5Button19
+msgctxt "Keys/Joystick5Button19"
+msgid "Joystick5 Button19"
+msgstr "Joystick5 Button19"
+
+# Keys/Joystick6Button0
+msgctxt "Keys/Joystick6Button0"
+msgid "Joystick6 Button0"
+msgstr "Joystick6 Button0"
+
+# Keys/Joystick6Button1
+msgctxt "Keys/Joystick6Button1"
+msgid "Joystick6 Button1"
+msgstr "Joystick6 Button1"
+
+# Keys/Joystick6Button2
+msgctxt "Keys/Joystick6Button2"
+msgid "Joystick6 Button2"
+msgstr "Joystick6 Button2"
+
+# Keys/Joystick6Button3
+msgctxt "Keys/Joystick6Button3"
+msgid "Joystick6 Button3"
+msgstr "Joystick6 Button3"
+
+# Keys/Joystick6Button4
+msgctxt "Keys/Joystick6Button4"
+msgid "Joystick6 Button4"
+msgstr "Joystick6 Button4"
+
+# Keys/Joystick6Button5
+msgctxt "Keys/Joystick6Button5"
+msgid "Joystick6 Button5"
+msgstr "Joystick6 Button5"
+
+# Keys/Joystick6Button6
+msgctxt "Keys/Joystick6Button6"
+msgid "Joystick6 Button6"
+msgstr "Joystick6 Button6"
+
+# Keys/Joystick6Button7
+msgctxt "Keys/Joystick6Button7"
+msgid "Joystick6 Button7"
+msgstr "Joystick6 Button7"
+
+# Keys/Joystick6Button8
+msgctxt "Keys/Joystick6Button8"
+msgid "Joystick6 Button8"
+msgstr "Joystick6 Button8"
+
+# Keys/Joystick6Button9
+msgctxt "Keys/Joystick6Button9"
+msgid "Joystick6 Button9"
+msgstr "Joystick6 Button9"
+
+# Keys/Joystick6Button10
+msgctxt "Keys/Joystick6Button10"
+msgid "Joystick6 Button10"
+msgstr "Joystick6 Button10"
+
+# Keys/Joystick6Button11
+msgctxt "Keys/Joystick6Button11"
+msgid "Joystick6 Button11"
+msgstr "Joystick6 Button11"
+
+# Keys/Joystick6Button12
+msgctxt "Keys/Joystick6Button12"
+msgid "Joystick6 Button12"
+msgstr "Joystick6 Button12"
+
+# Keys/Joystick6Button13
+msgctxt "Keys/Joystick6Button13"
+msgid "Joystick6 Button13"
+msgstr "Joystick6 Button13"
+
+# Keys/Joystick6Button14
+msgctxt "Keys/Joystick6Button14"
+msgid "Joystick6 Button14"
+msgstr "Joystick6 Button14"
+
+# Keys/Joystick6Button15
+msgctxt "Keys/Joystick6Button15"
+msgid "Joystick6 Button15"
+msgstr "Joystick6 Button15"
+
+# Keys/Joystick6Button16
+msgctxt "Keys/Joystick6Button16"
+msgid "Joystick6 Button16"
+msgstr "Joystick6 Button16"
+
+# Keys/Joystick6Button17
+msgctxt "Keys/Joystick6Button17"
+msgid "Joystick6 Button17"
+msgstr "Joystick6 Button17"
+
+# Keys/Joystick6Button18
+msgctxt "Keys/Joystick6Button18"
+msgid "Joystick6 Button18"
+msgstr "Joystick6 Button18"
+
+# Keys/Joystick6Button19
+msgctxt "Keys/Joystick6Button19"
+msgid "Joystick6 Button19"
+msgstr "Joystick6 Button19"
+
+# Keys/Joystick7Button0
+msgctxt "Keys/Joystick7Button0"
+msgid "Joystick7 Button0"
+msgstr "Joystick7 Button0"
+
+# Keys/Joystick7Button1
+msgctxt "Keys/Joystick7Button1"
+msgid "Joystick7 Button1"
+msgstr "Joystick7 Button1"
+
+# Keys/Joystick7Button2
+msgctxt "Keys/Joystick7Button2"
+msgid "Joystick7 Button2"
+msgstr "Joystick7 Button2"
+
+# Keys/Joystick7Button3
+msgctxt "Keys/Joystick7Button3"
+msgid "Joystick7 Button3"
+msgstr "Joystick7 Button3"
+
+# Keys/Joystick7Button4
+msgctxt "Keys/Joystick7Button4"
+msgid "Joystick7 Button4"
+msgstr "Joystick7 Button4"
+
+# Keys/Joystick7Button5
+msgctxt "Keys/Joystick7Button5"
+msgid "Joystick7 Button5"
+msgstr "Joystick7 Button5"
+
+# Keys/Joystick7Button6
+msgctxt "Keys/Joystick7Button6"
+msgid "Joystick7 Button6"
+msgstr "Joystick7 Button6"
+
+# Keys/Joystick7Button7
+msgctxt "Keys/Joystick7Button7"
+msgid "Joystick7 Button7"
+msgstr "Joystick7 Button7"
+
+# Keys/Joystick7Button8
+msgctxt "Keys/Joystick7Button8"
+msgid "Joystick7 Button8"
+msgstr "Joystick7 Button8"
+
+# Keys/Joystick7Button9
+msgctxt "Keys/Joystick7Button9"
+msgid "Joystick7 Button9"
+msgstr "Joystick7 Button9"
+
+# Keys/Joystick7Button10
+msgctxt "Keys/Joystick7Button10"
+msgid "Joystick7 Button10"
+msgstr "Joystick7 Button10"
+
+# Keys/Joystick7Button11
+msgctxt "Keys/Joystick7Button11"
+msgid "Joystick7 Button11"
+msgstr "Joystick7 Button11"
+
+# Keys/Joystick7Button12
+msgctxt "Keys/Joystick7Button12"
+msgid "Joystick7 Button12"
+msgstr "Joystick7 Button12"
+
+# Keys/Joystick7Button13
+msgctxt "Keys/Joystick7Button13"
+msgid "Joystick7 Button13"
+msgstr "Joystick7 Button13"
+
+# Keys/Joystick7Button14
+msgctxt "Keys/Joystick7Button14"
+msgid "Joystick7 Button14"
+msgstr "Joystick7 Button14"
+
+# Keys/Joystick7Button15
+msgctxt "Keys/Joystick7Button15"
+msgid "Joystick7 Button15"
+msgstr "Joystick7 Button15"
+
+# Keys/Joystick7Button16
+msgctxt "Keys/Joystick7Button16"
+msgid "Joystick7 Button16"
+msgstr "Joystick7 Button16"
+
+# Keys/Joystick7Button17
+msgctxt "Keys/Joystick7Button17"
+msgid "Joystick7 Button17"
+msgstr "Joystick7 Button17"
+
+# Keys/Joystick7Button18
+msgctxt "Keys/Joystick7Button18"
+msgid "Joystick7 Button18"
+msgstr "Joystick7 Button18"
+
+# Keys/Joystick7Button19
+msgctxt "Keys/Joystick7Button19"
+msgid "Joystick7 Button19"
+msgstr "Joystick7 Button19"
+
+# Keys/Joystick8Button0
+msgctxt "Keys/Joystick8Button0"
+msgid "Joystick8 Button0"
+msgstr "Joystick8 Button0"
+
+# Keys/Joystick8Button1
+msgctxt "Keys/Joystick8Button1"
+msgid "Joystick8 Button1"
+msgstr "Joystick8 Button1"
+
+# Keys/Joystick8Button2
+msgctxt "Keys/Joystick8Button2"
+msgid "Joystick8 Button2"
+msgstr "Joystick8 Button2"
+
+# Keys/Joystick8Button3
+msgctxt "Keys/Joystick8Button3"
+msgid "Joystick8 Button3"
+msgstr "Joystick8 Button3"
+
+# Keys/Joystick8Button4
+msgctxt "Keys/Joystick8Button4"
+msgid "Joystick8 Button4"
+msgstr "Joystick8 Button4"
+
+# Keys/Joystick8Button5
+msgctxt "Keys/Joystick8Button5"
+msgid "Joystick8 Button5"
+msgstr "Joystick8 Button5"
+
+# Keys/Joystick8Button6
+msgctxt "Keys/Joystick8Button6"
+msgid "Joystick8 Button6"
+msgstr "Joystick8 Button6"
+
+# Keys/Joystick8Button7
+msgctxt "Keys/Joystick8Button7"
+msgid "Joystick8 Button7"
+msgstr "Joystick8 Button7"
+
+# Keys/Joystick8Button8
+msgctxt "Keys/Joystick8Button8"
+msgid "Joystick8 Button8"
+msgstr "Joystick8 Button8"
+
+# Keys/Joystick8Button9
+msgctxt "Keys/Joystick8Button9"
+msgid "Joystick8 Button9"
+msgstr "Joystick8 Button9"
+
+# Keys/Joystick8Button10
+msgctxt "Keys/Joystick8Button10"
+msgid "Joystick8 Button10"
+msgstr "Joystick8 Button10"
+
+# Keys/Joystick8Button11
+msgctxt "Keys/Joystick8Button11"
+msgid "Joystick8 Button11"
+msgstr "Joystick8 Button11"
+
+# Keys/Joystick8Button12
+msgctxt "Keys/Joystick8Button12"
+msgid "Joystick8 Button12"
+msgstr "Joystick8 Button12"
+
+# Keys/Joystick8Button13
+msgctxt "Keys/Joystick8Button13"
+msgid "Joystick8 Button13"
+msgstr "Joystick8 Button13"
+
+# Keys/Joystick8Button14
+msgctxt "Keys/Joystick8Button14"
+msgid "Joystick8 Button14"
+msgstr "Joystick8 Button14"
+
+# Keys/Joystick8Button15
+msgctxt "Keys/Joystick8Button15"
+msgid "Joystick8 Button15"
+msgstr "Joystick8 Button15"
+
+# Keys/Joystick8Button16
+msgctxt "Keys/Joystick8Button16"
+msgid "Joystick8 Button16"
+msgstr "Joystick8 Button16"
+
+# Keys/Joystick8Button17
+msgctxt "Keys/Joystick8Button17"
+msgid "Joystick8 Button17"
+msgstr "Joystick8 Button17"
+
+# Keys/Joystick8Button18
+msgctxt "Keys/Joystick8Button18"
+msgid "Joystick8 Button18"
+msgstr "Joystick8 Button18"
+
+# Keys/Joystick8Button19
+msgctxt "Keys/Joystick8Button19"
+msgid "Joystick8 Button19"
+msgstr "Joystick8 Button19"
