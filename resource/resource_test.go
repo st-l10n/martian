@@ -68,6 +68,7 @@ func TestBake(t *testing.T) {
 			Original:    original,
 			Translation: [][]byte{translation},
 			Code:        "RU",
+			Simplified:  testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -104,6 +105,7 @@ func TestBake(t *testing.T) {
 			Original:    original,
 			Translation: [][]byte{translation},
 			Code:        "RU",
+			Simplified:  testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -156,6 +158,7 @@ func TestBake(t *testing.T) {
 			Code:        "RU",
 			Name:        "Russian",
 			Font:        "font_russian",
+			Simplified:  testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -199,9 +202,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      rusRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: rusRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -242,9 +245,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      rusRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: rusRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -301,9 +304,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      rusRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: rusRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -361,9 +364,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      tRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: tRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -413,9 +416,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      tRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: tRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)
@@ -465,9 +468,9 @@ func TestLoad(t *testing.T) {
 			t.Fatal(err)
 		}
 		result, err := Gen(GenOptions{
-			Original:        engRaw,
-			Translated:      tRaw,
-			SimplifiedParts: testSimplifiedParts,
+			Original:   engRaw,
+			Translated: tRaw,
+			Simplified: testSimplifiedParts,
 		})
 		if err != nil {
 			t.Fatal(err)

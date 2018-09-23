@@ -14,6 +14,7 @@ type Options struct {
 	Code        string
 	Name        string
 	Font        string
+	Simplified  []string // see GenOptions.Simplified
 }
 
 const Blank = "{BLANK}"
@@ -58,6 +59,12 @@ func Bake(o Options) ([]byte, error) {
 		case "Name", "Code", "Font":
 			continue
 		}
+		simplified := false
+		for _, s := range o.Simplified {
+			if s == part.Tag {
+				simplified = true
+			}
+		}
 		for _, e := range part.ChildElements() {
 			k := e.SelectElement("Key")
 			if k == nil {
@@ -84,14 +91,13 @@ func Bake(o Options) ([]byte, error) {
 				if elemPart.Tag != "Value" {
 					id += "." + elemPart.Tag
 				}
-				switch part.Tag {
-				case "Keys", "Reagents":
+				if simplified {
 					// Using simplified relative path as ID.
 					id = elemKey
 					if elemPart.Tag != "Value" {
 						id += "." + elemPart.Tag
 					}
-				default:
+				} else {
 					// Using original text as ID.
 					id = engText
 				}

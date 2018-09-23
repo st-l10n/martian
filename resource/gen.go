@@ -19,7 +19,7 @@ type GenOptions struct {
 	// instead of "g".
 	//
 	// The "Tips" part is always assumed as non-simplified.
-	SimplifiedParts []string
+	Simplified []string
 }
 
 // Gen generates .po entry list from original xml, trying to apply translations
@@ -50,7 +50,7 @@ func Gen(o GenOptions) (Entries, error) {
 			continue
 		}
 		simplified := false
-		for _, s := range o.SimplifiedParts {
+		for _, s := range o.Simplified {
 			if s == part.Tag {
 				simplified = true
 			}
