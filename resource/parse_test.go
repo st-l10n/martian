@@ -376,4 +376,100 @@ func TestLoad(t *testing.T) {
 			}
 		}
 	})
+	t.Run("DefaultPortuguese", func(t *testing.T) {
+		engF, enfFClose := open(t, "Language", "english.xml")
+		defer enfFClose()
+		f, fClose := open(t, "Language", "portuguese.xml")
+		defer fClose()
+		var (
+			engRaw, rusRaw []byte
+			err            error
+		)
+		if engRaw, err = ioutil.ReadAll(engF); err != nil {
+			t.Fatal(err)
+		}
+		if rusRaw, err = ioutil.ReadAll(f); err != nil {
+			t.Fatal(err)
+		}
+		result, err := Gen(engRaw, rusRaw)
+		if err != nil {
+			t.Fatal(err)
+		}
+		if update {
+			out, outClose := create(t, "default-portuguese.json")
+			enc := json.NewEncoder(out)
+			enc.SetIndent("", "  ")
+			if err = enc.Encode(result); err != nil {
+				t.Fatal(err)
+			}
+			outClose()
+		}
+		if len(result) == 0 {
+			t.Error("unexpected blank result")
+		}
+		out, outClose := open(t, "default-portuguese.json")
+		defer outClose()
+		dec := json.NewDecoder(out)
+		var expectedResult []Entry
+		if err = dec.Decode(&expectedResult); err != nil {
+			t.Fatal(err)
+		}
+		if len(expectedResult) != len(result) {
+			t.Fatal("unexpected result length")
+		}
+		for i, r := range expectedResult {
+			got := result[i]
+			if got != r {
+				t.Errorf("%+v (got) != %+v (expected)", got, r)
+			}
+		}
+	})
+	t.Run("TipsPortuguese", func(t *testing.T) {
+		engF, enfFClose := open(t, "Language", "english_tips.xml")
+		defer enfFClose()
+		f, fClose := open(t, "Language", "portuguese_tips.xml")
+		defer fClose()
+		var (
+			engRaw, rusRaw []byte
+			err            error
+		)
+		if engRaw, err = ioutil.ReadAll(engF); err != nil {
+			t.Fatal(err)
+		}
+		if rusRaw, err = ioutil.ReadAll(f); err != nil {
+			t.Fatal(err)
+		}
+		result, err := Gen(engRaw, rusRaw)
+		if err != nil {
+			t.Fatal(err)
+		}
+		if update {
+			out, outClose := create(t, "tips-portuguese.json")
+			enc := json.NewEncoder(out)
+			enc.SetIndent("", "  ")
+			if err = enc.Encode(result); err != nil {
+				t.Fatal(err)
+			}
+			outClose()
+		}
+		if len(result) == 0 {
+			t.Error("unexpected blank result")
+		}
+		out, outClose := open(t, "tips-portuguese.json")
+		defer outClose()
+		dec := json.NewDecoder(out)
+		var expectedResult []Entry
+		if err = dec.Decode(&expectedResult); err != nil {
+			t.Fatal(err)
+		}
+		if len(expectedResult) != len(result) {
+			t.Fatal("unexpected result length")
+		}
+		for i, r := range expectedResult {
+			got := result[i]
+			if got != r {
+				t.Errorf("%+v (got) != %+v (expected)", got, r)
+			}
+		}
+	})
 }
