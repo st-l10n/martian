@@ -63,7 +63,7 @@ var genCmd = &cobra.Command{
 			translatedName = fmt.Sprintf("%s.xml", strings.ToLower(lang))
 		}
 		var (
-			orig, translated, out []byte
+			orig, translated []byte
 		)
 		if orig, err = readFile(origName); err != nil {
 			return err
@@ -71,11 +71,7 @@ var genCmd = &cobra.Command{
 		if translated, err = readFile(translatedName); err != nil {
 			return err
 		}
-		if out, err = resource.Gen(resource.GenOptions{
-			Original:   orig,
-			Translated: translated,
-			Language:   lang,
-		}); err != nil {
+		if out, err = resource.Gen(orig, translated); err != nil {
 			return err
 		}
 		outFile, createErr := os.Create(outName)
