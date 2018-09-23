@@ -35,6 +35,7 @@ type Language struct {
 	Code   string `mapstructure:"code"`
 	Name   string `mapstructure:"name"`
 	Prefix string `mapstructure:"prefix"`
+	Locale string `mapstructure:"locale"`
 }
 
 type Languages []Language
@@ -113,8 +114,12 @@ var genCmd = &cobra.Command{
 					strings.Replace(lang.Name, " ", "_", -1),
 				)
 			}
+			if lang.Locale == "" {
+				lang.Locale = strings.ToLower(lang.Code)
+			}
 			fmt.Printf("  prefix: %s\n", lang.Prefix)
 			fmt.Printf("  code: %s\n", lang.Code)
+			fmt.Printf("  locale: %s\n", lang.Locale)
 			var entries resource.Entries
 			for _, p := range postfixes {
 				original, err := readFile(filepath.Join(
@@ -142,7 +147,7 @@ var genCmd = &cobra.Command{
 			if err != nil {
 				return err
 			}
-			targetDir := filepath.Join(outDir, strings.ToLower(lang.Code))
+			targetDir := filepath.Join(outDir, lang.Locale)
 			if err = os.MkdirAll(targetDir, outDirStat.Mode()); err != nil {
 				return err
 			}

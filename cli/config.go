@@ -28,6 +28,7 @@ languages:
   - code: KN
     name: Japanese
     font: cjk
+    locale: ja
 
   - code: KO
     name: Korean
@@ -44,12 +45,15 @@ languages:
   - code: CN
     name: Simplified Chinese
     font: cjk
+    locale: zh-CN
 
   - code: TW
     name: Traditional Chinese
     prefix: traditional-chinese
     font: cjk
+    locale: zh-TW
 
+  # Finnish
   - code: FI
     name: Suomi
 
