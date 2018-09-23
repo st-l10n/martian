@@ -60,4 +60,17 @@ languages:
   - code: SK
     name: Slovak
     font: russian
+
+# Simplified translation parts.
+# If simplified, the "msgid" value of translation is set to simplified
+# relative path of translated element, not the original text.
+#
+# Like for Reagents/RecordReagent with Key=Flour, the id for Unit will be "Flour.Unit"
+# instead of "g".
+#
+# The "Tips" part is always assumed as non-simplified.
+simplified:
+  - Reagents
+  - Keys
+
 `

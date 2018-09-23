@@ -8,17 +8,31 @@ import (
 	"github.com/st-l10n/etree"
 )
 
+type GenOptions struct {
+	Original   []byte
+	Translated []byte
+
+	// If simplified, the Entry.ID value of translation is set to simplified
+	// relative path of translated element, not the original text.
+	//
+	// Like for Reagents/RecordReagent with Key=Flour, the id for Unit will be "Flour.Unit"
+	// instead of "g".
+	//
+	// The "Tips" part is always assumed as non-simplified.
+	SimplifiedParts []string
+}
+
 // Gen generates .po entry list from original xml, trying to apply translations
 // from translated xml.
-func Gen(original, translated []byte) (Entries, error) {
+func Gen(o GenOptions) (Entries, error) {
 	var entries Entries
 	eng := etree.NewDocument()
-	if err := eng.ReadFromBytes(original); err != nil {
+	if err := eng.ReadFromBytes(o.Original); err != nil {
 		return nil, err
 	}
 	d := etree.NewDocument()
-	if len(translated) > 0 {
-		if err := d.ReadFromBytes(translated); err != nil {
+	if len(o.Translated) > 0 {
+		if err := d.ReadFromBytes(o.Translated); err != nil {
 			return nil, err
 		}
 	}
@@ -34,6 +48,12 @@ func Gen(original, translated []byte) (Entries, error) {
 		switch part.Tag {
 		case "Name", "Code", "Font":
 			continue
+		}
+		simplified := false
+		for _, s := range o.SimplifiedParts {
+			if s == part.Tag {
+				simplified = true
+			}
 		}
 		for _, c := range part.ChildElements() {
 			elemKey := c.SelectElement("Key").Text()
@@ -64,14 +84,13 @@ func Gen(original, translated []byte) (Entries, error) {
 						entry.Str = Blank
 					}
 				}
-				switch part.Tag {
-				case "Keys", "Reagents":
+				if simplified {
 					// Using simplified relative path as ID.
 					entry.ID = elemKey
 					if elemPart.Tag != "Value" {
 						entry.ID += "." + elemPart.Tag
 					}
-				default:
+				} else {
 					// Using original text as ID.
 					entry.ID = entry.Original
 				}

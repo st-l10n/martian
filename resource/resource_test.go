@@ -177,6 +177,11 @@ func TestBake(t *testing.T) {
 	})
 }
 
+var testSimplifiedParts = []string{
+	"Keys",
+	"Reagents",
+}
+
 func TestLoad(t *testing.T) {
 	t.Run("Keys", func(t *testing.T) {
 		engF, enfFClose := open(t, "Language", "english_keys.xml")
@@ -193,7 +198,11 @@ func TestLoad(t *testing.T) {
 		if rusRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      rusRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -232,7 +241,11 @@ func TestLoad(t *testing.T) {
 		if rusRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      rusRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -287,7 +300,11 @@ func TestLoad(t *testing.T) {
 		if rusRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      rusRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -334,16 +351,20 @@ func TestLoad(t *testing.T) {
 		f, fClose := open(t, "Language", "english.xml")
 		defer fClose()
 		var (
-			engRaw, rusRaw []byte
-			err            error
+			engRaw, tRaw []byte
+			err          error
 		)
 		if engRaw, err = ioutil.ReadAll(engF); err != nil {
 			t.Fatal(err)
 		}
-		if rusRaw, err = ioutil.ReadAll(f); err != nil {
+		if tRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      tRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -382,16 +403,20 @@ func TestLoad(t *testing.T) {
 		f, fClose := open(t, "Language", "portuguese.xml")
 		defer fClose()
 		var (
-			engRaw, rusRaw []byte
-			err            error
+			engRaw, tRaw []byte
+			err          error
 		)
 		if engRaw, err = ioutil.ReadAll(engF); err != nil {
 			t.Fatal(err)
 		}
-		if rusRaw, err = ioutil.ReadAll(f); err != nil {
+		if tRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      tRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -430,16 +455,20 @@ func TestLoad(t *testing.T) {
 		f, fClose := open(t, "Language", "portuguese_tips.xml")
 		defer fClose()
 		var (
-			engRaw, rusRaw []byte
-			err            error
+			engRaw, tRaw []byte
+			err          error
 		)
 		if engRaw, err = ioutil.ReadAll(engF); err != nil {
 			t.Fatal(err)
 		}
-		if rusRaw, err = ioutil.ReadAll(f); err != nil {
+		if tRaw, err = ioutil.ReadAll(f); err != nil {
 			t.Fatal(err)
 		}
-		result, err := Gen(engRaw, rusRaw)
+		result, err := Gen(GenOptions{
+			Original:        engRaw,
+			Translated:      tRaw,
+			SimplifiedParts: testSimplifiedParts,
+		})
 		if err != nil {
 			t.Fatal(err)
 		}
