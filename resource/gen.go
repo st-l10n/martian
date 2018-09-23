@@ -56,6 +56,7 @@ func Gen(o GenOptions) (Entries, error) {
 			}
 		}
 		for _, c := range part.ChildElements() {
+			elemSimplified := simplified
 			elemKey := c.SelectElement("Key").Text()
 			dPath := c.GetPath() + "[Key='" + elemKey + "']"
 			dElem := d.FindElement(dPath)
@@ -63,6 +64,11 @@ func Gen(o GenOptions) (Entries, error) {
 				switch elemPart.Tag {
 				case "Key":
 					continue
+				}
+				for _, s := range o.Simplified {
+					if s == part.Tag+"."+elemPart.Tag {
+						elemSimplified = true
+					}
 				}
 				p := elemPart.GetRelativePath(c)
 				var dPart *etree.Element
@@ -84,7 +90,7 @@ func Gen(o GenOptions) (Entries, error) {
 						entry.Str = Blank
 					}
 				}
-				if simplified {
+				if elemSimplified {
 					// Using simplified relative path as ID.
 					entry.ID = elemKey
 					if elemPart.Tag != "Value" {

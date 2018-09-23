@@ -101,7 +101,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>SalicylicAcid</Key>
-      <Value>Салициловая кислота</Value>
+      <Value>Salicylic Acid</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -131,27 +131,27 @@
     </RecordReagent>
     <RecordReagent>
       <Key>ColorRed</Key>
-      <Value>Красный краситель</Value>
+      <Value>Red Coloring</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorGreen</Key>
-      <Value>Зеленый краситель</Value>
+      <Value>Green Coloring</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorBlue</Key>
-      <Value>Синий краситель</Value>
+      <Value>Blue Coloring</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
-      <Value>Желтый краситель</Value>
+      <Value>Yellow Coloring</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorOrange</Key>
-      <Value>Оранжевый краситель</Value>
+      <Value>Orange Coloring</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>

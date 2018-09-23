@@ -136,7 +136,11 @@ var genCmd = &cobra.Command{
 						return fmt.Errorf("failed to find translated file for %s", lang.Code)
 					}
 				}
-				gotEntries, err := resource.Gen(original, translated)
+				gotEntries, err := resource.Gen(resource.GenOptions{
+					Original:   original,
+					Translated: translated,
+					Simplified: viper.GetStringSlice("simplified"),
+				})
 				if err != nil {
 					return err
 				}

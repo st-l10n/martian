@@ -80,9 +80,15 @@ func Bake(o Options) ([]byte, error) {
 				continue
 			}
 			for _, elemPart := range e.ChildElements() {
+				elemSimplified := simplified
 				switch elemPart.Tag {
 				case "Key":
 					continue
+				}
+				for _, s := range o.Simplified {
+					if s == part.Tag+"."+elemPart.Tag {
+						elemSimplified = true
+					}
 				}
 				p := elemPart.GetRelativePath(e)
 				engPart := engElem.FindElement(p)
@@ -91,7 +97,7 @@ func Bake(o Options) ([]byte, error) {
 				if elemPart.Tag != "Value" {
 					id += "." + elemPart.Tag
 				}
-				if simplified {
+				if elemSimplified {
 					// Using simplified relative path as ID.
 					id = elemKey
 					if elemPart.Tag != "Value" {

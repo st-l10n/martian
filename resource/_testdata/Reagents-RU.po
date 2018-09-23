@@ -34,10 +34,9 @@ msgctxt "Reagents"
 msgid "ColorOrange.Unit"
 msgstr "г"
 
-# Original: "Orange Coloring"
 #: /Language/Reagents/RecordReagent[Key='ColorOrange']
 msgctxt "Reagents"
-msgid "ColorOrange"
+msgid "Orange Coloring"
 msgstr "Оранжевый краситель"
 
 # Original: "g"
@@ -46,10 +45,9 @@ msgctxt "Reagents"
 msgid "ColorYellow.Unit"
 msgstr "г"
 
-# Original: "Yellow Coloring"
 #: /Language/Reagents/RecordReagent[Key='ColorYellow']
 msgctxt "Reagents"
-msgid "ColorYellow"
+msgid "Yellow Coloring"
 msgstr "Желтый краситель"
 
 # Original: "g"
@@ -58,10 +56,9 @@ msgctxt "Reagents"
 msgid "ColorBlue.Unit"
 msgstr "г"
 
-# Original: "Blue Coloring"
 #: /Language/Reagents/RecordReagent[Key='ColorBlue']
 msgctxt "Reagents"
-msgid "ColorBlue"
+msgid "Blue Coloring"
 msgstr "Синий краситель"
 
 # Original: "g"
@@ -70,10 +67,9 @@ msgctxt "Reagents"
 msgid "ColorGreen.Unit"
 msgstr "г"
 
-# Original: "Green Coloring"
 #: /Language/Reagents/RecordReagent[Key='ColorGreen']
 msgctxt "Reagents"
-msgid "ColorGreen"
+msgid "Green Coloring"
 msgstr "Зеленый краситель"
 
 # Original: "g"
@@ -82,10 +78,9 @@ msgctxt "Reagents"
 msgid "ColorRed.Unit"
 msgstr "г"
 
-# Original: "Red Coloring"
 #: /Language/Reagents/RecordReagent[Key='ColorRed']
 msgctxt "Reagents"
-msgid "ColorRed"
+msgid "Red Coloring"
 msgstr "Красный краситель"
 
 # Original: "g"
@@ -149,10 +144,9 @@ msgctxt "Reagents"
 msgid "SalicylicAcid.Unit"
 msgstr "г"
 
-# Original: "Salicylic Acid"
 #: /Language/Reagents/RecordReagent[Key='SalicylicAcid']
 msgctxt "Reagents"
-msgid "SalicylicAcid"
+msgid "Salicylic Acid"
 msgstr "Салициловая кислота"
 
 # Original: "g"

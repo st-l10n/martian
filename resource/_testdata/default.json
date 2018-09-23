@@ -3813,9 +3813,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Orange Coloring\"",
     "reference": "/Language/Reagents/RecordReagent[Key='ColorOrange']",
-    "id": "ColorOrange",
+    "id": "Orange Coloring",
     "str": "Оранжевый краситель",
     "context": "Reagents",
     "original": "Orange Coloring"
@@ -3831,9 +3830,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Yellow Coloring\"",
     "reference": "/Language/Reagents/RecordReagent[Key='ColorYellow']",
-    "id": "ColorYellow",
+    "id": "Yellow Coloring",
     "str": "Желтый краситель",
     "context": "Reagents",
     "original": "Yellow Coloring"
@@ -3849,9 +3847,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Blue Coloring\"",
     "reference": "/Language/Reagents/RecordReagent[Key='ColorBlue']",
-    "id": "ColorBlue",
+    "id": "Blue Coloring",
     "str": "Синий краситель",
     "context": "Reagents",
     "original": "Blue Coloring"
@@ -3867,9 +3864,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Green Coloring\"",
     "reference": "/Language/Reagents/RecordReagent[Key='ColorGreen']",
-    "id": "ColorGreen",
+    "id": "Green Coloring",
     "str": "Зеленый краситель",
     "context": "Reagents",
     "original": "Green Coloring"
@@ -3885,9 +3881,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Red Coloring\"",
     "reference": "/Language/Reagents/RecordReagent[Key='ColorRed']",
-    "id": "ColorRed",
+    "id": "Red Coloring",
     "str": "Красный краситель",
     "context": "Reagents",
     "original": "Red Coloring"
@@ -3988,9 +3983,8 @@
   },
   {
     "file": "Reagents",
-    "translator_comment": "Original: \"Salicylic Acid\"",
     "reference": "/Language/Reagents/RecordReagent[Key='SalicylicAcid']",
-    "id": "SalicylicAcid",
+    "id": "Salicylic Acid",
     "str": "Салициловая кислота",
     "context": "Reagents",
     "original": "Salicylic Acid"

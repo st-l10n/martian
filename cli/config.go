@@ -70,7 +70,7 @@ languages:
 #
 # The "Tips" part is always assumed as non-simplified.
 simplified:
-  - Reagents
+  - Reagents.Unit
   - Keys
 
 `

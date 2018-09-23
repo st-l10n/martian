@@ -182,7 +182,7 @@ func TestBake(t *testing.T) {
 
 var testSimplifiedParts = []string{
 	"Keys",
-	"Reagents",
+	"Reagents.Unit",
 }
 
 func TestLoad(t *testing.T) {
