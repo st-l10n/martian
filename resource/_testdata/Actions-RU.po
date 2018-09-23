@@ -67,12 +67,12 @@ msgstr "Установить"
 
 #: /Language/Actions/Record[Key='ForceOpen']
 msgctxt "Actions"
-msgid "ForceOpen"
+msgid "Force Open"
 msgstr "Принудительно открыть"
 
 #: /Language/Actions/Record[Key='ForceClose']
 msgctxt "Actions"
-msgid "ForceClose"
+msgid "Force Close"
 msgstr "Принудительно закрыть"
 
 #: /Language/Actions/Record[Key='Cycle']
@@ -87,7 +87,7 @@ msgstr "Установить"
 
 #: /Language/Actions/Record[Key='CallElevator']
 msgctxt "Actions"
-msgid "CallElevator"
+msgid "Call"
 msgstr "Вызов лифта"
 
 #: /Language/Actions/Record[Key='Down']
@@ -122,7 +122,7 @@ msgstr "Ошибка"
 
 #: /Language/Actions/Record[Key='GetIn']
 msgctxt "Actions"
-msgid "GetIn"
+msgid "Get In"
 msgstr "Войти"
 
 #: /Language/Actions/Record[Key='Unload']

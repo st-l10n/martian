@@ -7,12 +7,12 @@ msgstr "Слот 27"
 
 #: /Language/Interactables/Record[Key='RotateRight']
 msgctxt "Interactables"
-msgid "RotateRight"
+msgid "Rotate Right"
 msgstr "Повернуть вправо"
 
 #: /Language/Interactables/Record[Key='RotateLeft']
 msgctxt "Interactables"
-msgid "RotateLeft"
+msgid "Rotate Left"
 msgstr "Повернуть влево"
 
 #: /Language/Interactables/Record[Key='Rotate']
@@ -22,7 +22,7 @@ msgstr "Повернуть"
 
 #: /Language/Interactables/Record[Key='TiltUpwards']
 msgctxt "Interactables"
-msgid "TiltUpwards"
+msgid "Tilt Upwards"
 msgstr "Наклонить вверх"
 
 #: /Language/Interactables/Record[Key='Slot30']
@@ -122,12 +122,12 @@ msgstr "Кнопка 3"
 
 #: /Language/Interactables/Record[Key='PassengersChair']
 msgctxt "Interactables"
-msgid "PassengersChair"
+msgid "Passengers Chair"
 msgstr "Сиденье пассажира"
 
 #: /Language/Interactables/Record[Key='CaptainsChair']
 msgctxt "Interactables"
-msgid "CaptainsChair"
+msgid "Captains Chair"
 msgstr "Сиденье капитана"
 
 #: /Language/Interactables/Record[Key='Cartridge']
@@ -147,12 +147,12 @@ msgstr "Сброс"
 
 #: /Language/Interactables/Record[Key='PressureDown']
 msgctxt "Interactables"
-msgid "PressureDown"
+msgid "Pressure Down"
 msgstr "Давление -"
 
 #: /Language/Interactables/Record[Key='PressureUp']
 msgctxt "Interactables"
-msgid "PressureUp"
+msgid "Pressure Up"
 msgstr "Давление +"
 
 #: /Language/Interactables/Record[Key='Slot28']
@@ -177,22 +177,22 @@ msgstr "Использовать"
 
 #: /Language/Interactables/Record[Key='PreviousPage']
 msgctxt "Interactables"
-msgid "PreviousPage"
+msgid "Previous Page"
 msgstr "Предыдущая страница"
 
 #: /Language/Interactables/Record[Key='NextPage']
 msgctxt "Interactables"
-msgid "NextPage"
+msgid "Next Page"
 msgstr "Следующая страница"
 
 #: /Language/Interactables/Record[Key='SplitHalf']
 msgctxt "Interactables"
-msgid "SplitHalf"
+msgid "Split Half"
 msgstr "Разделить пополам"
 
 #: /Language/Interactables/Record[Key='SplitOne']
 msgctxt "Interactables"
-msgid "SplitOne"
+msgid "Split One"
 msgstr "Отделить один"
 
 #: /Language/Interactables/Record[Key='Button2']
@@ -262,7 +262,7 @@ msgstr "Увеличить"
 
 #: /Language/Interactables/Record[Key='TiltDownwards']
 msgctxt "Interactables"
-msgid "TiltDownwards"
+msgid "Tilt Downwards"
 msgstr "Наклонить вниз"
 
 #: /Language/Interactables/Record[Key='Export2']
@@ -277,17 +277,17 @@ msgstr "Пуск"
 
 #: /Language/Interactables/Record[Key='PreviousPlan']
 msgctxt "Interactables"
-msgid "PreviousPlan"
+msgid "Previous Plan"
 msgstr "Предыдущий план"
 
 #: /Language/Interactables/Record[Key='NextPlan']
 msgctxt "Interactables"
-msgid "NextPlan"
+msgid "Next Plan"
 msgstr "Следующий план"
 
 #: /Language/Interactables/Record[Key='CreatePlan']
 msgctxt "Interactables"
-msgid "CreatePlan"
+msgid "Create Plan"
 msgstr "Изготовить"
 
 #: /Language/Interactables/Record[Key='Button4']
@@ -312,27 +312,27 @@ msgstr "Растет"
 
 #: /Language/Interactables/Record[Key='LayEgg']
 msgctxt "Interactables"
-msgid "LayEgg"
+msgid "Lay Egg"
 msgstr "Отложить яйцо"
 
 #: /Language/Interactables/Record[Key='GrabRightFoot']
 msgctxt "Interactables"
-msgid "GrabRightFoot"
+msgid "Grab Right Foot"
 msgstr "Взять за правую ногу"
 
 #: /Language/Interactables/Record[Key='GrabLeftFoot']
 msgctxt "Interactables"
-msgid "GrabLeftFoot"
+msgid "Grab Left Foot"
 msgstr "Взять за левую ногу"
 
 #: /Language/Interactables/Record[Key='GrabRightHand']
 msgctxt "Interactables"
-msgid "GrabRightHand"
+msgid "Grab Right Hand"
 msgstr "Взять за правую руку"
 
 #: /Language/Interactables/Record[Key='GrabLeftHand']
 msgctxt "Interactables"
-msgid "GrabLeftHand"
+msgid "Grab Left Hand"
 msgstr "Взять за левую руку"
 
 #: /Language/Interactables/Record[Key='Slot2']
@@ -362,7 +362,7 @@ msgstr "Запереть"
 
 #: /Language/Interactables/Record[Key='OnOff']
 msgctxt "Interactables"
-msgid "OnOff"
+msgid "On Off"
 msgstr "Вкл/Выкл"
 
 #: /Language/Interactables/Record[Key='Open']
@@ -392,22 +392,22 @@ msgstr "Магазин"
 
 #: /Language/Interactables/Record[Key='TemperatureUp']
 msgctxt "Interactables"
-msgid "TemperatureUp"
+msgid "Temperature Up"
 msgstr "Температура +"
 
 #: /Language/Interactables/Record[Key='TemperatureDown']
 msgctxt "Interactables"
-msgid "TemperatureDown"
+msgid "Temperature Down"
 msgstr "Температура -"
 
 #: /Language/Interactables/Record[Key='ThrustUp']
 msgctxt "Interactables"
-msgid "ThrustUp"
+msgid "Thrust Up"
 msgstr "Увеличить тягу"
 
 #: /Language/Interactables/Record[Key='ThrustDown']
 msgctxt "Interactables"
-msgid "ThrustDown"
+msgid "Thrust Down"
 msgstr "Уменьшить тягу"
 
 #: /Language/Interactables/Record[Key='Button5']

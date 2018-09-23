@@ -1636,7 +1636,7 @@
     </Record>
     <Record>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Анализатор атмосферы трубы</Value>
+      <Value>Анализатор атмосферы</Value>
     </Record>
     <Record>
       <Key>StructurePipeCorner</Key>
@@ -1660,7 +1660,7 @@
     </Record>
     <Record>
       <Key>StructurePipeLabel</Key>
-      <Value>Наклейка на трубу</Value>
+      <Value>Наклейка для трубы</Value>
     </Record>
     <Record>
       <Key>StructurePipeMeter</Key>
@@ -1672,7 +1672,7 @@
     </Record>
     <Record>
       <Key>StructurePipeStraight</Key>
-      <Value>Труба (Прямая)</Value>
+      <Value>Труба (прямая)</Value>
     </Record>
     <Record>
       <Key>StructurePipeTJunction</Key>
@@ -1856,19 +1856,19 @@
     </Record>
     <Record>
       <Key>StructureCableJunction6HBurnt</Key>
-      <Value>Сгоревший силовой кабель (6-конечный)</Value>
+      <Value>Сгоревший кабель (6-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableJunction4HBurnt</Key>
-      <Value>Сгоревший силовой кабель (Угловой 4-конечный)</Value>
+      <Value>Сгоревший кабель (4-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableStraightHBurnt</Key>
-      <Value>Сгоревший силовой кабель (Прямой)</Value>
+      <Value>Сгоревший кабель (Прямой)</Value>
     </Record>
     <Record>
       <Key>StructureCableJunctionHBurnt</Key>
-      <Value>Сгоревший силовой кабель (Угловой 3-конечный)</Value>
+      <Value>Сгоревший кабель (3-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableCornerHBurnt</Key>
@@ -2272,11 +2272,11 @@
     </Record>
     <Record>
       <Key>StructureConsoleLED1x2</Key>
-      <Value>ЖК дисплей (Средний)</Value>
+      <Value>Светодиодный дисплей (Средний)</Value>
     </Record>
     <Record>
       <Key>StructureConsoleLED1x3</Key>
-      <Value>ЖК дисплей (Большой)</Value>
+      <Value>Светодиодный дисплей (Большой)</Value>
     </Record>
     <Record>
       <Key>NpcChick</Key>
@@ -3188,19 +3188,19 @@
     </Record>
     <Record>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>MotherboardProgrammableChip</Value>
+      <Value>Motherboard (IC Editor)</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicCircuit</Key>
-      <Value>ItemKitLogicCircuit</Value>
+      <Value>Kit (IC Housing)</Value>
     </Record>
     <Record>
       <Key>StructureCircuitHousing</Key>
-      <Value>StructureCircuitHousing</Value>
+      <Value>IC Housing</Value>
     </Record>
     <Record>
       <Key>ItemIntegratedCircuit10</Key>
-      <Value>ItemIntegratedCircuit10</Value>
+      <Value>Integrated Circuit (IC10)</Value>
     </Record>
   </Things>
   <Slots>
@@ -3390,7 +3390,7 @@
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>ProgrammableChip</Value>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3838,7 +3838,7 @@
     </Record>
     <Record>
       <Key>JoinMenuButtonJoin</Key>
-      <Value>Присоединиться</Value>
+      <Value>Присоединиться к миру</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListName</Key>
@@ -3894,7 +3894,7 @@
     </Record>
     <Record>
       <Key>InventorySlotBackpack</Key>
-      <Value>Рюкзак</Value>
+      <Value>Назад</Value>
     </Record>
     <Record>
       <Key>InventorySlotSuit</Key>
@@ -4452,7 +4452,7 @@
     </Record>
     <Record>
       <Key>PromptDebugLoadTitle</Key>
-      <Value>Отладочная загрузка</Value>
+      <Value>Отладка</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadBody</Key>
@@ -4460,7 +4460,7 @@
     </Record>
     <Record>
       <Key>PromptDebugLoadConfirm</Key>
-      <Value>Загрузить</Value>
+      <Value>Отладка</Value>
     </Record>
     <Record>
       <Key>PromptRespawnTitle</Key>
@@ -4484,7 +4484,7 @@
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
-      <Value>Возродиться</Value>
+      <Value>Сдаться</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -4601,11 +4601,11 @@
     </Record>
     <Record>
       <Key>JoinMenuInfoPlayers</Key>
-      <Value>Игроков:</Value>
+      <Value>Игроки:</Value>
     </Record>
     <Record>
       <Key>ChangeAppearanceTitle</Key>
-      <Value>Изменение внешнего вида</Value>
+      <Value>Изменить внешность</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
@@ -4741,7 +4741,7 @@
     </Record>
     <Record>
       <Key>WorldResetButton</Key>
-      <Value>Сброс</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>WorldSaveButton</Key>
@@ -4870,7 +4870,7 @@
     </Record>
     <Record>
       <Key>ButtonReset</Key>
-      <Value>Сброс</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>ButtonClear</Key>
@@ -4954,43 +4954,43 @@
     </Record>
     <Record>
       <Key>ButtonCopy</Key>
-      <Value>ButtonCopy</Value>
+      <Value>Copy</Value>
     </Record>
     <Record>
       <Key>ButtonPaste</Key>
-      <Value>ButtonPaste</Value>
+      <Value>Paste</Value>
     </Record>
     <Record>
       <Key>ButtonHelp</Key>
-      <Value>ButtonHelp</Value>
+      <Value>Help</Value>
     </Record>
     <Record>
       <Key>ButtonVariables</Key>
-      <Value>ButtonVariables</Value>
+      <Value>x</Value>
     </Record>
     <Record>
       <Key>ButtonSlotVar</Key>
-      <Value>ButtonSlotVar</Value>
+      <Value>s(x)</Value>
     </Record>
     <Record>
       <Key>HeadingHelp</Key>
-      <Value>HeadingHelp</Value>
+      <Value>help</Value>
     </Record>
     <Record>
       <Key>ButtonLoad</Key>
-      <Value>ButtonLoad</Value>
+      <Value>Load</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
-      <Value>HeadingEdit</Value>
+      <Value>Edit</Value>
     </Record>
     <Record>
       <Key>ButtonFunctions</Key>
-      <Value>ButtonFunctions</Value>
+      <Value>f</Value>
     </Record>
     <Record>
       <Key>ButtonLibrary</Key>
-      <Value>ButtonLibrary</Value>
+      <Value>Library</Value>
     </Record>
   </Interface>
   <Colors>

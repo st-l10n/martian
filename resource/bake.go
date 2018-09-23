@@ -80,9 +80,20 @@ func Bake(o Options) ([]byte, error) {
 				p := elemPart.GetRelativePath(e)
 				engPart := engElem.FindElement(p)
 				engText := engPart.Text()
-				id := elemKey
+				var id string
 				if elemPart.Tag != "Value" {
 					id += "." + elemPart.Tag
+				}
+				switch part.Tag {
+				case "Keys", "Reagents":
+					// Using simplified relative path as ID.
+					id = elemKey
+					if elemPart.Tag != "Value" {
+						id += "." + elemPart.Tag
+					}
+				default:
+					// Using original text as ID.
+					id = engText
 				}
 				translated := t.GetC(id, part.Tag)
 				elemPart.SetText(translated)

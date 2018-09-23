@@ -2,6 +2,7 @@ package resource
 
 import (
 	"errors"
+	"fmt"
 	"sort"
 
 	"github.com/st-l10n/etree"
@@ -48,7 +49,6 @@ func Gen(original, translated []byte) (Entries, error) {
 				entry := Entry{
 					Context:   part.Tag,
 					File:      part.Tag,
-					ID:        elemKey,
 					Reference: dPath,
 					Original:  elemPart.Text(),
 				}
@@ -64,8 +64,19 @@ func Gen(original, translated []byte) (Entries, error) {
 						entry.Str = Blank
 					}
 				}
-				if elemPart.Tag != "Value" {
-					entry.ID += "." + elemPart.Tag
+				switch part.Tag {
+				case "Keys", "Reagents":
+					// Using simplified relative path as ID.
+					entry.ID = elemKey
+					if elemPart.Tag != "Value" {
+						entry.ID += "." + elemPart.Tag
+					}
+				default:
+					// Using original text as ID.
+					entry.ID = entry.Original
+				}
+				if entry.ID != entry.Original {
+					entry.TranslatorComment = fmt.Sprintf("Original: %q", entry.Original)
 				}
 				entries = append(entries, entry)
 			}

@@ -27,5 +27,5 @@ msgstr "Азот"
 
 #: /Language/Gases/Record[Key='CarbonDioxide']
 msgctxt "Gases"
-msgid "CarbonDioxide"
+msgid "Carbon Dioxide"
 msgstr "Углекислый газ"

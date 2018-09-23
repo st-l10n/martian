@@ -2,477 +2,477 @@
 
 #: /Language/Things/Record[Key='CompositeFloorGrating1']
 msgctxt "Things"
-msgid "CompositeFloorGrating1"
+msgid "Composite Floor Grating1"
 msgstr "Композитный напольный настил"
 
 #: /Language/Things/Record[Key='StructureLogicSwitch2']
 msgctxt "Things"
-msgid "StructureLogicSwitch2"
+msgid "Switch"
 msgstr "Переключатель"
 
 #: /Language/Things/Record[Key='StructureLogicMathUnary']
 msgctxt "Things"
-msgid "StructureLogicMathUnary"
+msgid "Math Unary"
 msgstr "Чип (Унарные операции)"
 
 #: /Language/Things/Record[Key='StructureRecycler']
 msgctxt "Things"
-msgid "StructureRecycler"
+msgid "Recycler"
 msgstr "Утилизатор"
 
 #: /Language/Things/Record[Key='ItemKitRecycler']
 msgctxt "Things"
-msgid "ItemKitRecycler"
+msgid "Kit (Recycler)"
 msgstr "Набор (Утилизатор)"
 
 #: /Language/Things/Record[Key='ItemCableAnalyser']
 msgctxt "Things"
-msgid "ItemCableAnalyser"
+msgid "Kit (Cable Analyzer)"
 msgstr "Набор (Анализатор кабеля)"
 
 #: /Language/Things/Record[Key='StructureCableAnalysizer']
 msgctxt "Things"
-msgid "StructureCableAnalysizer"
+msgid "Cable Analyzer"
 msgstr "Анализатор кабеля"
 
 #: /Language/Things/Record[Key='StructureLogicDial']
 msgctxt "Things"
-msgid "StructureLogicDial"
+msgid "Dial"
 msgstr "Регулятор"
 
 #: /Language/Things/Record[Key='StructureConsoleLED1x2']
 msgctxt "Things"
-msgid "StructureConsoleLED1x2"
+msgid "LED Display (Medium)"
 msgstr "ЖК дисплей (Средний)"
 
 #: /Language/Things/Record[Key='StructureConsoleLED1x3']
 msgctxt "Things"
-msgid "StructureConsoleLED1x3"
+msgid "LED Display (Large)"
 msgstr "ЖК дисплей (Большой)"
 
 #: /Language/Things/Record[Key='NpcChick']
 msgctxt "Things"
-msgid "NpcChick"
+msgid "Chick"
 msgstr "Цыпленок"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things"
-msgid "NpcChicken"
+msgid "Chicken"
 msgstr "Курица"
 
 #: /Language/Things/Record[Key='DynamicSkeleton']
 msgctxt "Things"
-msgid "DynamicSkeleton"
+msgid "Skeleton"
 msgstr "Скелет"
 
 #: /Language/Things/Record[Key='StructureBeacon']
 msgctxt "Things"
-msgid "StructureBeacon"
+msgid "Beacon"
 msgstr "Стационарный маяк"
 
 #: /Language/Things/Record[Key='ItemKitBeacon']
 msgctxt "Things"
-msgid "ItemKitBeacon"
+msgid "Kit (Beacon)"
 msgstr "Набор (Стационарный маяк)"
 
 #: /Language/Things/Record[Key='StructureTankBig']
 msgctxt "Things"
-msgid "StructureTankBig"
+msgid "Large Tank"
 msgstr "Резервуар (Большой)"
 
 #: /Language/Things/Record[Key='ItemPotato']
 msgctxt "Things"
-msgid "ItemPotato"
+msgid "Potato"
 msgstr "Картофель"
 
 #: /Language/Things/Record[Key='ItemTomato']
 msgctxt "Things"
-msgid "ItemTomato"
+msgid "Tomato"
 msgstr "Томат"
 
 #: /Language/Things/Record[Key='StructureGasGenerator']
 msgctxt "Things"
-msgid "StructureGasGenerator"
+msgid "Gas Fuel Generator"
 msgstr "Газовый электрогенератор"
 
 #: /Language/Things/Record[Key='ItemKitGasGenerator']
 msgctxt "Things"
-msgid "ItemKitGasGenerator"
+msgid "Kit (Gas Fuel Generator)"
 msgstr "Набор (Газовый электрогенератор)"
 
 #: /Language/Things/Record[Key='DynamicGPR']
 msgctxt "Things"
-msgid "DynamicGPR"
+msgid "Ground Penetrating Radar (GPR)"
 msgstr "Георадар (GPR)"
 
 #: /Language/Things/Record[Key='CartridgeOreScanner']
 msgctxt "Things"
-msgid "CartridgeOreScanner"
+msgid "Cartridge (Ore Scanner)"
 msgstr "Картридж (Георадар)"
 
 #: /Language/Things/Record[Key='ItemPotatoBaked']
 msgctxt "Things"
-msgid "ItemPotatoBaked"
+msgid "Baked Potato"
 msgstr "Печеный картофель"
 
 #: /Language/Things/Record[Key='ItemTomatoSoup']
 msgctxt "Things"
-msgid "ItemTomatoSoup"
+msgid "Tomato Soup"
 msgstr "Томатный суп"
 
 #: /Language/Things/Record[Key='ItemSoyOil']
 msgctxt "Things"
-msgid "ItemSoyOil"
+msgid "Soy Oil"
 msgstr "Соевое масло"
 
 #: /Language/Things/Record[Key='ItemFries']
 msgctxt "Things"
-msgid "ItemFries"
+msgid "Fries"
 msgstr "Картофель фри"
 
 #: /Language/Things/Record[Key='StructureCableCornerH3']
 msgctxt "Things"
-msgid "StructureCableCornerH3"
+msgid "Heavy Cable (3-Way Corner)"
 msgstr "Силовой кабель (Угловой 3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCornerH4']
 msgctxt "Things"
-msgid "StructureCableCornerH4"
+msgid "Heavy Cable (4-Way Corner)"
 msgstr "Силовой кабель (Угловой 4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCorner4HBurnt']
 msgctxt "Things"
-msgid "StructureCableCorner4HBurnt"
+msgid "Burnt Heavy Cable (4-Way Corner)"
 msgstr "Сгоревший силовой кабель (Угловой 4-конечная)"
 
 #: /Language/Things/Record[Key='PortableSolarPanel']
 msgctxt "Things"
-msgid "PortableSolarPanel"
+msgid "Portable Solar Panel"
 msgstr "Переносная солнечная панель"
 
 #: /Language/Things/Record[Key='StructureCableJunction5']
 msgctxt "Things"
-msgid "StructureCableJunction5"
+msgid "Cable (5-Way Junction)"
 msgstr "Кабель (5-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCorner4']
 msgctxt "Things"
-msgid "StructureCableCorner4"
+msgid "Cable (4-Way Corner)"
 msgstr "Кабель (Угловой 4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCorner4Burnt']
 msgctxt "Things"
-msgid "StructureCableCorner4Burnt"
+msgid "Burnt Cable (4-Way Corner)"
 msgstr "Сгоревший кабель (4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction5Burnt']
 msgctxt "Things"
-msgid "StructureCableJunction5Burnt"
+msgid "Burnt Cable (5-Way Junction)"
 msgstr "Сгоревший кабель (5-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunctionH5']
 msgctxt "Things"
-msgid "StructureCableJunctionH5"
+msgid "Heavy Cable (5-Way Junction)"
 msgstr "Силовой кабель(5-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunctionH5Burnt']
 msgctxt "Things"
-msgid "StructureCableJunctionH5Burnt"
+msgid "Burnt Heavy Cable (5-Way Junction)"
 msgstr "Сгоревший силовой кабель (5-конечный)"
 
 #: /Language/Things/Record[Key='WallFrameCornerCut']
 msgctxt "Things"
-msgid "WallFrameCornerCut"
+msgid "Frame (Corner Cut)"
 msgstr "Напольный каркас (Скошенный)"
 
 #: /Language/Things/Record[Key='StructureFlagSmall']
 msgctxt "Things"
-msgid "StructureFlagSmall"
+msgid "Small Flag"
 msgstr "Флаг (Маленький)"
 
 #: /Language/Things/Record[Key='ItemFlagSmall']
 msgctxt "Things"
-msgid "ItemFlagSmall"
+msgid "Small Flag Kit"
 msgstr "Набор (Флаг)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngled']
 msgctxt "Things"
-msgid "StructureCompositeCladdingAngled"
+msgid "Composite Cladding (Angled)"
 msgstr "Композитное покрытие (Скошенное)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCorner']
 msgctxt "Things"
-msgid "StructureCompositeCladdingAngledCorner"
+msgid "Composite Cladding (Angled Corner)"
 msgstr "Композитное покрытие (Угловое скошенное)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things"
-msgid "StructureCompositeCladdingAngledCornerLong"
+msgid "Composite Cladding (Long Angled Corner)"
 msgstr "Композитное покрытие (Длинной угловой скос)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledLong']
 msgctxt "Things"
-msgid "StructureCompositeCladdingAngledLong"
+msgid "Composite Cladding (Long Angled)"
 msgstr "Композитное покрытие (Длинный угол)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingCylindrical']
 msgctxt "Things"
-msgid "StructureCompositeCladdingCylindrical"
+msgid "Composite Cladding (Cylindrical)"
 msgstr "Композитное покрытие (Цилиндрическое)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingCylindricalPanel']
 msgctxt "Things"
-msgid "StructureCompositeCladdingCylindricalPanel"
+msgid "Composite Cladding (Cylindrical Panel)"
 msgstr "Композитное покрытие (Цилиндрическая панель)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingSphericalCorner']
 msgctxt "Things"
-msgid "StructureCompositeCladdingSphericalCorner"
+msgid "Composite Cladding (Spherical Corner)"
 msgstr "Композитное покрытие (Сферическрй угол)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingSphericalCap']
 msgctxt "Things"
-msgid "StructureCompositeCladdingSphericalCap"
+msgid "Composite Cladding (Spherical Cap)"
 msgstr "Композитное покрытие (Сферический колпак)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingSpherical']
 msgctxt "Things"
-msgid "StructureCompositeCladdingSpherical"
+msgid "Composite Cladding (Spherical)"
 msgstr "Композитное покрытие (Сферическое)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingRoundedCorner']
 msgctxt "Things"
-msgid "StructureCompositeCladdingRoundedCorner"
+msgid "Composite Cladding (Rounded Corner)"
 msgstr "Композитное покрытие (Закругленный угол)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingRounded']
 msgctxt "Things"
-msgid "StructureCompositeCladdingRounded"
+msgid "Composite Cladding (Rounded)"
 msgstr "Композитное покрытие (Закругленное)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingPanel']
 msgctxt "Things"
-msgid "StructureCompositeCladdingPanel"
+msgid "Composite Cladding (Panel)"
 msgstr "Композитное покрытие (Панель)"
 
 #: /Language/Things/Record[Key='ItemKitCompositeCladding']
 msgctxt "Things"
-msgid "ItemKitCompositeCladding"
+msgid "Kit (Cladding)"
 msgstr "Набор (Композитное покрытие)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerLongR']
 msgctxt "Things"
-msgid "StructureCompositeCladdingAngledCornerLongR"
+msgid "Composite Cladding (Long Angled Mirrored Corner)"
 msgstr "Композитное покрытие (Отраженный длинной угловой скос)"
 
 #: /Language/Things/Record[Key='StructureDockPortSide']
 msgctxt "Things"
-msgid "StructureDockPortSide"
+msgid "Structure Dock Port Side"
 msgstr "Док-порт"
 
 #: /Language/Things/Record[Key='ItemKitDockingPort']
 msgctxt "Things"
-msgid "ItemKitDockingPort"
+msgid "Kit (Docking Port)"
 msgstr "Набор (Док-порт)"
 
 #: /Language/Things/Record[Key='StructureDockShipSide']
 msgctxt "Things"
-msgid "StructureDockShipSide"
+msgid "Structure Dock Ship Side"
 msgstr "Док-порт корабля"
 
 #: /Language/Things/Record[Key='StructureLightLong']
 msgctxt "Things"
-msgid "StructureLightLong"
+msgid "Wall Light (Long)"
 msgstr "Настенный светильник (Длинный)"
 
 #: /Language/Things/Record[Key='StructureLightLongAngled']
 msgctxt "Things"
-msgid "StructureLightLongAngled"
+msgid "Wall Light (Long Angled)"
 msgstr "Настенный светильник (Длинный угловой)"
 
 #: /Language/Things/Record[Key='StructureLightLongWide']
 msgctxt "Things"
-msgid "StructureLightLongWide"
+msgid "Wall Light (Long Wide)"
 msgstr "Настенный светильник (Большой)"
 
 #: /Language/Things/Record[Key='CircuitboardAdvancedAirlockControl']
 msgctxt "Things"
-msgid "CircuitboardAdvancedAirlockControl"
+msgid "Circuitboard Advanced Airlock Control"
 msgstr "Плата для консоли (Расширенное управление шлюзом)"
 
 #: /Language/Things/Record[Key='ItemKitOrganicsPrinter']
 msgctxt "Things"
-msgid "ItemKitOrganicsPrinter"
+msgid "Kit (Organics Printer)"
 msgstr "Набор (Принтер органики)"
 
 #: /Language/Things/Record[Key='StructureOrganicsPrinter']
 msgctxt "Things"
-msgid "StructureOrganicsPrinter"
+msgid "Organics Printer"
 msgstr "Принтер органики"
 
 #: /Language/Things/Record[Key='StructureCompositeWindowIron']
 msgctxt "Things"
-msgid "StructureCompositeWindowIron"
+msgid "Structure Composite Window Iron"
 msgstr "Композитное окно (Железное)"
 
 #: /Language/Things/Record[Key='StructureLogicButton']
 msgctxt "Things"
-msgid "StructureLogicButton"
+msgid "Button"
 msgstr "Кнопка"
 
 #: /Language/Things/Record[Key='CompositeFloorGrating2']
 msgctxt "Things"
-msgid "CompositeFloorGrating2"
+msgid "Composite Floor Grating2"
 msgstr "Композитный напольный настил"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating2']
 msgctxt "Things"
-msgid "StructureCompositeFloorGrating2"
+msgid "Structure Composite Floor Grating2"
 msgstr "Решетчатый настил 2"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating3']
 msgctxt "Things"
-msgid "StructureCompositeFloorGrating3"
+msgid "Structure Composite Floor Grating3"
 msgstr "Решетчатый настил 3"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating4']
 msgctxt "Things"
-msgid "StructureCompositeFloorGrating4"
+msgid "Structure Composite Floor Grating4"
 msgstr "Решетчатый настил 4"
 
 #: /Language/Things/Record[Key='ItemKitWallPanels']
 msgctxt "Things"
-msgid "ItemKitWallPanels"
+msgid "Kit (Wall Panels)"
 msgstr "Набор (Настенные панели)"
 
 #: /Language/Things/Record[Key='StructureCompositeWallPanelling1']
 msgctxt "Things"
-msgid "StructureCompositeWallPanelling1"
+msgid "Structure Composite Wall Panelling1"
 msgstr "Structure Composite Wall Panelling1"
 
 #: /Language/Things/Record[Key='ItemKitCompositeFloorGrating']
 msgctxt "Things"
-msgid "ItemKitCompositeFloorGrating"
+msgid "Kit (Floor Grating)"
 msgstr "Набор (Напольный настил)"
 
 #: /Language/Things/Record[Key='CompositeRollCover']
 msgctxt "Things"
-msgid "CompositeRollCover"
+msgid "Composite Roll Cover"
 msgstr "Крышка-рольставень"
 
 #: /Language/Things/Record[Key='ItemKitLadder']
 msgctxt "Things"
-msgid "ItemKitLadder"
+msgid "Kit (Ladder)"
 msgstr "Набор (Вертикальная лестница)"
 
 #: /Language/Things/Record[Key='StructureFrameCornerCut']
 msgctxt "Things"
-msgid "StructureFrameCornerCut"
+msgid "Structure Frame Corner Cut"
 msgstr "Structure Frame Corner Cut"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling1']
 msgctxt "Things"
-msgid "CompositeWallPanelling1"
+msgid "Composite Wall Panelling1"
 msgstr "Композитная настенная панель1"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling2']
 msgctxt "Things"
-msgid "CompositeWallPanelling2"
+msgid "Composite Wall Panelling2"
 msgstr "Композитная настенная панель2"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling3']
 msgctxt "Things"
-msgid "CompositeWallPanelling3"
+msgid "Composite Wall Panelling3"
 msgstr "Композитная настенная панель3"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling4']
 msgctxt "Things"
-msgid "CompositeWallPanelling4"
+msgid "Composite Wall Panelling4"
 msgstr "Композитная настенная панель4"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling5']
 msgctxt "Things"
-msgid "CompositeWallPanelling5"
+msgid "Composite Wall Panelling5"
 msgstr "Композитная настенная панель5"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling6']
 msgctxt "Things"
-msgid "CompositeWallPanelling6"
+msgid "Composite Wall Panelling6"
 msgstr "Композитная настенная панель6"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling7']
 msgctxt "Things"
-msgid "CompositeWallPanelling7"
+msgid "Composite Wall Panelling7"
 msgstr "Композитная настенная панель7"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling8']
 msgctxt "Things"
-msgid "CompositeWallPanelling8"
+msgid "Composite Wall Panelling8"
 msgstr "Композитная настенная панель8"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling9']
 msgctxt "Things"
-msgid "CompositeWallPanelling9"
+msgid "Composite Wall Panelling9"
 msgstr "Композитная настенная панель9"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling10']
 msgctxt "Things"
-msgid "CompositeWallPanelling10"
+msgid "Composite Wall Panelling10"
 msgstr "Композитная настенная панель10"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling11']
 msgctxt "Things"
-msgid "CompositeWallPanelling11"
+msgid "Composite Wall Panelling11"
 msgstr "Композитная настенная панель11"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling12']
 msgctxt "Things"
-msgid "CompositeWallPanelling12"
+msgid "Composite Wall Panelling12"
 msgstr "Композитная настенная панель12"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling13']
 msgctxt "Things"
-msgid "CompositeWallPanelling13"
+msgid "Composite Wall Panelling13"
 msgstr "Композитная настенная панель13"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling14']
 msgctxt "Things"
-msgid "CompositeWallPanelling14"
+msgid "Composite Wall Panelling14"
 msgstr "Композитная настенная панель14"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling15']
 msgctxt "Things"
-msgid "CompositeWallPanelling15"
+msgid "Composite Wall Panelling15"
 msgstr "Композитная настенная панель15"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling16']
 msgctxt "Things"
-msgid "CompositeWallPanelling16"
+msgid "Composite Wall Panelling16"
 msgstr "Композитная настенная панель16"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling17']
 msgctxt "Things"
-msgid "CompositeWallPanelling17"
+msgid "Composite Wall Panelling17"
 msgstr "Композитная настенная панель17"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling18']
 msgctxt "Things"
-msgid "CompositeWallPanelling18"
+msgid "Composite Wall Panelling18"
 msgstr "Композитная настенная панель18"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling19']
 msgctxt "Things"
-msgid "CompositeWallPanelling19"
+msgid "Composite Wall Panelling19"
 msgstr "Композитная настенная панель19"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling20']
 msgctxt "Things"
-msgid "CompositeWallPanelling20"
+msgid "Composite Wall Panelling20"
 msgstr "Композитная настенная панель20"
 
 #: /Language/Things/Record[Key='CompositeWallPanelling21']
 msgctxt "Things"
-msgid "CompositeWallPanelling21"
+msgid "Composite Wall Panelling21"
 msgstr "Композитная настенная панель21"
 
 #: /Language/Things/Record[Key='Corner1']
@@ -482,262 +482,262 @@ msgstr "Corner1"
 
 #: /Language/Things/Record[Key='StructureWallFlat']
 msgctxt "Things"
-msgid "StructureWallFlat"
+msgid "Structure Wall Flat"
 msgstr "Стена (Простая)"
 
 #: /Language/Things/Record[Key='StructureWallArch']
 msgctxt "Things"
-msgid "StructureWallArch"
+msgid "Structure Wall Arch"
 msgstr "Стена (Арка)"
 
 #: /Language/Things/Record[Key='StructureWallArchArrow']
 msgctxt "Things"
-msgid "StructureWallArchArrow"
+msgid "Structure Wall Arch Arrow"
 msgstr "Стена (Арка со стрелкой)"
 
 #: /Language/Things/Record[Key='StructureWallArchPlating']
 msgctxt "Things"
-msgid "StructureWallArchPlating"
+msgid "Structure Wall Arch Plating"
 msgstr "Стена (Арка с обшивкой)"
 
 #: /Language/Things/Record[Key='StructureWallArchTwoTone']
 msgctxt "Things"
-msgid "StructureWallArchTwoTone"
+msgid "Structure Wall Arch Two Tone"
 msgstr "Стена (Арка два оттенка)"
 
 #: /Language/Things/Record[Key='StructureWallGeometryCorner']
 msgctxt "Things"
-msgid "StructureWallGeometryCorner"
+msgid "Structure Wall Geometry Corner"
 msgstr "Стена (Геометрия, угол)"
 
 #: /Language/Things/Record[Key='StructureWallGeometryStreight']
 msgctxt "Things"
-msgid "StructureWallGeometryStreight"
+msgid "Structure Wall Geometry Streight"
 msgstr "Стена (Геометрия, прямая)"
 
 #: /Language/Things/Record[Key='StructureWallGeometryT']
 msgctxt "Things"
-msgid "StructureWallGeometryT"
+msgid "Structure Wall Geometry T"
 msgstr "Стена (Геометрия, Т-образная)"
 
 #: /Language/Things/Record[Key='StructureWallPaddedArch']
 msgctxt "Things"
-msgid "StructureWallPaddedArch"
+msgid "Structure Wall Padded Arch"
 msgstr "Стена (Наборная, арка)"
 
 #: /Language/Things/Record[Key='StructureWallPaddedArchLightsFittings']
 msgctxt "Things"
-msgid "StructureWallPaddedArchLightsFittings"
+msgid "Structure Wall Padded Arch Lights Fittings"
 msgstr "Стена (Наборная, арка с проёмами для ламп)"
 
 #: /Language/Things/Record[Key='StructureWallPadding']
 msgctxt "Things"
-msgid "StructureWallPadding"
+msgid "Structure Wall Padding"
 msgstr "Стена (Наборная)"
 
 #: /Language/Things/Record[Key='StructureWallPaddingArchVent']
 msgctxt "Things"
-msgid "StructureWallPaddingArchVent"
+msgid "Structure Wall Padding Arch Vent"
 msgstr "Стена (Наборная, арка с решёткой вентиляции)"
 
 #: /Language/Things/Record[Key='StructureWallPaddingLightFitting']
 msgctxt "Things"
-msgid "StructureWallPaddingLightFitting"
+msgid "Structure Wall Padding Light Fitting"
 msgstr "Стена (Наборная с проёмом для лампы)"
 
 #: /Language/Things/Record[Key='StructureWallPaddingThin']
 msgctxt "Things"
-msgid "StructureWallPaddingThin"
+msgid "Structure Wall Padding Thin"
 msgstr "Стена (Наборная, тонкая)"
 
 #: /Language/Things/Record[Key='StructureWallPlating']
 msgctxt "Things"
-msgid "StructureWallPlating"
+msgid "Structure Wall Plating"
 msgstr "Стена (С обшивкой)"
 
 #: /Language/Things/Record[Key='StructureWallSimple']
 msgctxt "Things"
-msgid "StructureWallSimple"
+msgid "Structure Wall Simple"
 msgstr "Structure Wall Simple"
 
 #: /Language/Things/Record[Key='StructureWallSmallPanels']
 msgctxt "Things"
-msgid "StructureWallSmallPanels"
+msgid "Structure Wall Small Panels"
 msgstr "Structure Wall Small Panels"
 
 #: /Language/Things/Record[Key='StructureWallLargePanel']
 msgctxt "Things"
-msgid "StructureWallLargePanel"
+msgid "Structure Wall Large Panel"
 msgstr "Стена (Большая панель)"
 
 #: /Language/Things/Record[Key='StructureWallSmallPanelsAndHatch']
 msgctxt "Things"
-msgid "StructureWallSmallPanelsAndHatch"
+msgid "Structure Wall Small Panels And Hatch"
 msgstr "Стена (Маленькие панели и люк)"
 
 #: /Language/Things/Record[Key='StructureWallSmallPanelsArrow']
 msgctxt "Things"
-msgid "StructureWallSmallPanelsArrow"
+msgid "Structure Wall Small Panels Arrow"
 msgstr "Стена (Маленькие панели со стрелкой)"
 
 #: /Language/Things/Record[Key='StructureWallSmallPanelsMonoChrome']
 msgctxt "Things"
-msgid "StructureWallSmallPanelsMonoChrome"
+msgid "Structure Wall Small Panels Mono Chrome"
 msgstr "Стена (Маленькие панели, монохромная)"
 
 #: /Language/Things/Record[Key='StructureWallSmallPanelsTwoTone']
 msgctxt "Things"
-msgid "StructureWallSmallPanelsTwoTone"
+msgid "Structure Wall Small Panels Two Tone"
 msgstr "Стена (Маленькие панели, два оттенка)"
 
 #: /Language/Things/Record[Key='StructureWallLargePanelArrow']
 msgctxt "Things"
-msgid "StructureWallLargePanelArrow"
+msgid "Structure Wall Large Panel Arrow"
 msgstr "Стена (Большая панель со стрелкой)"
 
 #: /Language/Things/Record[Key='ItemKitWallArch']
 msgctxt "Things"
-msgid "ItemKitWallArch"
+msgid "Kit (Arched Wall)"
 msgstr "Набор (Арочная стена)"
 
 #: /Language/Things/Record[Key='ItemKitWallFlat']
 msgctxt "Things"
-msgid "ItemKitWallFlat"
+msgid "Kit (Flat Wall)"
 msgstr "Набор (Плоская стена)"
 
 #: /Language/Things/Record[Key='ItemKitWallGeometry']
 msgctxt "Things"
-msgid "ItemKitWallGeometry"
+msgid "Kit (Geometric Wall)"
 msgstr "Набор (Геометрическая стена)"
 
 #: /Language/Things/Record[Key='ItemKitWallPadded']
 msgctxt "Things"
-msgid "ItemKitWallPadded"
+msgid "Kit (Padded Wall)"
 msgstr "Набор (Обитая стена)"
 
 #: /Language/Things/Record[Key='StructureLadder']
 msgctxt "Things"
-msgid "StructureLadder"
+msgid "Ladder"
 msgstr "Вертикальная лестница"
 
 #: /Language/Things/Record[Key='CartridgeGuide']
 msgctxt "Things"
-msgid "CartridgeGuide"
+msgid "Cartridge (Guide)"
 msgstr "Картридж (Путеводитель)"
 
 #: /Language/Things/Record[Key='StructurePipeCrossJunction4']
 msgctxt "Things"
-msgid "StructurePipeCrossJunction4"
+msgid "Pipe (4-Way Corner)"
 msgstr "Труба (Угловая 4-конечная)"
 
 #: /Language/Things/Record[Key='ItemAuthoringTool']
 msgctxt "Things"
-msgid "ItemAuthoringTool"
+msgid "Item Authoring Tool"
 msgstr "Инструмент для творчества"
 
 #: /Language/Things/Record[Key='StructureRocketEngineDestroyed']
 msgctxt "Things"
-msgid "StructureRocketEngineDestroyed"
+msgid "Rocket Engine (Destroyed)"
 msgstr "Двигатель ракеты (Разрушенный)"
 
 #: /Language/Things/Record[Key='ItemWreckageConstructor']
 msgctxt "Things"
-msgid "ItemWreckageConstructor"
+msgid "Debug Wreckage Constructor"
 msgstr "Debug Wreckage Constructor"
 
 #: /Language/Things/Record[Key='ItemWreckage1']
 msgctxt "Things"
-msgid "ItemWreckage1"
+msgid "Wreckage"
 msgstr "Обломки"
 
 #: /Language/Things/Record[Key='ItemWreckage2']
 msgctxt "Things"
-msgid "ItemWreckage2"
+msgid "Wreckage"
 msgstr "Обломки"
 
 #: /Language/Things/Record[Key='ItemWreckage3']
 msgctxt "Things"
-msgid "ItemWreckage3"
+msgid "Wreckage"
 msgstr "Обломки"
 
 #: /Language/Things/Record[Key='ItemWreckage4']
 msgctxt "Things"
-msgid "ItemWreckage4"
+msgid "Wreckage"
 msgstr "Обломки"
 
 #: /Language/Things/Record[Key='CartridgeAccessController']
 msgctxt "Things"
-msgid "CartridgeAccessController"
+msgid "Cartridge (Access Controller)"
 msgstr "Картридж (Контроль доступа)"
 
 #: /Language/Things/Record[Key='AccessCardBlack']
 msgctxt "Things"
-msgid "AccessCardBlack"
+msgid "Access Card (Black)"
 msgstr "Карта доступа (Черная)"
 
 #: /Language/Things/Record[Key='AccessCardBlue']
 msgctxt "Things"
-msgid "AccessCardBlue"
+msgid "Access Card (Blue)"
 msgstr "Карта доступа (Голубая)"
 
 #: /Language/Things/Record[Key='AccessCardBrown']
 msgctxt "Things"
-msgid "AccessCardBrown"
+msgid "Access Card (Brown)"
 msgstr "Карта доступа (Коричневая)"
 
 #: /Language/Things/Record[Key='AccessCardGray']
 msgctxt "Things"
-msgid "AccessCardGray"
+msgid "Access Card (Gray)"
 msgstr "Карта доступа (Серая)"
 
 #: /Language/Things/Record[Key='AccessCardGreen']
 msgctxt "Things"
-msgid "AccessCardGreen"
+msgid "Access Card (Green)"
 msgstr "Карта доступа (Зеленая)"
 
 #: /Language/Things/Record[Key='AccessCardKhaki']
 msgctxt "Things"
-msgid "AccessCardKhaki"
+msgid "Access Card (Khaki)"
 msgstr "Карта доступа (Хаки)"
 
 #: /Language/Things/Record[Key='AccessCardOrange']
 msgctxt "Things"
-msgid "AccessCardOrange"
+msgid "Access Card (Orange)"
 msgstr "Карта доступа (Оранжевая)"
 
 #: /Language/Things/Record[Key='AccessCardPink']
 msgctxt "Things"
-msgid "AccessCardPink"
+msgid "Access Card (Pink)"
 msgstr "Карта доступа (Розовая)"
 
 #: /Language/Things/Record[Key='AccessCardPurple']
 msgctxt "Things"
-msgid "AccessCardPurple"
+msgid "Access Card (Purple)"
 msgstr "Карта доступа (Фиолетавая)"
 
 #: /Language/Things/Record[Key='AccessCardRed']
 msgctxt "Things"
-msgid "AccessCardRed"
+msgid "Access Card (Red)"
 msgstr "Карта доступа (Красаня)"
 
 #: /Language/Things/Record[Key='AccessCardWhite']
 msgctxt "Things"
-msgid "AccessCardWhite"
+msgid "Access Card (White)"
 msgstr "Карта доступа (Белая)"
 
 #: /Language/Things/Record[Key='AccessCardYellow']
 msgctxt "Things"
-msgid "AccessCardYellow"
+msgid "Access Card (Yellow)"
 msgstr "Карта доступа (Желтая)"
 
 #: /Language/Things/Record[Key='StructureSecurityPrinter']
 msgctxt "Things"
-msgid "StructureSecurityPrinter"
+msgid "Security Printer"
 msgstr "Принтер безопастности"
 
 #: /Language/Things/Record[Key='ItemKitSecurityPrinter']
 msgctxt "Things"
-msgid "ItemKitSecurityPrinter"
+msgid "Kit (Security Printer)"
 msgstr "Набор (Принтер безопасности)"
 
 #: /Language/Things/Record[Key='Handgun']
@@ -747,682 +747,682 @@ msgstr "Пистолет"
 
 #: /Language/Things/Record[Key='ItemAmmoBox']
 msgctxt "Things"
-msgid "ItemAmmoBox"
+msgid "Ammo Box"
 msgstr "Патронный ящик"
 
 #: /Language/Things/Record[Key='HandgunMagazine']
 msgctxt "Things"
-msgid "HandgunMagazine"
+msgid "Handgun Magazine"
 msgstr "Магазин для пистолета"
 
 #: /Language/Things/Record[Key='SMGMagazine']
 msgctxt "Things"
-msgid "SMGMagazine"
+msgid "SMG Magazine"
 msgstr "Магазин для пистолета-пулемёта "
 
 #: /Language/Things/Record[Key='FireArmSMG']
 msgctxt "Things"
-msgid "FireArmSMG"
+msgid "Fire Arm SMG"
 msgstr "Пистолет-пулемёт "
 
 #: /Language/Things/Record[Key='StructureElectrolyzer']
 msgctxt "Things"
-msgid "StructureElectrolyzer"
+msgid "Electrolyzer"
 msgstr "Электролизёр"
 
 #: /Language/Things/Record[Key='StructureElevatorShaft']
 msgctxt "Things"
-msgid "StructureElevatorShaft"
+msgid "Elevator Shaft"
 msgstr "Шахта лифта"
 
 #: /Language/Things/Record[Key='ItemKitElevator']
 msgctxt "Things"
-msgid "ItemKitElevator"
+msgid "Kit (Elevator)"
 msgstr "Набор (Лифт)"
 
 #: /Language/Things/Record[Key='ElevatorCarrage']
 msgctxt "Things"
-msgid "ElevatorCarrage"
+msgid "Elevator"
 msgstr "Лифт"
 
 #: /Language/Things/Record[Key='StructureElevatorLevelFront']
 msgctxt "Things"
-msgid "StructureElevatorLevelFront"
+msgid "Elevator Level"
 msgstr "Этаж лифта"
 
 #: /Language/Things/Record[Key='StructureCrateMount']
 msgctxt "Things"
-msgid "StructureCrateMount"
+msgid "Container Mount"
 msgstr "Подставка для ящика"
 
 #: /Language/Things/Record[Key='ItemKitCrateMount']
 msgctxt "Things"
-msgid "ItemKitCrateMount"
+msgid "Kit (Container Mount)"
 msgstr "Набор (Подставка для ящика)"
 
 #: /Language/Things/Record[Key='StructureLogicMirror']
 msgctxt "Things"
-msgid "StructureLogicMirror"
+msgid "Logic Mirror"
 msgstr "Чип (Повторитель)"
 
 #: /Language/Things/Record[Key='CircuitboardHashDisplay']
 msgctxt "Things"
-msgid "CircuitboardHashDisplay"
+msgid "Circuitboard (Hash Display)"
 msgstr "Плата для консоли (Дисплей хэш-числа)"
 
 #: /Language/Things/Record[Key='StructureHydroponicsStation']
 msgctxt "Things"
-msgid "StructureHydroponicsStation"
+msgid "Hydroponics Station"
 msgstr "Гидропонная станция"
 
 #: /Language/Things/Record[Key='ItemKitHydroponicStation']
 msgctxt "Things"
-msgid "ItemKitHydroponicStation"
+msgid "Kit (Hydroponic Station)"
 msgstr "Набор (Гидропонная станция)"
 
 #: /Language/Things/Record[Key='StructureDiodeSlide']
 msgctxt "Things"
-msgid "StructureDiodeSlide"
+msgid "Diode Slide"
 msgstr "Диодный слайдер"
 
 #: /Language/Things/Record[Key='ItemGasCanisterSmart']
 msgctxt "Things"
-msgid "ItemGasCanisterSmart"
+msgid "Gas Canister (Smart)"
 msgstr "Газовый баллон (Электронный)"
 
 #: /Language/Things/Record[Key='CartridgeConfiguration']
 msgctxt "Things"
-msgid "CartridgeConfiguration"
+msgid "Cartridge (Configuration)"
 msgstr "Картридж (Конфигуратор)"
 
 #: /Language/Things/Record[Key='ItemKitCrate']
 msgctxt "Things"
-msgid "ItemKitCrate"
+msgid "Kit (Crate)"
 msgstr "Набор (Переносной ящик)"
 
 #: /Language/Things/Record[Key='CircuitboardGraphDisplay']
 msgctxt "Things"
-msgid "CircuitboardGraphDisplay"
+msgid "Circuitboard (Graph Display)"
 msgstr "Плата для консоли (Статистический дисплей)"
 
 #: /Language/Things/Record[Key='ItemKitMotherShipCore']
 msgctxt "Things"
-msgid "ItemKitMotherShipCore"
+msgid "Kit (Mothership)"
 msgstr "Набор (Ядро космического корабля)"
 
 #: /Language/Things/Record[Key='ItemDynamicScrubber']
 msgctxt "Things"
-msgid "ItemDynamicScrubber"
+msgid "Kit (Portable Scrubber)"
 msgstr "Набор (Переносной воздушный фильтр)"
 
 #: /Language/Things/Record[Key='ItemDynamicAirCon']
 msgctxt "Things"
-msgid "ItemDynamicAirCon"
+msgid "Kit (Portable Air Conditioner)"
 msgstr "Набор (Переносной кондиционер)"
 
 #: /Language/Things/Record[Key='ItemKitPipeValve']
 msgctxt "Things"
-msgid "ItemKitPipeValve"
+msgid "Item Kit Pipe Valve"
 msgstr "Клапан"
 
 #: /Language/Things/Record[Key='ItemKitDynamicGenerator']
 msgctxt "Things"
-msgid "ItemKitDynamicGenerator"
+msgid "Kit (Portable Generator)"
 msgstr "Набор (Переносной электрогенератор)"
 
 #: /Language/Things/Record[Key='StructureVendingMachine']
 msgctxt "Things"
-msgid "StructureVendingMachine"
+msgid "Vending Machine"
 msgstr "Склад"
 
 #: /Language/Things/Record[Key='ItemKitVendingMachine']
 msgctxt "Things"
-msgid "ItemKitVendingMachine"
+msgid "Kit (Vending Machine)"
 msgstr "Набор (Склад)"
 
 #: /Language/Things/Record[Key='StructureLogicSlotReader']
 msgctxt "Things"
-msgid "StructureLogicSlotReader"
+msgid "Slot Reader"
 msgstr "Чип (Чтение слотов)"
 
 #: /Language/Things/Record[Key='StructureLogicBatchReader']
 msgctxt "Things"
-msgid "StructureLogicBatchReader"
+msgid "Batch Reader"
 msgstr "Чип (Множественное чтение)"
 
 #: /Language/Things/Record[Key='StructureLogicReagentReader']
 msgctxt "Things"
-msgid "StructureLogicReagentReader"
+msgid "Reagent Reader"
 msgstr "Чип (Чтение реагента)"
 
 #: /Language/Things/Record[Key='ItemHardSuit']
 msgctxt "Things"
-msgid "ItemHardSuit"
+msgid "Hardsuit"
 msgstr "Прочный скафандр"
 
 #: /Language/Things/Record[Key='ItemHardsuitHelmet']
 msgctxt "Things"
-msgid "ItemHardsuitHelmet"
+msgid "Hardsuit Helmet"
 msgstr "Прочный шлем"
 
 #: /Language/Things/Record[Key='ItemWearLamp']
 msgctxt "Things"
-msgid "ItemWearLamp"
+msgid "Headlamp"
 msgstr "Налобный фонарь"
 
 #: /Language/Things/Record[Key='StructureTurbineGenerator']
 msgctxt "Things"
-msgid "StructureTurbineGenerator"
+msgid "Turbine Generator"
 msgstr "Турбогенератор"
 
 #: /Language/Things/Record[Key='ItemKitTurbineGenerator']
 msgctxt "Things"
-msgid "ItemKitTurbineGenerator"
+msgid "Kit (Turbine Generator)"
 msgstr "Набор (Турбогенератор)"
 
 #: /Language/Things/Record[Key='ReagentSilver']
 msgctxt "Things"
-msgid "ReagentSilver"
+msgid "Silver Powder"
 msgstr "Порошок из серебра"
 
 #: /Language/Things/Record[Key='ReagentPotassiumIodide']
 msgctxt "Things"
-msgid "ReagentPotassiumIodide"
+msgid "Potassium Iodide Powder"
 msgstr "Порошок из йодистого калия"
 
 #: /Language/Things/Record[Key='ReagentInvar']
 msgctxt "Things"
-msgid "ReagentInvar"
+msgid "Invar Powder"
 msgstr "Порошок из инвара"
 
 #: /Language/Things/Record[Key='ReagentElectrum']
 msgctxt "Things"
-msgid "ReagentElectrum"
+msgid "Electrum Powder"
 msgstr "Порошок из электрума"
 
 #: /Language/Things/Record[Key='ReagentGold']
 msgctxt "Things"
-msgid "ReagentGold"
+msgid "Gold Powder"
 msgstr "Порошок из золота"
 
 #: /Language/Things/Record[Key='StructureUnloader']
 msgctxt "Things"
-msgid "StructureUnloader"
+msgid "Unloader"
 msgstr "Извлекатель"
 
 #: /Language/Things/Record[Key='ReagentFenoxitone']
 msgctxt "Things"
-msgid "ReagentFenoxitone"
+msgid "Fenoxitone Powder"
 msgstr "Фенокситол"
 
 #: /Language/Things/Record[Key='StructurePlatformLadderOpen']
 msgctxt "Things"
-msgid "StructurePlatformLadderOpen"
+msgid "Ladder Platform"
 msgstr "Платформа для лестницы"
 
 #: /Language/Things/Record[Key='StructureLadderEnd']
 msgctxt "Things"
-msgid "StructureLadderEnd"
+msgid "Ladder End"
 msgstr "Верхушка лестницы"
 
 #: /Language/Things/Record[Key='StructureLockerSmall']
 msgctxt "Things"
-msgid "StructureLockerSmall"
+msgid "Locker (Small)"
 msgstr "Малый шкафчик"
 
 #: /Language/Things/Record[Key='StructureLogicBatchSlotReader']
 msgctxt "Things"
-msgid "StructureLogicBatchSlotReader"
+msgid "Batch Slot Reader"
 msgstr "Чип (Множественное чтение слотов)"
 
 #: /Language/Things/Record[Key='CircuitboardAdvAirlockControl']
 msgctxt "Things"
-msgid "CircuitboardAdvAirlockControl"
+msgid "Circuitboard (Advanced Airlock)"
 msgstr "Плата для консоли (Расширенное управление шлюзом)"
 
 #: /Language/Things/Record[Key='ItemKitPressurePlate']
 msgctxt "Things"
-msgid "ItemKitPressurePlate"
+msgid "Kit (Trigger Plate)"
 msgstr "Набор (Нажимная пластина)"
 
 #: /Language/Things/Record[Key='StructurePressurePlateLarge']
 msgctxt "Things"
-msgid "StructurePressurePlateLarge"
+msgid "Trigger Plate (Large)"
 msgstr "Нажимная пластина (Большая)"
 
 #: /Language/Things/Record[Key='StructurePressurePlateMedium']
 msgctxt "Things"
-msgid "StructurePressurePlateMedium"
+msgid "Trigger Plate (Medium)"
 msgstr "Нажимная пластина (Средняя)"
 
 #: /Language/Things/Record[Key='StructurePressurePlateSmall']
 msgctxt "Things"
-msgid "StructurePressurePlateSmall"
+msgid "Trigger Plate (Small)"
 msgstr "Нажимная пластина (Маленькая)"
 
 #: /Language/Things/Record[Key='ItemKitDynamicCanister']
 msgctxt "Things"
-msgid "ItemKitDynamicCanister"
+msgid "Kit (Portable Tank)"
 msgstr "Набор (Большой баллон)"
 
 #: /Language/Things/Record[Key='ItemFlowerBlue']
 msgctxt "Things"
-msgid "ItemFlowerBlue"
+msgid "Flower (Blue)"
 msgstr "Синий цветок"
 
 #: /Language/Things/Record[Key='ItemFlowerOrange']
 msgctxt "Things"
-msgid "ItemFlowerOrange"
+msgid "Flower (Orange)"
 msgstr "Оранжевый цветок"
 
 #: /Language/Things/Record[Key='ItemFlowerRed']
 msgctxt "Things"
-msgid "ItemFlowerRed"
+msgid "Flower (Red)"
 msgstr "Красный цветок"
 
 #: /Language/Things/Record[Key='ItemFlowerYellow']
 msgctxt "Things"
-msgid "ItemFlowerYellow"
+msgid "Flower (Yellow)"
 msgstr "Желтый цветок"
 
 #: /Language/Things/Record[Key='AppliancePaintMixer']
 msgctxt "Things"
-msgid "AppliancePaintMixer"
+msgid "Paint Mixer"
 msgstr "Смеситель красок"
 
 #: /Language/Things/Record[Key='ReagentColorBlue']
 msgctxt "Things"
-msgid "ReagentColorBlue"
+msgid "Color Dye (Blue)"
 msgstr "Синий краситель"
 
 #: /Language/Things/Record[Key='ReagentCarbon']
 msgctxt "Things"
-msgid "ReagentCarbon"
+msgid "Carbon Powder"
 msgstr "Порошок из угля"
 
 #: /Language/Things/Record[Key='ReagentColorGreen']
 msgctxt "Things"
-msgid "ReagentColorGreen"
+msgid "Color Dye (Green)"
 msgstr "Зеленый краситель"
 
 #: /Language/Things/Record[Key='ReagentColorOrange']
 msgctxt "Things"
-msgid "ReagentColorOrange"
+msgid "Color Dye (Orange)"
 msgstr "Оранжевый краситель"
 
 #: /Language/Things/Record[Key='ReagentColorRed']
 msgctxt "Things"
-msgid "ReagentColorRed"
+msgid "Color Dye (Red)"
 msgstr "Красный краситель"
 
 #: /Language/Things/Record[Key='ReagentColorYellow']
 msgctxt "Things"
-msgid "ReagentColorYellow"
+msgid "Color Dye (Yellow)"
 msgstr "Желтый краситель"
 
 #: /Language/Things/Record[Key='ItemFlowerGreen']
 msgctxt "Things"
-msgid "ItemFlowerGreen"
+msgid "Flower (Green)"
 msgstr "Зеленый цветок"
 
 #: /Language/Things/Record[Key='ItemGasFilterCarbonDioxideL']
 msgctxt "Things"
-msgid "ItemGasFilterCarbonDioxideL"
+msgid "Heavy Filter (Carbon Dioxide)"
 msgstr "Большой фильтр (Углекислый газ)"
 
 #: /Language/Things/Record[Key='ItemGasFilterCarbonDioxideM']
 msgctxt "Things"
-msgid "ItemGasFilterCarbonDioxideM"
+msgid "Medium Filter (Carbon Dioxide)"
 msgstr "Средний фильтр (Углекислый газ)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrogenL']
 msgctxt "Things"
-msgid "ItemGasFilterNitrogenL"
+msgid "Heavy Filter (Nitrogen)"
 msgstr "Большой фильтр (Азот)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrogenM']
 msgctxt "Things"
-msgid "ItemGasFilterNitrogenM"
+msgid "Medium Filter (Nitrogen)"
 msgstr "Средний фильтр (Азот)"
 
 #: /Language/Things/Record[Key='ItemGasFilterOxygenL']
 msgctxt "Things"
-msgid "ItemGasFilterOxygenL"
+msgid "Heavy Filter (Oxygen)"
 msgstr "Большой фильтр (Кислород)"
 
 #: /Language/Things/Record[Key='ItemGasFilterOxygenM']
 msgctxt "Things"
-msgid "ItemGasFilterOxygenM"
+msgid "Medium Filter (Oxygen)"
 msgstr "Средний фильтр (Кислород)"
 
 #: /Language/Things/Record[Key='ItemGasFilterPollutantsL']
 msgctxt "Things"
-msgid "ItemGasFilterPollutantsL"
+msgid "Heavy Filter (Pollutants)"
 msgstr "Большой фильтр (Токсины)"
 
 #: /Language/Things/Record[Key='ItemGasFilterPollutantsM']
 msgctxt "Things"
-msgid "ItemGasFilterPollutantsM"
+msgid "Medium Filter (Pollutants)"
 msgstr "Средний фильтр (Токсины)"
 
 #: /Language/Things/Record[Key='ItemGasFilterVolatilesL']
 msgctxt "Things"
-msgid "ItemGasFilterVolatilesL"
+msgid "Heavy Filter (Volatiles)"
 msgstr "Большой фильтр (Летучее вещество)"
 
 #: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
 msgctxt "Things"
-msgid "ItemGasFilterVolatilesM"
+msgid "Medium Filter (Volatiles)"
 msgstr "Средний фильтр (Летучее вещество)"
 
 #: /Language/Things/Record[Key='ItemGasFilterWaterL']
 msgctxt "Things"
-msgid "ItemGasFilterWaterL"
+msgid "Heavy Filter (Water)"
 msgstr "Большой фильтр (Вода)"
 
 #: /Language/Things/Record[Key='ItemGasFilterWaterM']
 msgctxt "Things"
-msgid "ItemGasFilterWaterM"
+msgid "Medium Filter (Water)"
 msgstr "Средний фильтр (Вода)"
 
 #: /Language/Things/Record[Key='ItemMushroom']
 msgctxt "Things"
-msgid "ItemMushroom"
+msgid "Mushroom"
 msgstr "Гриб"
 
 #: /Language/Things/Record[Key='ItemPumpkin']
 msgctxt "Things"
-msgid "ItemPumpkin"
+msgid "Pumpkin"
 msgstr "Тыква"
 
 #: /Language/Things/Record[Key='ItemRice']
 msgctxt "Things"
-msgid "ItemRice"
+msgid "Rice"
 msgstr "Рис"
 
 #: /Language/Things/Record[Key='ItemPumpkinPie']
 msgctxt "Things"
-msgid "ItemPumpkinPie"
+msgid "Pumpkin Pie"
 msgstr "Тыквенный пирог"
 
 #: /Language/Things/Record[Key='ItemHardBackpack']
 msgctxt "Things"
-msgid "ItemHardBackpack"
+msgid "Hardsuit Backpack"
 msgstr "Прочный рюкзак"
 
 #: /Language/Things/Record[Key='ItemHardJetpack']
 msgctxt "Things"
-msgid "ItemHardJetpack"
+msgid "Hardsuit Jetpack"
 msgstr "Прочный реакивный ранец"
 
 #: /Language/Things/Record[Key='DynamicHydroponics']
 msgctxt "Things"
-msgid "DynamicHydroponics"
+msgid "Portable Hydroponics"
 msgstr "Переносная гидропонная установка"
 
 #: /Language/Things/Record[Key='ItemKitDynamicHydroponics']
 msgctxt "Things"
-msgid "ItemKitDynamicHydroponics"
+msgid "Kit (Portable Hydroponics)"
 msgstr "Набор (Переносная гидропонная установка)"
 
 #: /Language/Things/Record[Key='StructureKlaxon']
 msgctxt "Things"
-msgid "StructureKlaxon"
+msgid "Klaxon Speaker"
 msgstr "Громкоговоритель"
 
 #: /Language/Things/Record[Key='ItemKitSpeaker']
 msgctxt "Things"
-msgid "ItemKitSpeaker"
+msgid "Kit (Speaker)"
 msgstr "Набор (Громкоговоритель)"
 
 #: /Language/Things/Record[Key='CartridgeOreScannerColor']
 msgctxt "Things"
-msgid "CartridgeOreScannerColor"
+msgid "Cartridge (Ore Scanner (Color))"
 msgstr "Картридж (Георадар (Цветной))"
 
 #: /Language/Things/Record[Key='StructureLogicWriterSwitch']
 msgctxt "Things"
-msgid "StructureLogicWriterSwitch"
+msgid "Logic Writer Switch"
 msgstr "Чип (Переключатель)"
 
 #: /Language/Things/Record[Key='MotherboardProgrammableChip']
 msgctxt "Things"
-msgid "MotherboardProgrammableChip"
+msgid "Motherboard (IC Editor)"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemKitLogicCircuit']
 msgctxt "Things"
-msgid "ItemKitLogicCircuit"
+msgid "Kit (IC Housing)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureCircuitHousing']
 msgctxt "Things"
-msgid "StructureCircuitHousing"
+msgid "IC Housing"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemIntegratedCircuit10']
 msgctxt "Things"
-msgid "ItemIntegratedCircuit10"
+msgid "Integrated Circuit (IC10)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureLogicBatchWriter']
 msgctxt "Things"
-msgid "StructureLogicBatchWriter"
+msgid "Batch Writer"
 msgstr "Чип (Множественная запись)"
 
 #: /Language/Things/Record[Key='StructureSolarPanelDual']
 msgctxt "Things"
-msgid "StructureSolarPanelDual"
+msgid "Solar Panel"
 msgstr "Солнечная панель"
 
 #: /Language/Things/Record[Key='StructureConsoleLED5Large']
 msgctxt "Things"
-msgid "StructureConsoleLED5Large"
+msgid "LED Display (Medium)"
 msgstr "Светодиодный дисплей (Средний)"
 
 #: /Language/Things/Record[Key='StructureSign2x1']
 msgctxt "Things"
-msgid "StructureSign2x1"
+msgid "Sign 2x1"
 msgstr "Знак 2x1"
 
 #: /Language/Things/Record[Key='StructureSign1x1']
 msgctxt "Things"
-msgid "StructureSign1x1"
+msgid "Sign 1x1"
 msgstr "Знак 1x1"
 
 #: /Language/Things/Record[Key='StructureConsoleLED8Large']
 msgctxt "Things"
-msgid "StructureConsoleLED8Large"
+msgid "LED Display (Large)"
 msgstr "Светодиодный дисплей (Большой)"
 
 #: /Language/Things/Record[Key='StructureConsoleLED5']
 msgctxt "Things"
-msgid "StructureConsoleLED5"
+msgid "LED Display (Small)"
 msgstr "Светодиодный дисплей (Маленький)"
 
 #: /Language/Things/Record[Key='StructureLogicDisplay5']
 msgctxt "Things"
-msgid "StructureLogicDisplay5"
+msgid "LED Display (Small)"
 msgstr "Светодиодный дисплей (Маленький)"
 
 #: /Language/Things/Record[Key='StructureLogicMinMax']
 msgctxt "Things"
-msgid "StructureLogicMinMax"
+msgid "Logic Min/Max"
 msgstr "Чип (Min/Max)"
 
 #: /Language/Things/Record[Key='StructureLogicSwitch']
 msgctxt "Things"
-msgid "StructureLogicSwitch"
+msgid "Lever"
 msgstr "Рычаг"
 
 #: /Language/Things/Record[Key='ItemKitLogicSwitch']
 msgctxt "Things"
-msgid "ItemKitLogicSwitch"
+msgid "Kit (Logic Switch)"
 msgstr "Набор (Логический переключатель)"
 
 #: /Language/Things/Record[Key='ItemKitLogicInputOutput']
 msgctxt "Things"
-msgid "ItemKitLogicInputOutput"
+msgid "Kit (Logic I/O)"
 msgstr "Набор (Чип ввода-вывода)"
 
 #: /Language/Things/Record[Key='ItemKitLogicMemory']
 msgctxt "Things"
-msgid "ItemKitLogicMemory"
+msgid "Kit (Logic Memory)"
 msgstr "Набор (Чип памяти)"
 
 #: /Language/Things/Record[Key='ItemKitLogicProcessor']
 msgctxt "Things"
-msgid "ItemKitLogicProcessor"
+msgid "Kit (Logic Processor)"
 msgstr "Набор (Чип обработки)"
 
 #: /Language/Things/Record[Key='StructureLogicCompare']
 msgctxt "Things"
-msgid "StructureLogicCompare"
+msgid "Logic Compare"
 msgstr "Чип (Сравнение)"
 
 #: /Language/Things/Record[Key='StructureLogicSelect']
 msgctxt "Things"
-msgid "StructureLogicSelect"
+msgid "Logic Select"
 msgstr "Чип (Выбор)"
 
 #: /Language/Things/Record[Key='StructureLogicWriter']
 msgctxt "Things"
-msgid "StructureLogicWriter"
+msgid "Logic Writer"
 msgstr "Чип (Запись)"
 
 #: /Language/Things/Record[Key='StructureLogicMath']
 msgctxt "Things"
-msgid "StructureLogicMath"
+msgid "Logic Math"
 msgstr "Чип (Арифметика)"
 
 #: /Language/Things/Record[Key='StructureLogicMemory']
 msgctxt "Things"
-msgid "StructureLogicMemory"
+msgid "Logic Memory"
 msgstr "Чип (Память)"
 
 #: /Language/Things/Record[Key='StructureLogicReader']
 msgctxt "Things"
-msgid "StructureLogicReader"
+msgid "Logic Reader"
 msgstr "Чип (Чтение)"
 
 #: /Language/Things/Record[Key='ItemKitLogic']
 msgctxt "Things"
-msgid "ItemKitLogic"
+msgid "Kit (Logic Unit)"
 msgstr "Набор (Чип)"
 
 #: /Language/Things/Record[Key='StructureLogicUnit']
 msgctxt "Things"
-msgid "StructureLogicUnit"
+msgid "Logic Unit"
 msgstr "Чип"
 
 #: /Language/Things/Record[Key='StructureTransformerSmallReversed']
 msgctxt "Things"
-msgid "StructureTransformerSmallReversed"
+msgid "Transformer (Small)"
 msgstr "Трансформатор (Маленький)"
 
 #: /Language/Things/Record[Key='ItemKitToolManufactory']
 msgctxt "Things"
-msgid "ItemKitToolManufactory"
+msgid "Kit (Tool Manufactory)"
 msgstr "Набор (Производитель инструментов)"
 
 #: /Language/Things/Record[Key='StructureToolManufactory']
 msgctxt "Things"
-msgid "StructureToolManufactory"
+msgid "Tool Manufactory"
 msgstr "Производитель инструментов"
 
 #: /Language/Things/Record[Key='ItemBeacon']
 msgctxt "Things"
-msgid "ItemBeacon"
+msgid "Tracking Beacon"
 msgstr "Маячок"
 
 #: /Language/Things/Record[Key='ItemGasSensor']
 msgctxt "Things"
-msgid "ItemGasSensor"
+msgid "Gas Sensor"
 msgstr "Газовый датчик"
 
 #: /Language/Things/Record[Key='CartridgeTracker']
 msgctxt "Things"
-msgid "CartridgeTracker"
+msgid "Cartridge (Tracker)"
 msgstr "Картридж (Трекер)"
 
 #: /Language/Things/Record[Key='ItemKitStacker']
 msgctxt "Things"
-msgid "ItemKitStacker"
+msgid "Kit (Stacker)"
 msgstr "Набор (Стакер)"
 
 #: /Language/Things/Record[Key='ItemKitSorter']
 msgctxt "Things"
-msgid "ItemKitSorter"
+msgid "Kit (Sorter)"
 msgstr "Набор (Сортировщик)"
 
 #: /Language/Things/Record[Key='ItemKitHydraulicPipeBender']
 msgctxt "Things"
-msgid "ItemKitHydraulicPipeBender"
+msgid "Kit (Hydraulic Pipe Bender)"
 msgstr "Набор (Гидравлический сгибатель труб)"
 
 #: /Language/Things/Record[Key='StructureHydraulicPipeBender']
 msgctxt "Things"
-msgid "StructureHydraulicPipeBender"
+msgid "Hydraulic Pipe Bender"
 msgstr "Гидравлический сгибатель труб"
 
 #: /Language/Things/Record[Key='ItemKitArcFurnace']
 msgctxt "Things"
-msgid "ItemKitArcFurnace"
+msgid "Kit (Arc Furnace)"
 msgstr "Набор (Дуговая печь)"
 
 #: /Language/Things/Record[Key='ItemKitBlastDoor']
 msgctxt "Things"
-msgid "ItemKitBlastDoor"
+msgid "Kit (Blast Door)"
 msgstr "Набор (Усиленная дверь)"
 
 #: /Language/Things/Record[Key='ItemKitAutolathe']
 msgctxt "Things"
-msgid "ItemKitAutolathe"
+msgid "Kit (Autolathe)"
 msgstr "Набор (Автолат)"
 
 #: /Language/Things/Record[Key='ItemKitDoor']
 msgctxt "Things"
-msgid "ItemKitDoor"
+msgid "Kit (Door)"
 msgstr "Набор (Дверь)"
 
 #: /Language/Things/Record[Key='ItemKitElectronicsPrinter']
 msgctxt "Things"
-msgid "ItemKitElectronicsPrinter"
+msgid "Kit (Electronics Printer)"
 msgstr "Набор (Принтер электроники)"
 
 #: /Language/Things/Record[Key='ItemKitEngineLarge']
 msgctxt "Things"
-msgid "ItemKitEngineLarge"
+msgid "Kit (Engine Large)"
 msgstr "Набор (Большой двигатель)"
 
 #: /Language/Things/Record[Key='ItemKitEngineMedium']
 msgctxt "Things"
-msgid "ItemKitEngineMedium"
+msgid "Kit (Engine Medium)"
 msgstr "Набор (Средний двигатель)"
 
 #: /Language/Things/Record[Key='ItemKitEngineSmall']
 msgctxt "Things"
-msgid "ItemKitEngineSmall"
+msgid "Kit (Engine Small)"
 msgstr "Набор (Малый двигатель)"
 
 #: /Language/Things/Record[Key='ItemKitLocker']
 msgctxt "Things"
-msgid "ItemKitLocker"
+msgid "Kit (Locker)"
 msgstr "Набор (Шкафчик)"
 
 #: /Language/Things/Record[Key='ItemKitSolidGenerator']
 msgctxt "Things"
-msgid "ItemKitSolidGenerator"
+msgid "Kit (Solid Generator)"
 msgstr "Набор (Твердотопливный генератор)"
 
 #: /Language/Things/Record[Key='ItemKitSuitStorage']
 msgctxt "Things"
-msgid "ItemKitSuitStorage"
+msgid "Kit (Suit Storage)"
 msgstr "Набор (Стойка для скафандра)"
 
 #: /Language/Things/Record[Key='ItemKitTransformerSmall']
 msgctxt "Things"
-msgid "ItemKitTransformerSmall"
+msgid "Kit (Transformer Small)"
 msgstr "Набор (Маленький трансформатор)"
 
 #: /Language/Things/Record[Key='Cube']
@@ -1432,1812 +1432,1812 @@ msgstr "Куб"
 
 #: /Language/Things/Record[Key='ItemKitCube']
 msgctxt "Things"
-msgid "ItemKitCube"
+msgid "Kit (Cube)"
 msgstr "Набор (Куб)"
 
 #: /Language/Things/Record[Key='SpawnPoint']
 msgctxt "Things"
-msgid "SpawnPoint"
+msgid "Spawn Point"
 msgstr "Место возрождения"
 
 #: /Language/Things/Record[Key='StructureStorageLocker']
 msgctxt "Things"
-msgid "StructureStorageLocker"
+msgid "Locker"
 msgstr "Шкафчик"
 
 #: /Language/Things/Record[Key='ItemKitWallIron']
 msgctxt "Things"
-msgid "ItemKitWallIron"
+msgid "Kit (Iron Wall)"
 msgstr "Набор (Железная стена)"
 
 #: /Language/Things/Record[Key='StructureWallIron']
 msgctxt "Things"
-msgid "StructureWallIron"
+msgid "Iron Wall"
 msgstr "Железная стена"
 
 #: /Language/Things/Record[Key='ItemOxite']
 msgctxt "Things"
-msgid "ItemOxite"
+msgid "Ice (Oxite)"
 msgstr "Лёд (Оксит)"
 
 #: /Language/Things/Record[Key='ItemVolatiles']
 msgctxt "Things"
-msgid "ItemVolatiles"
+msgid "Ice (Volatiles)"
 msgstr "Лёд (Летучее вещество)"
 
 #: /Language/Things/Record[Key='StructureElectronicsPrinter']
 msgctxt "Things"
-msgid "StructureElectronicsPrinter"
+msgid "Electronics Printer"
 msgstr "Принтер электроники"
 
 #: /Language/Things/Record[Key='ItemCerealBar']
 msgctxt "Things"
-msgid "ItemCerealBar"
+msgid "Cereal Bar"
 msgstr "Зерновой батончик"
 
 #: /Language/Things/Record[Key='ItemFern']
 msgctxt "Things"
-msgid "ItemFern"
+msgid "Fern"
 msgstr "Папоротник"
 
 #: /Language/Things/Record[Key='ItemSiliconIngot']
 msgctxt "Things"
-msgid "ItemSiliconIngot"
+msgid "Ingot (Silicon)"
 msgstr "Слиток Кремния"
 
 #: /Language/Things/Record[Key='ItemSiliconOre']
 msgctxt "Things"
-msgid "ItemSiliconOre"
+msgid "Ore (Silicon)"
 msgstr "Кремневая руда"
 
 #: /Language/Things/Record[Key='ItemAngleGrinder']
 msgctxt "Things"
-msgid "ItemAngleGrinder"
+msgid "Angle Grinder"
 msgstr "Болгарка"
 
 #: /Language/Things/Record[Key='ItemSoybean']
 msgctxt "Things"
-msgid "ItemSoybean"
+msgid "Soybean"
 msgstr "Соевые бобы"
 
 #: /Language/Things/Record[Key='StructureDiode']
 msgctxt "Things"
-msgid "StructureDiode"
+msgid "LED"
 msgstr "Диодная лампа"
 
 #: /Language/Things/Record[Key='ApplianceChemistryStation']
 msgctxt "Things"
-msgid "ApplianceChemistryStation"
+msgid "Chemistry Station"
 msgstr "Химическая установка"
 
 #: /Language/Things/Record[Key='ItemSolderIngot']
 msgctxt "Things"
-msgid "ItemSolderIngot"
+msgid "Ingot (Solder)"
 msgstr "Слиток припоя"
 
 #: /Language/Things/Record[Key='ItemConstantanIngot']
 msgctxt "Things"
-msgid "ItemConstantanIngot"
+msgid "Ingot (Constantan)"
 msgstr "Слиток константана"
 
 #: /Language/Things/Record[Key='ItemInvarIngot']
 msgctxt "Things"
-msgid "ItemInvarIngot"
+msgid "Ingot (Invar)"
 msgstr "Слиток инвара"
 
 #: /Language/Things/Record[Key='ItemNickelIngot']
 msgctxt "Things"
-msgid "ItemNickelIngot"
+msgid "Ingot (Nickel)"
 msgstr "Слиток никеля"
 
 #: /Language/Things/Record[Key='ItemLeadIngot']
 msgctxt "Things"
-msgid "ItemLeadIngot"
+msgid "Ingot (Lead)"
 msgstr "Слиток свинца"
 
 #: /Language/Things/Record[Key='ItemSilverIngot']
 msgctxt "Things"
-msgid "ItemSilverIngot"
+msgid "Ingot (Silver)"
 msgstr "Слиток серебра"
 
 #: /Language/Things/Record[Key='ItemElectrumIngot']
 msgctxt "Things"
-msgid "ItemElectrumIngot"
+msgid "Ingot (Electrum)"
 msgstr "Слиток электрума"
 
 #: /Language/Things/Record[Key='WeaponRifleEnergy']
 msgctxt "Things"
-msgid "WeaponRifleEnergy"
+msgid "Energy Rifle"
 msgstr "Энергетическая винтовка"
 
 #: /Language/Things/Record[Key='ItemLeadOre']
 msgctxt "Things"
-msgid "ItemLeadOre"
+msgid "Ore (Lead)"
 msgstr "Свинцовая руда"
 
 #: /Language/Things/Record[Key='ItemNickelOre']
 msgctxt "Things"
-msgid "ItemNickelOre"
+msgid "Ore (Nickel)"
 msgstr "Никеливая руда"
 
 #: /Language/Things/Record[Key='ItemSilverOre']
 msgctxt "Things"
-msgid "ItemSilverOre"
+msgid "Ore (Silver)"
 msgstr "Серебряная руда"
 
 #: /Language/Things/Record[Key='ItemIronSheets']
 msgctxt "Things"
-msgid "ItemIronSheets"
+msgid "Iron Sheets"
 msgstr "Лист железа"
 
 #: /Language/Things/Record[Key='ItemIronFrames']
 msgctxt "Things"
-msgid "ItemIronFrames"
+msgid "Iron Frames"
 msgstr "Железный каркас"
 
 #: /Language/Things/Record[Key='StructureFrameIron']
 msgctxt "Things"
-msgid "StructureFrameIron"
+msgid "Iron Frame"
 msgstr "Железный каркас"
 
 #: /Language/Things/Record[Key='ItemCableCoilHeavy']
 msgctxt "Things"
-msgid "ItemCableCoilHeavy"
+msgid "Cable Coil (Heavy)"
 msgstr "Моток силового кабеля"
 
 #: /Language/Things/Record[Key='CartridgeElectronicReader']
 msgctxt "Things"
-msgid "CartridgeElectronicReader"
+msgid "Cartridge (eReader)"
 msgstr "Картридж (Справочник)"
 
 #: /Language/Things/Record[Key='ItemKitPipe']
 msgctxt "Things"
-msgid "ItemKitPipe"
+msgid "Kit (Pipe)"
 msgstr "Набор (Труба)"
 
 #: /Language/Things/Record[Key='ItemKitFabrication']
 msgctxt "Things"
-msgid "ItemKitFabrication"
+msgid "Kit (Fabrication)"
 msgstr "Набор (Фабрикатор)"
 
 #: /Language/Things/Record[Key='StructureAutolathe']
 msgctxt "Things"
-msgid "StructureAutolathe"
+msgid "Autolathe"
 msgstr "Автолат"
 
 #: /Language/Things/Record[Key='StructureArcFurnace']
 msgctxt "Things"
-msgid "StructureArcFurnace"
+msgid "Arc Furnace"
 msgstr "Дуговая печь"
 
 #: /Language/Things/Record[Key='StructureChuteWindow']
 msgctxt "Things"
-msgid "StructureChuteWindow"
+msgid "Chute (Window)"
 msgstr "Транспортная труба (С окном)"
 
 #: /Language/Things/Record[Key='WeaponPistolEnergy']
 msgctxt "Things"
-msgid "WeaponPistolEnergy"
+msgid "Energy Pistol"
 msgstr "Энергетический пистолет"
 
 #: /Language/Things/Record[Key='StructureTransformerSmall']
 msgctxt "Things"
-msgid "StructureTransformerSmall"
+msgid "Transformer (Small)"
 msgstr "Трансформатор (Маленький)"
 
 #: /Language/Things/Record[Key='ItemKitTransformer']
 msgctxt "Things"
-msgid "ItemKitTransformer"
+msgid "Kit (Transformer)"
 msgstr "Набор (Трансформатор)"
 
 #: /Language/Things/Record[Key='StructureTransformer']
 msgctxt "Things"
-msgid "StructureTransformer"
+msgid "Transformer"
 msgstr "Трансформатор"
 
 #: /Language/Things/Record[Key='StructureCableFuse100k']
 msgctxt "Things"
-msgid "StructureCableFuse100k"
+msgid "Fuse (100kW)"
 msgstr "Предохранитель (100 кВт)"
 
 #: /Language/Things/Record[Key='StructureCableFuse50k']
 msgctxt "Things"
-msgid "StructureCableFuse50k"
+msgid "Fuse (50kW)"
 msgstr "Предохранитель (50 кВт)"
 
 #: /Language/Things/Record[Key='StructureCableFuse5k']
 msgctxt "Things"
-msgid "StructureCableFuse5k"
+msgid "Fuse (5kW)"
 msgstr "Предохранитель (5 кВт)"
 
 #: /Language/Things/Record[Key='StructureCableFuse1k']
 msgctxt "Things"
-msgid "StructureCableFuse1k"
+msgid "Fuse (1kW)"
 msgstr "Предохранитель (1 кВт)"
 
 #: /Language/Things/Record[Key='StructureCableCornerH']
 msgctxt "Things"
-msgid "StructureCableCornerH"
+msgid "Heavy Cable (Corner)"
 msgstr "Силовой кабель (Угловой)"
 
 #: /Language/Things/Record[Key='StructureCableCornerHBurnt']
 msgctxt "Things"
-msgid "StructureCableCornerHBurnt"
+msgid "Burnt Cable (Corner) "
 msgstr "Сгоревший силовой кабель (Угловой) "
 
 #: /Language/Things/Record[Key='StructureCableJunctionHBurnt']
 msgctxt "Things"
-msgid "StructureCableJunctionHBurnt"
+msgid "Burnt Cable (Junction)"
 msgstr "Сгоревший силовой кабель (Угловой 3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableStraightHBurnt']
 msgctxt "Things"
-msgid "StructureCableStraightHBurnt"
+msgid "Burnt Cable (Straight)"
 msgstr "Сгоревший силовой кабель (Прямой)"
 
 #: /Language/Things/Record[Key='StructureCableJunction4HBurnt']
 msgctxt "Things"
-msgid "StructureCableJunction4HBurnt"
+msgid "Burnt Cable (4-Way Junction)"
 msgstr "Сгоревший силовой кабель (Угловой 4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction6HBurnt']
 msgctxt "Things"
-msgid "StructureCableJunction6HBurnt"
+msgid "Burnt Cable (6-Way Junction)"
 msgstr "Сгоревший силовой кабель (6-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunctionH']
 msgctxt "Things"
-msgid "StructureCableJunctionH"
+msgid "Heavy Cable (3-Way Junction)"
 msgstr "Силовой кабель (3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunctionH4']
 msgctxt "Things"
-msgid "StructureCableJunctionH4"
+msgid "Heavy Cable (4-Way Junction)"
 msgstr "Силовой кабель (4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunctionH6']
 msgctxt "Things"
-msgid "StructureCableJunctionH6"
+msgid "Heavy Cable (6-Way Junction)"
 msgstr "Силовой кабель (6-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableStraightH']
 msgctxt "Things"
-msgid "StructureCableStraightH"
+msgid "Heavy Cable (Straight)"
 msgstr "Силовой кабель (Прямой)"
 
 #: /Language/Things/Record[Key='ItemCableFuse']
 msgctxt "Things"
-msgid "ItemCableFuse"
+msgid "Kit (Cable Fuses)"
 msgstr "Набор (Предохранитель)"
 
 #: /Language/Things/Record[Key='ItemKitGenerator']
 msgctxt "Things"
-msgid "ItemKitGenerator"
+msgid "Kit (Generator)"
 msgstr "Набор (Генератор)"
 
 #: /Language/Things/Record[Key='StructureSolidFuelGenerator']
 msgctxt "Things"
-msgid "StructureSolidFuelGenerator"
+msgid "Generator (Solid Fuel)"
 msgstr "Твердотопливный генератор"
 
 #: /Language/Things/Record[Key='StructureCableJunctionBurnt']
 msgctxt "Things"
-msgid "StructureCableJunctionBurnt"
+msgid "Burnt Cable (Junction)"
 msgstr "Сгоревший кабель (3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction6Burnt']
 msgctxt "Things"
-msgid "StructureCableJunction6Burnt"
+msgid "Burnt Cable (6-Way Junction)"
 msgstr "Сгоревший кабель (6-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction4Burnt']
 msgctxt "Things"
-msgid "StructureCableJunction4Burnt"
+msgid "Burnt Cable (4-Way Junction)"
 msgstr "Сгоревший кабель (4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCornerBurnt']
 msgctxt "Things"
-msgid "StructureCableCornerBurnt"
+msgid "Burnt Cable (Corner)"
 msgstr "Сгоревший кабель (Угловой)"
 
 #: /Language/Things/Record[Key='StructureCableCorner3Burnt']
 msgctxt "Things"
-msgid "StructureCableCorner3Burnt"
+msgid "Burnt Cable (3-Way Corner)"
 msgstr "Сгоревший кабель (Угловой 3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableStraightBurnt']
 msgctxt "Things"
-msgid "StructureCableStraightBurnt"
+msgid "Burnt Cable (Straight)"
 msgstr "Сгоревший кабель (Прямой)"
 
 #: /Language/Things/Record[Key='ItemWasteIngot']
 msgctxt "Things"
-msgid "ItemWasteIngot"
+msgid "Ingot (Waste)"
 msgstr "Слиток шлака"
 
 #: /Language/Things/Record[Key='WeaponTorpedo']
 msgctxt "Things"
-msgid "WeaponTorpedo"
+msgid "Torpedo"
 msgstr "Торпеда"
 
 #: /Language/Things/Record[Key='WeaponEnergy']
 msgctxt "Things"
-msgid "WeaponEnergy"
+msgid "Weapon Energy"
 msgstr "Энергетическое оружие"
 
 #: /Language/Things/Record[Key='UniformOrangeJumpSuit']
 msgctxt "Things"
-msgid "UniformOrangeJumpSuit"
+msgid "Jump Suit (Orange)"
 msgstr "Комбинезон (Оранжевый)"
 
 #: /Language/Things/Record[Key='UniformCommander']
 msgctxt "Things"
-msgid "UniformCommander"
+msgid "Uniform Commander"
 msgstr "Униформа (Командир)"
 
 #: /Language/Things/Record[Key='StructureWallLight']
 msgctxt "Things"
-msgid "StructureWallLight"
+msgid "Wall Light"
 msgstr "Лампа"
 
 #: /Language/Things/Record[Key='StructureWallHeater']
 msgctxt "Things"
-msgid "StructureWallHeater"
+msgid "Wall Heater"
 msgstr "Обогреватель"
 
 #: /Language/Things/Record[Key='StructureWallCooler']
 msgctxt "Things"
-msgid "StructureWallCooler"
+msgid "Wall Cooler"
 msgstr "Охладитель воздуха"
 
 #: /Language/Things/Record[Key='StructureVolumePump']
 msgctxt "Things"
-msgid "StructureVolumePump"
+msgid "Volume Pump"
 msgstr "Насос"
 
 #: /Language/Things/Record[Key='StructureValve']
 msgctxt "Things"
-msgid "StructureValve"
+msgid "Valve"
 msgstr "Вентиль"
 
 #: /Language/Things/Record[Key='StructureTorpedoTube']
 msgctxt "Things"
-msgid "StructureTorpedoTube"
+msgid "Torpedo Launcher"
 msgstr "Торпедный аппарат"
 
 #: /Language/Things/Record[Key='StructureTorpedoRack']
 msgctxt "Things"
-msgid "StructureTorpedoRack"
+msgid "Torpedo Rack"
 msgstr "Стойка для торпед"
 
 #: /Language/Things/Record[Key='StructureTankSmallFuel']
 msgctxt "Things"
-msgid "StructureTankSmallFuel"
+msgid "Small Tank (Fuel)"
 msgstr "Малый резервуар (Топливо)"
 
 #: /Language/Things/Record[Key='StructureTankSmallAir']
 msgctxt "Things"
-msgid "StructureTankSmallAir"
+msgid "Small Tank (Air)"
 msgstr "Малый резервуар (Воздух)"
 
 #: /Language/Things/Record[Key='StructureTankSmall']
 msgctxt "Things"
-msgid "StructureTankSmall"
+msgid "Small Tank"
 msgstr "Малый резервуар"
 
 #: /Language/Things/Record[Key='StructureTankConnector']
 msgctxt "Things"
-msgid "StructureTankConnector"
+msgid "Tank Connector"
 msgstr "Коннектор (Большой баллон)"
 
 #: /Language/Things/Record[Key='StructureSuitStorage']
 msgctxt "Things"
-msgid "StructureSuitStorage"
+msgid "Suit Storage"
 msgstr "Стойка для скафандра"
 
 #: /Language/Things/Record[Key='StructureStellarAnchor']
 msgctxt "Things"
-msgid "StructureStellarAnchor"
+msgid "Stellar Anchor"
 msgstr "Звёздный якорь"
 
 #: /Language/Things/Record[Key='StructureStairs4x2']
 msgctxt "Things"
-msgid "StructureStairs4x2"
+msgid "Stairs"
 msgstr "Лестница"
 
 #: /Language/Things/Record[Key='StructureStackerReverse']
 msgctxt "Things"
-msgid "StructureStackerReverse"
+msgid "Stacker"
 msgstr "Стакер"
 
 #: /Language/Things/Record[Key='StructureStacker']
 msgctxt "Things"
-msgid "StructureStacker"
+msgid "Stacker"
 msgstr "Стакер"
 
 #: /Language/Things/Record[Key='StructureSorter']
 msgctxt "Things"
-msgid "StructureSorter"
+msgid "Sorter"
 msgstr "Сортировщик"
 
 #: /Language/Things/Record[Key='StructureSolarPanel']
 msgctxt "Things"
-msgid "StructureSolarPanel"
+msgid "Solar Panel"
 msgstr "Солнечная панель"
 
 #: /Language/Things/Record[Key='StructureSleeper']
 msgctxt "Things"
-msgid "StructureSleeper"
+msgid "Sleeper"
 msgstr "Слипер"
 
 #: /Language/Things/Record[Key='StructureRTG']
 msgctxt "Things"
-msgid "StructureRTG"
+msgid "RTG"
 msgstr "РИТЭГ"
 
 #: /Language/Things/Record[Key='StructureRocketEngineTiny']
 msgctxt "Things"
-msgid "StructureRocketEngineTiny"
+msgid "Rocket Engine (Tiny)"
 msgstr "Ракетный двигатель (Миниатюрный)"
 
 #: /Language/Things/Record[Key='StructureRocketEngineSmall']
 msgctxt "Things"
-msgid "StructureRocketEngineSmall"
+msgid "Rocket Engine (Small)"
 msgstr "Ракетный двигатель (Малый)"
 
 #: /Language/Things/Record[Key='StructureRocketEngine']
 msgctxt "Things"
-msgid "StructureRocketEngine"
+msgid "Rocket Engine"
 msgstr "Ракетный двигатель"
 
 #: /Language/Things/Record[Key='StructureRailing']
 msgctxt "Things"
-msgid "StructureRailing"
+msgid "Railing"
 msgstr "Перила"
 
 #: /Language/Things/Record[Key='StructurePressureRegulator']
 msgctxt "Things"
-msgid "StructurePressureRegulator"
+msgid "Pressure Regulator"
 msgstr "Регулятор давления"
 
 #: /Language/Things/Record[Key='StructurePowerConnector']
 msgctxt "Things"
-msgid "StructurePowerConnector"
+msgid "Power Connector"
 msgstr "Коннектор (Силовой)"
 
 #: /Language/Things/Record[Key='StructurePipeTJunction']
 msgctxt "Things"
-msgid "StructurePipeTJunction"
+msgid "Pipe (T Junction)"
 msgstr "Труба (3-конечная)"
 
 #: /Language/Things/Record[Key='StructurePipeStraight']
 msgctxt "Things"
-msgid "StructurePipeStraight"
+msgid "Pipe (Straight)"
 msgstr "Труба (Прямая)"
 
 #: /Language/Things/Record[Key='StructurePipeRadiator']
 msgctxt "Things"
-msgid "StructurePipeRadiator"
+msgid "Pipe Radiator"
 msgstr "Радиатор"
 
 #: /Language/Things/Record[Key='StructurePipeMeter']
 msgctxt "Things"
-msgid "StructurePipeMeter"
+msgid "Pipe Meter"
 msgstr "Манометр"
 
 #: /Language/Things/Record[Key='StructurePipeLabel']
 msgctxt "Things"
-msgid "StructurePipeLabel"
+msgid "Pipe Label"
 msgstr "Наклейка на трубу"
 
 #: /Language/Things/Record[Key='StructurePipeCrossJunction6']
 msgctxt "Things"
-msgid "StructurePipeCrossJunction6"
+msgid "Pipe (6-Way Junction)"
 msgstr "Труба (6-конечная)"
 
 #: /Language/Things/Record[Key='StructurePipeCrossJunction5']
 msgctxt "Things"
-msgid "StructurePipeCrossJunction5"
+msgid "Pipe (5-Way Junction)"
 msgstr "Труба (5-конечная)"
 
 #: /Language/Things/Record[Key='StructurePipeCrossJunction3']
 msgctxt "Things"
-msgid "StructurePipeCrossJunction3"
+msgid "Pipe (3-Way Corner)"
 msgstr "Труба (Угловая 3-конечная)"
 
 #: /Language/Things/Record[Key='StructurePipeCrossJunction']
 msgctxt "Things"
-msgid "StructurePipeCrossJunction"
+msgid "Pipe (Junction)"
 msgstr "Труба (4-конечная)"
 
 #: /Language/Things/Record[Key='StructurePipeCorner']
 msgctxt "Things"
-msgid "StructurePipeCorner"
+msgid "Pipe (Corner)"
 msgstr "Труба (Угловая)"
 
 #: /Language/Things/Record[Key='StructurePipeAnalysizer']
 msgctxt "Things"
-msgid "StructurePipeAnalysizer"
+msgid "Pipe Analyser"
 msgstr "Анализатор атмосферы трубы"
 
 #: /Language/Things/Record[Key='StructurePassiveVent']
 msgctxt "Things"
-msgid "StructurePassiveVent"
+msgid "Passive Vent"
 msgstr "Пассивная вентиляция"
 
 #: /Language/Things/Record[Key='StructureMotionSensor']
 msgctxt "Things"
-msgid "StructureMotionSensor"
+msgid "Motion Sensor"
 msgstr "Датчик движения"
 
 #: /Language/Things/Record[Key='StructureLocker']
 msgctxt "Things"
-msgid "StructureLocker"
+msgid "Locker"
 msgstr "Шкафчик"
 
 #: /Language/Things/Record[Key='StructureIgniter']
 msgctxt "Things"
-msgid "StructureIgniter"
+msgid "Igniter"
 msgstr "Воспламенитель"
 
 #: /Language/Things/Record[Key='StructureHydroponicsTray']
 msgctxt "Things"
-msgid "StructureHydroponicsTray"
+msgid "Hydroponics Tray"
 msgstr "Гидропонная установка"
 
 #: /Language/Things/Record[Key='StructureGyroscope']
 msgctxt "Things"
-msgid "StructureGyroscope"
+msgid "Gyroscope"
 msgstr "Гироскоп"
 
 #: /Language/Things/Record[Key='StructureGunTurret']
 msgctxt "Things"
-msgid "StructureGunTurret"
+msgid "Gun Emplacement"
 msgstr "Турель"
 
 #: /Language/Things/Record[Key='StructureGlassDoor']
 msgctxt "Things"
-msgid "StructureGlassDoor"
+msgid "Glass Door"
 msgstr "Стеклянная дверь"
 
 #: /Language/Things/Record[Key='StructureGasTankStorage']
 msgctxt "Things"
-msgid "StructureGasTankStorage"
+msgid "Gas Tank Storage"
 msgstr "Стойка для баллона"
 
 #: /Language/Things/Record[Key='StructureGasSensor']
 msgctxt "Things"
-msgid "StructureGasSensor"
+msgid "Gas Sensor"
 msgstr "Газовый датчик"
 
 #: /Language/Things/Record[Key='StructureGasMixer']
 msgctxt "Things"
-msgid "StructureGasMixer"
+msgid "Gas Mixer"
 msgstr "Газовый смеситель"
 
 #: /Language/Things/Record[Key='StructureFurnace']
 msgctxt "Things"
-msgid "StructureFurnace"
+msgid "Furnace"
 msgstr "Печь"
 
 #: /Language/Things/Record[Key='StructureFrameSide']
 msgctxt "Things"
-msgid "StructureFrameSide"
+msgid "Frame (Side)"
 msgstr "Каркас (Склон)"
 
 #: /Language/Things/Record[Key='StructureFrameCorner']
 msgctxt "Things"
-msgid "StructureFrameCorner"
+msgid "Frame (Corner)"
 msgstr "Каркас (Угол)"
 
 #: /Language/Things/Record[Key='StructureFrame']
 msgctxt "Things"
-msgid "StructureFrame"
+msgid "Frame"
 msgstr "Каркас"
 
 #: /Language/Things/Record[Key='StructureFlashingLight']
 msgctxt "Things"
-msgid "StructureFlashingLight"
+msgid "Flashing Light"
 msgstr "Мигающая лампочка"
 
 #: /Language/Things/Record[Key='StructureFiltration']
 msgctxt "Things"
-msgid "StructureFiltration"
+msgid "Filtration"
 msgstr "Воздушный фильтр"
 
 #: /Language/Things/Record[Key='StructureFabricator']
 msgctxt "Things"
-msgid "StructureFabricator"
+msgid "Fabricator"
 msgstr "Фабрикатор"
 
 #: /Language/Things/Record[Key='StructureDigitalValve']
 msgctxt "Things"
-msgid "StructureDigitalValve"
+msgid "Digital Valve"
 msgstr "Электровентиль"
 
 #: /Language/Things/Record[Key='StructureDaylightSensor']
 msgctxt "Things"
-msgid "StructureDaylightSensor"
+msgid "Daylight Sensor"
 msgstr "Датчик дневного света"
 
 #: /Language/Things/Record[Key='StructureCryoTube']
 msgctxt "Things"
-msgid "StructureCryoTube"
+msgid "CryoTube"
 msgstr "Криокапсула"
 
 #: /Language/Things/Record[Key='StructureConveyorStraightShort']
 msgctxt "Things"
-msgid "StructureConveyorStraightShort"
+msgid "Conveyor (Straight Short)"
 msgstr "Конвейер (Короткий)"
 
 #: /Language/Things/Record[Key='StructureConveyorStraightLong']
 msgctxt "Things"
-msgid "StructureConveyorStraightLong"
+msgid "Conveyor (Straight Long)"
 msgstr "Конвейер (Длинный)"
 
 #: /Language/Things/Record[Key='StructureConveyorStraight']
 msgctxt "Things"
-msgid "StructureConveyorStraight"
+msgid "Conveyor (Straight)"
 msgstr "Конвейер (Средний)"
 
 #: /Language/Things/Record[Key='StructureConveyorRiser']
 msgctxt "Things"
-msgid "StructureConveyorRiser"
+msgid "Conveyor (Riser)"
 msgstr "Конвейер (Подъём)"
 
 #: /Language/Things/Record[Key='StructureConveyorCorner']
 msgctxt "Things"
-msgid "StructureConveyorCorner"
+msgid "Conveyor (Corner)"
 msgstr "Конвейер (Угловой)"
 
 #: /Language/Things/Record[Key='StructureControlChair']
 msgctxt "Things"
-msgid "StructureControlChair"
+msgid "Control Chair"
 msgstr "Сиденье пилота"
 
 #: /Language/Things/Record[Key='StructureConsoleMonitor']
 msgctxt "Things"
-msgid "StructureConsoleMonitor"
+msgid "Console Monitor"
 msgstr "Консоль (Монитор)"
 
 #: /Language/Things/Record[Key='StructureConsoleDual']
 msgctxt "Things"
-msgid "StructureConsoleDual"
+msgid "Console Dual"
 msgstr "Консоль (Раздельные порты)"
 
 #: /Language/Things/Record[Key='StructureConsole']
 msgctxt "Things"
-msgid "StructureConsole"
+msgid "Console"
 msgstr "Консоль"
 
 #: /Language/Things/Record[Key='StructureComputer']
 msgctxt "Things"
-msgid "StructureComputer"
+msgid "Computer"
 msgstr "Компьютер"
 
 #: /Language/Things/Record[Key='StructureCompositeWindow']
 msgctxt "Things"
-msgid "StructureCompositeWindow"
+msgid "Composite Window"
 msgstr "Окно"
 
 #: /Language/Things/Record[Key='StructureCompositeWallType4']
 msgctxt "Things"
-msgid "StructureCompositeWallType4"
+msgid "Composite Wall Type4"
 msgstr "Composite Wall Type4"
 
 #: /Language/Things/Record[Key='StructureCompositeWallType3']
 msgctxt "Things"
-msgid "StructureCompositeWallType3"
+msgid "Composite Wall Type3"
 msgstr "Composite Wall Type3"
 
 #: /Language/Things/Record[Key='StructureCompositeWallType2']
 msgctxt "Things"
-msgid "StructureCompositeWallType2"
+msgid "Composite Wall Type2"
 msgstr "Composite Wall Type2"
 
 #: /Language/Things/Record[Key='StructureCompositeWallType1']
 msgctxt "Things"
-msgid "StructureCompositeWallType1"
+msgid "Composite Wall Type1"
 msgstr "Composite Wall Type1"
 
 #: /Language/Things/Record[Key='StructureCompositeWallRound']
 msgctxt "Things"
-msgid "StructureCompositeWallRound"
+msgid "Composite Wall Round"
 msgstr "Composite Wall Round"
 
 #: /Language/Things/Record[Key='StructureCompositeWall']
 msgctxt "Things"
-msgid "StructureCompositeWall"
+msgid "Composite Wall"
 msgstr "Композитная стена"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating']
 msgctxt "Things"
-msgid "StructureCompositeFloorGrating"
+msgid "Structure Composite Floor Grating"
 msgstr "Решётчатый настил"
 
 #: /Language/Things/Record[Key='StructureCompositeDoor']
 msgctxt "Things"
-msgid "StructureCompositeDoor"
+msgid "Composite Door"
 msgstr "Дверь"
 
 #: /Language/Things/Record[Key='StructureChuteStraight']
 msgctxt "Things"
-msgid "StructureChuteStraight"
+msgid "Chute (Straight)"
 msgstr "Транспортная труба (прямая)"
 
 #: /Language/Things/Record[Key='StructureChuteOutlet']
 msgctxt "Things"
-msgid "StructureChuteOutlet"
+msgid "Chute Outlet"
 msgstr "Транспортная труба (раздатчик)"
 
 #: /Language/Things/Record[Key='StructureChuteJunction']
 msgctxt "Things"
-msgid "StructureChuteJunction"
+msgid "Chute (Junction)"
 msgstr "Транспортная труба (соединение)"
 
 #: /Language/Things/Record[Key='StructureChuteInlet']
 msgctxt "Things"
-msgid "StructureChuteInlet"
+msgid "Chute Inlet"
 msgstr "Транспортная труба (приёмник)"
 
 #: /Language/Things/Record[Key='StructureChuteCorner']
 msgctxt "Things"
-msgid "StructureChuteCorner"
+msgid "Chute (Corner)"
 msgstr "Транспортная труба (Угловая)"
 
 #: /Language/Things/Record[Key='StructureChuteBin']
 msgctxt "Things"
-msgid "StructureChuteBin"
+msgid "Chute Bin"
 msgstr "Транспортная труба (корзина)"
 
 #: /Language/Things/Record[Key='StructureChair']
 msgctxt "Things"
-msgid "StructureChair"
+msgid "Chair"
 msgstr "Стул"
 
 #: /Language/Things/Record[Key='StructureCentrifuge']
 msgctxt "Things"
-msgid "StructureCentrifuge"
+msgid "Centrifuge"
 msgstr "Центрифуга"
 
 #: /Language/Things/Record[Key='StructureCamera']
 msgctxt "Things"
-msgid "StructureCamera"
+msgid "Camera"
 msgstr "Камера видеоконтроля"
 
 #: /Language/Things/Record[Key='StructureCableStraight']
 msgctxt "Things"
-msgid "StructureCableStraight"
+msgid "Cable (Straight)"
 msgstr "Кабель (Прямой)"
 
 #: /Language/Things/Record[Key='StructureCableJunction6']
 msgctxt "Things"
-msgid "StructureCableJunction6"
+msgid "Cable (6-Way Junction)"
 msgstr "Кабель (6-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction4']
 msgctxt "Things"
-msgid "StructureCableJunction4"
+msgid "Cable (4-Way Junction)"
 msgstr "Кабель (4-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableJunction']
 msgctxt "Things"
-msgid "StructureCableJunction"
+msgid "Cable (Junction)"
 msgstr "Кабель (3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCorner3']
 msgctxt "Things"
-msgid "StructureCableCorner3"
+msgid "Cable (3-Way Corner)"
 msgstr "Кабель (Угловой 3-конечный)"
 
 #: /Language/Things/Record[Key='StructureCableCorner']
 msgctxt "Things"
-msgid "StructureCableCorner"
+msgid "Cable (Corner)"
 msgstr "Кабель (Угловой)"
 
 #: /Language/Things/Record[Key='StructureBlastDoor']
 msgctxt "Things"
-msgid "StructureBlastDoor"
+msgid "Blast Door"
 msgstr "Усиленная дверь"
 
 #: /Language/Things/Record[Key='StructureBench']
 msgctxt "Things"
-msgid "StructureBench"
+msgid "Bench"
 msgstr "Стол"
 
 #: /Language/Things/Record[Key='StructureBatteryCharger']
 msgctxt "Things"
-msgid "StructureBatteryCharger"
+msgid "Battery Cell Charger"
 msgstr "Зарядное устройство"
 
 #: /Language/Things/Record[Key='StructureBattery']
 msgctxt "Things"
-msgid "StructureBattery"
+msgid "Stationary Battery"
 msgstr "Батарея"
 
 #: /Language/Things/Record[Key='StructureBackPressureRegulator']
 msgctxt "Things"
-msgid "StructureBackPressureRegulator"
+msgid "Back Pressure Regulator"
 msgstr "Регулятор обратного давления"
 
 #: /Language/Things/Record[Key='StructureAreaPowerControlReversed']
 msgctxt "Things"
-msgid "StructureAreaPowerControlReversed"
+msgid "Area Power Control"
 msgstr "ИБП"
 
 #: /Language/Things/Record[Key='StructureAreaPowerControl']
 msgctxt "Things"
-msgid "StructureAreaPowerControl"
+msgid "Area Power Control"
 msgstr "ИБП"
 
 #: /Language/Things/Record[Key='StructureAirlock']
 msgctxt "Things"
-msgid "StructureAirlock"
+msgid "Airlock"
 msgstr "Дверь шлюза"
 
 #: /Language/Things/Record[Key='StructureAirConditioner']
 msgctxt "Things"
-msgid "StructureAirConditioner"
+msgid "Air Conditioner"
 msgstr "Кондиционер"
 
 #: /Language/Things/Record[Key='StructureActiveVent']
 msgctxt "Things"
-msgid "StructureActiveVent"
+msgid "Active Vent"
 msgstr "Активная вентиляция"
 
 #: /Language/Things/Record[Key='SpaceShuttle']
 msgctxt "Things"
-msgid "SpaceShuttle"
+msgid "Space Shuttle"
 msgstr "Космический шаттл"
 
 #: /Language/Things/Record[Key='OrganLungs']
 msgctxt "Things"
-msgid "OrganLungs"
+msgid "Human Lungs"
 msgstr "Лёгкие"
 
 #: /Language/Things/Record[Key='OrganBrain']
 msgctxt "Things"
-msgid "OrganBrain"
+msgid "Human Brain"
 msgstr "Мозг"
 
 #: /Language/Things/Record[Key='NpcGrounder']
 msgctxt "Things"
-msgid "NpcGrounder"
+msgid "Npc Grounder"
 msgstr "NPC Насекомое"
 
 #: /Language/Things/Record[Key='NPCDummyCharacter']
 msgctxt "Things"
-msgid "NPCDummyCharacter"
+msgid "NPC Character"
 msgstr "NPC Персонаж"
 
 #: /Language/Things/Record[Key='MothershipCore']
 msgctxt "Things"
-msgid "MothershipCore"
+msgid "Mothership Core"
 msgstr "Ядро космического корабля"
 
 #: /Language/Things/Record[Key='MotherboardSorter']
 msgctxt "Things"
-msgid "MotherboardSorter"
+msgid "Motherboard (Sorter)"
 msgstr "Материнская плата (Сортировщик)"
 
 #: /Language/Things/Record[Key='MotherboardManufacturing']
 msgctxt "Things"
-msgid "MotherboardManufacturing"
+msgid "Motherboard (Manufacturing)"
 msgstr "Материнская плата (Производство)"
 
 #: /Language/Things/Record[Key='MotherboardLogic']
 msgctxt "Things"
-msgid "MotherboardLogic"
+msgid "Motherboard (Logic)"
 msgstr "Материнская плата (Логический контроллер)"
 
 #: /Language/Things/Record[Key='ItemWrench']
 msgctxt "Things"
-msgid "ItemWrench"
+msgid "Wrench"
 msgstr "Разводной ключ"
 
 #: /Language/Things/Record[Key='ItemWireCutters']
 msgctxt "Things"
-msgid "ItemWireCutters"
+msgid "Wire Cutters"
 msgstr "Кусачки"
 
 #: /Language/Things/Record[Key='ItemWheat']
 msgctxt "Things"
-msgid "ItemWheat"
+msgid "Wheat"
 msgstr "Пшеница"
 
 #: /Language/Things/Record[Key='ItemWeldingTorch']
 msgctxt "Things"
-msgid "ItemWeldingTorch"
+msgid "Welding Torch"
 msgstr "Газовая горелка"
 
 #: /Language/Things/Record[Key='ItemWallLight']
 msgctxt "Things"
-msgid "ItemWallLight"
+msgid "Kit (Lights)"
 msgstr "Лампа"
 
 #: /Language/Things/Record[Key='ItemWallHeater']
 msgctxt "Things"
-msgid "ItemWallHeater"
+msgid "Wall Heater"
 msgstr "Обогреватель"
 
 #: /Language/Things/Record[Key='ItemWallCooler']
 msgctxt "Things"
-msgid "ItemWallCooler"
+msgid "Wall Cooler"
 msgstr "Охладитель воздуха"
 
 #: /Language/Things/Record[Key='ItemUraniumOre']
 msgctxt "Things"
-msgid "ItemUraniumOre"
+msgid "Ore (Uranium)"
 msgstr "Урановая руда"
 
 #: /Language/Things/Record[Key='ItemToolBelt']
 msgctxt "Things"
-msgid "ItemToolBelt"
+msgid "Tool Belt"
 msgstr "Пояс для инструментов"
 
 #: /Language/Things/Record[Key='ItemTankConnector']
 msgctxt "Things"
-msgid "ItemTankConnector"
+msgid "Tank Connector"
 msgstr "Коннектор (Большой баллон)"
 
 #: /Language/Things/Record[Key='ItemTablet']
 msgctxt "Things"
-msgid "ItemTablet"
+msgid "Handheld Tablet"
 msgstr "Планшет"
 
 #: /Language/Things/Record[Key='ItemSuitStorage']
 msgctxt "Things"
-msgid "ItemSuitStorage"
+msgid "Suit Storage"
 msgstr "Стойка для скафандра"
 
 #: /Language/Things/Record[Key='ItemSteelSheets']
 msgctxt "Things"
-msgid "ItemSteelSheets"
+msgid "Steel Sheets"
 msgstr "Лист стали"
 
 #: /Language/Things/Record[Key='ItemSteelIngot']
 msgctxt "Things"
-msgid "ItemSteelIngot"
+msgid "Ingot (Steel)"
 msgstr "Слиток стали"
 
 #: /Language/Things/Record[Key='ItemSteelFrames']
 msgctxt "Things"
-msgid "ItemSteelFrames"
+msgid "Steel Frames"
 msgstr "Стальной каркас"
 
 #: /Language/Things/Record[Key='ItemSprayCanYellow']
 msgctxt "Things"
-msgid "ItemSprayCanYellow"
+msgid "Spray Paint (Yellow)"
 msgstr "Баллончик с краской (Жёлтый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanWhite']
 msgctxt "Things"
-msgid "ItemSprayCanWhite"
+msgid "Spray Paint (White)"
 msgstr "Баллончик с краской (Белый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanRed']
 msgctxt "Things"
-msgid "ItemSprayCanRed"
+msgid "Spray Paint (Red)"
 msgstr "Баллончик с краской (Красный)"
 
 #: /Language/Things/Record[Key='ItemSprayCanPurple']
 msgctxt "Things"
-msgid "ItemSprayCanPurple"
+msgid "Spray Paint (Purple)"
 msgstr "Баллончик с краской (Фиолетовый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanPink']
 msgctxt "Things"
-msgid "ItemSprayCanPink"
+msgid "Spray Paint (Pink)"
 msgstr "Баллончик с краской (Розовый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanOrange']
 msgctxt "Things"
-msgid "ItemSprayCanOrange"
+msgid "Spray Paint (Orange)"
 msgstr "Баллончик с краской (Оранжевый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanKhaki']
 msgctxt "Things"
-msgid "ItemSprayCanKhaki"
+msgid "Spray Paint (Khaki)"
 msgstr "Баллончик с краской (Хаки)"
 
 #: /Language/Things/Record[Key='ItemSprayCanGrey']
 msgctxt "Things"
-msgid "ItemSprayCanGrey"
+msgid "Spray Paint (Grey)"
 msgstr "Баллончик с краской (Серый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanGreen']
 msgctxt "Things"
-msgid "ItemSprayCanGreen"
+msgid "Spray Paint (Green)"
 msgstr "Баллончик с краской (Зеленый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanBrown']
 msgctxt "Things"
-msgid "ItemSprayCanBrown"
+msgid "Spray Paint (Brown)"
 msgstr "Баллончик с краской (Коричневый)"
 
 #: /Language/Things/Record[Key='ItemSprayCanBlue']
 msgctxt "Things"
-msgid "ItemSprayCanBlue"
+msgid "Spray Paint (Blue)"
 msgstr "Баллончик с краской (Синий)"
 
 #: /Language/Things/Record[Key='ItemSprayCanBlack']
 msgctxt "Things"
-msgid "ItemSprayCanBlack"
+msgid "Spray Paint (Black)"
 msgstr "Баллончик с краской (Чёрный)"
 
 #: /Language/Things/Record[Key='ItemSpacepack']
 msgctxt "Things"
-msgid "ItemSpacepack"
+msgid "Spacepack"
 msgstr "Реактивный ранец"
 
 #: /Language/Things/Record[Key='ItemSpaceHelmet']
 msgctxt "Things"
-msgid "ItemSpaceHelmet"
+msgid "Space Helmet"
 msgstr "Шлем"
 
 #: /Language/Things/Record[Key='ItemSpaceCleaner']
 msgctxt "Things"
-msgid "ItemSpaceCleaner"
+msgid "Space Cleaner"
 msgstr "Чистящее средство"
 
 #: /Language/Things/Record[Key='ItemSecurityCamera']
 msgctxt "Things"
-msgid "ItemSecurityCamera"
+msgid "Security Camera"
 msgstr "Камера видеоконтроля"
 
 #: /Language/Things/Record[Key='ItemScrewdriver']
 msgctxt "Things"
-msgid "ItemScrewdriver"
+msgid "Screwdriver"
 msgstr "Отвёртка"
 
 #: /Language/Things/Record[Key='ItemScanner']
 msgctxt "Things"
-msgid "ItemScanner"
+msgid "Handheld Scanner"
 msgstr "Ручной сканер"
 
 #: /Language/Things/Record[Key='ItemRTG']
 msgctxt "Things"
-msgid "ItemRTG"
+msgid "R T G"
 msgstr "РИТЭГ"
 
 #: /Language/Things/Record[Key='ItemRoadFlare']
 msgctxt "Things"
-msgid "ItemRoadFlare"
+msgid "Road Flare"
 msgstr "Сигнальный огонь"
 
 #: /Language/Things/Record[Key='ItemReagentMix']
 msgctxt "Things"
-msgid "ItemReagentMix"
+msgid "Reagent Mix"
 msgstr "Смесь реагентов"
 
 #: /Language/Things/Record[Key='ItemPowerConnector']
 msgctxt "Things"
-msgid "ItemPowerConnector"
+msgid "Power Connector"
 msgstr "Коннектор (Силовой)"
 
 #: /Language/Things/Record[Key='ItemPipeVolumePump']
 msgctxt "Things"
-msgid "ItemPipeVolumePump"
+msgid "Pipe Volume Pump"
 msgstr "Насос"
 
 #: /Language/Things/Record[Key='ItemPipeValve']
 msgctxt "Things"
-msgid "ItemPipeValve"
+msgid "Pipe Valve"
 msgstr "Вентиль"
 
 #: /Language/Things/Record[Key='ItemPipeTJunction']
 msgctxt "Things"
-msgid "ItemPipeTJunction"
+msgid "Pipe (T Junction)"
 msgstr "Труба (3-конечная)"
 
 #: /Language/Things/Record[Key='ItemPipeStraight']
 msgctxt "Things"
-msgid "ItemPipeStraight"
+msgid "Pipe (Straight)"
 msgstr "Труба (прямая)"
 
 #: /Language/Things/Record[Key='ItemPipeRadiator']
 msgctxt "Things"
-msgid "ItemPipeRadiator"
+msgid "Pipe Radiator"
 msgstr "Радиатор"
 
 #: /Language/Things/Record[Key='ItemPipeMeter']
 msgctxt "Things"
-msgid "ItemPipeMeter"
+msgid "Pipe Meter"
 msgstr "Манометр"
 
 #: /Language/Things/Record[Key='ItemPipeLabel']
 msgctxt "Things"
-msgid "ItemPipeLabel"
+msgid "Pipe Label"
 msgstr "Наклейка для трубы"
 
 #: /Language/Things/Record[Key='ItemPipeGasMixer']
 msgctxt "Things"
-msgid "ItemPipeGasMixer"
+msgid "Pipe Gas Mixer"
 msgstr "Газовый смеситель"
 
 #: /Language/Things/Record[Key='ItemPipeDigitalValve']
 msgctxt "Things"
-msgid "ItemPipeDigitalValve"
+msgid "Pipe Digital Valve"
 msgstr "Электровентиль"
 
 #: /Language/Things/Record[Key='ItemPipeCrossJunction6']
 msgctxt "Things"
-msgid "ItemPipeCrossJunction6"
+msgid "Pipe (6-Way Junction)"
 msgstr "Труба (6-конечная)"
 
 #: /Language/Things/Record[Key='ItemPipeCrossJunction5']
 msgctxt "Things"
-msgid "ItemPipeCrossJunction5"
+msgid "Pipe (5-Way Junction)"
 msgstr "Труба (5-конечная)"
 
 #: /Language/Things/Record[Key='ItemPipeCrossJunction3']
 msgctxt "Things"
-msgid "ItemPipeCrossJunction3"
+msgid "Pipe (3-Way Junction)"
 msgstr "Труба (Угловая 3-конечная)"
 
 #: /Language/Things/Record[Key='ItemPipeCrossJunction']
 msgctxt "Things"
-msgid "ItemPipeCrossJunction"
+msgid "Pipe (Cross Junction)"
 msgstr "Труба (Крестовая)"
 
 #: /Language/Things/Record[Key='ItemPipeCorner']
 msgctxt "Things"
-msgid "ItemPipeCorner"
+msgid "Pipe (Corner)"
 msgstr "Труба (Угловая)"
 
 #: /Language/Things/Record[Key='ItemPipeAnalyizer']
 msgctxt "Things"
-msgid "ItemPipeAnalyizer"
+msgid "Pipe Analyser"
 msgstr "Анализатор атмосферы"
 
 #: /Language/Things/Record[Key='ItemPillStun']
 msgctxt "Things"
-msgid "ItemPillStun"
+msgid "Pill (Paralysis)"
 msgstr "Оглушающая таблетка"
 
 #: /Language/Things/Record[Key='ItemPillHeal']
 msgctxt "Things"
-msgid "ItemPillHeal"
+msgid "Pill (Medical)"
 msgstr "Лечащая таблетка"
 
 #: /Language/Things/Record[Key='ItemPickaxe']
 msgctxt "Things"
-msgid "ItemPickaxe"
+msgid "Pickaxe"
 msgstr "Кирка"
 
 #: /Language/Things/Record[Key='ItemPassiveVent']
 msgctxt "Things"
-msgid "ItemPassiveVent"
+msgid "Passive Vent"
 msgstr "Пассивная вентиляция"
 
 #: /Language/Things/Record[Key='ItemMuffin']
 msgctxt "Things"
-msgid "ItemMuffin"
+msgid "Muffin"
 msgstr "Маффин"
 
 #: /Language/Things/Record[Key='ItemMiningDrill']
 msgctxt "Things"
-msgid "ItemMiningDrill"
+msgid "Mining Drill"
 msgstr "Бур"
 
 #: /Language/Things/Record[Key='ItemMiningBelt']
 msgctxt "Things"
-msgid "ItemMiningBelt"
+msgid "Mining Belt"
 msgstr "Пояс шахтёра"
 
 #: /Language/Things/Record[Key='ItemMilk']
 msgctxt "Things"
-msgid "ItemMilk"
+msgid "Milk"
 msgstr "Молоко"
 
 #: /Language/Things/Record[Key='ItemLightSword']
 msgctxt "Things"
-msgid "ItemLightSword"
+msgid "Light Sword"
 msgstr "Световой меч"
 
 #: /Language/Things/Record[Key='ItemLabeller']
 msgctxt "Things"
-msgid "ItemLabeller"
+msgid "Labeller"
 msgstr "Маркировщик"
 
 #: /Language/Things/Record[Key='ItemKitWall']
 msgctxt "Things"
-msgid "ItemKitWall"
+msgid "Kit (Wall)"
 msgstr "Набор (Стена)"
 
 #: /Language/Things/Record[Key='ItemKitTurret']
 msgctxt "Things"
-msgid "ItemKitTurret"
+msgid "Kit (Turret)"
 msgstr "Набор (Турель)"
 
 #: /Language/Things/Record[Key='ItemKitTorpedoTube']
 msgctxt "Things"
-msgid "ItemKitTorpedoTube"
+msgid "Kit (Torpedo Launcher)"
 msgstr "Набор (Торпедный аппарат)"
 
 #: /Language/Things/Record[Key='ItemKitTank']
 msgctxt "Things"
-msgid "ItemKitTank"
+msgid "Kit (Tank)"
 msgstr "Набор (Резервуар)"
 
 #: /Language/Things/Record[Key='ItemKitStorage']
 msgctxt "Things"
-msgid "ItemKitStorage"
+msgid "Kit (Storage)"
 msgstr "Набор (Хранилище)"
 
 #: /Language/Things/Record[Key='ItemKitStellarAnchor']
 msgctxt "Things"
-msgid "ItemKitStellarAnchor"
+msgid "Kit (Stellar Anchor)"
 msgstr "Набор (Звёздный якорь)"
 
 #: /Language/Things/Record[Key='ItemKitStairs']
 msgctxt "Things"
-msgid "ItemKitStairs"
+msgid "Kit (Stairs)"
 msgstr "Набор (Лестница)"
 
 #: /Language/Things/Record[Key='ItemKitSolarPanel']
 msgctxt "Things"
-msgid "ItemKitSolarPanel"
+msgid "Kit (Solar Panel)"
 msgstr "Набор (Солнечная панель)"
 
 #: /Language/Things/Record[Key='ItemKitSleeper']
 msgctxt "Things"
-msgid "ItemKitSleeper"
+msgid "Kit (Sleeper)"
 msgstr "Набор (Слипер)"
 
 #: /Language/Things/Record[Key='ItemKitSign']
 msgctxt "Things"
-msgid "ItemKitSign"
+msgid "Kit (Sign)"
 msgstr "Набор (Знак)"
 
 #: /Language/Things/Record[Key='ItemKitSensor']
 msgctxt "Things"
-msgid "ItemKitSensor"
+msgid "Kit (Sensors)"
 msgstr "Набор (Датчик)"
 
 #: /Language/Things/Record[Key='ItemKitRegulator']
 msgctxt "Things"
-msgid "ItemKitRegulator"
+msgid "Kit (Pressure Regulator)"
 msgstr "Набор (Регулятор давления)"
 
 #: /Language/Things/Record[Key='ItemKitGyroscope']
 msgctxt "Things"
-msgid "ItemKitGyroscope"
+msgid "Kit (Gyroscope)"
 msgstr "Набор (Гироскоп)"
 
 #: /Language/Things/Record[Key='ItemKitFurniture']
 msgctxt "Things"
-msgid "ItemKitFurniture"
+msgid "Kit (Furniture)"
 msgstr "Набор (Мебель)"
 
 #: /Language/Things/Record[Key='ItemKitFurnace']
 msgctxt "Things"
-msgid "ItemKitFurnace"
+msgid "Kit (Furnace)"
 msgstr "Набор (Печь)"
 
 #: /Language/Things/Record[Key='ItemKitFabricator']
 msgctxt "Things"
-msgid "ItemKitFabricator"
+msgid "Kit (Fabricator)"
 msgstr "Набор (Фабрикатор)"
 
 #: /Language/Things/Record[Key='ItemKitEngine']
 msgctxt "Things"
-msgid "ItemKitEngine"
+msgid "Kit (Engines)"
 msgstr "Набор (Двигатель)"
 
 #: /Language/Things/Record[Key='ItemKitCryoTube']
 msgctxt "Things"
-msgid "ItemKitCryoTube"
+msgid "Kit (Cryo Tube)"
 msgstr "Набор (Криокапсула)"
 
 #: /Language/Things/Record[Key='ItemKitConveyor']
 msgctxt "Things"
-msgid "ItemKitConveyor"
+msgid "Kit (Conveyors)"
 msgstr "Набор (Конвейер)"
 
 #: /Language/Things/Record[Key='ItemKitConsole']
 msgctxt "Things"
-msgid "ItemKitConsole"
+msgid "Kit (Consoles)"
 msgstr "Набор (Консоль)"
 
 #: /Language/Things/Record[Key='ItemKitComputer']
 msgctxt "Things"
-msgid "ItemKitComputer"
+msgid "Kit (Computer)"
 msgstr "Набор (Компьютер)"
 
 #: /Language/Things/Record[Key='ItemKitChute']
 msgctxt "Things"
-msgid "ItemKitChute"
+msgid "Kit (Chutes)"
 msgstr "Набор (Транспортная труба)"
 
 #: /Language/Things/Record[Key='ItemKitCentrifuge']
 msgctxt "Things"
-msgid "ItemKitCentrifuge"
+msgid "Kit (Centrifuge)"
 msgstr "Набор (Центрифуга)"
 
 #: /Language/Things/Record[Key='ItemKitBattery']
 msgctxt "Things"
-msgid "ItemKitBattery"
+msgid "Kit (Battery)"
 msgstr "Набор (Батарея)"
 
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things"
-msgid "ItemKitAtmospherics"
+msgid "Kit (Atmospherics)"
 msgstr "Набор (Атмосфера)"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things"
-msgid "ItemKitAirlock"
+msgid "Kit (Airlock)"
 msgstr "Набор (Дверь шлюза)"
 
 #: /Language/Things/Record[Key='ItemIronOre']
 msgctxt "Things"
-msgid "ItemIronOre"
+msgid "Ore (Iron)"
 msgstr "Железная руда"
 
 #: /Language/Things/Record[Key='ItemIronIngot']
 msgctxt "Things"
-msgid "ItemIronIngot"
+msgid "Ingot (Iron)"
 msgstr "Слиток железа"
 
 #: /Language/Things/Record[Key='ItemInsulation']
 msgctxt "Things"
-msgid "ItemInsulation"
+msgid "Insulation"
 msgstr "Изоляция"
 
 #: /Language/Things/Record[Key='ItemIgniter']
 msgctxt "Things"
-msgid "ItemIgniter"
+msgid "Igniter"
 msgstr "Воспламенитель"
 
 #: /Language/Things/Record[Key='ItemIce']
 msgctxt "Things"
-msgid "ItemIce"
+msgid "Ice (Water)"
 msgstr "Лёд (Вода)"
 
 #: /Language/Things/Record[Key='ItemHydroponicTray']
 msgctxt "Things"
-msgid "ItemHydroponicTray"
+msgid "Hydroponic Tray"
 msgstr "Гидропонная установка"
 
 #: /Language/Things/Record[Key='ItemHealPill']
 msgctxt "Things"
-msgid "ItemHealPill"
+msgid "Heal Pill"
 msgstr "Медикамент"
 
 #: /Language/Things/Record[Key='ItemHat']
 msgctxt "Things"
-msgid "ItemHat"
+msgid "Hat"
 msgstr "Бейсболка"
 
 #: /Language/Things/Record[Key='ItemGrenade']
 msgctxt "Things"
-msgid "ItemGrenade"
+msgid "Hand Grenade"
 msgstr "Граната"
 
 #: /Language/Things/Record[Key='ItemGoldOre']
 msgctxt "Things"
-msgid "ItemGoldOre"
+msgid "Ore (Gold)"
 msgstr "Золотая руда"
 
 #: /Language/Things/Record[Key='ItemGoldIngot']
 msgctxt "Things"
-msgid "ItemGoldIngot"
+msgid "Ingot (Gold)"
 msgstr "Слиток золота"
 
 #: /Language/Things/Record[Key='ItemGlassSheets']
 msgctxt "Things"
-msgid "ItemGlassSheets"
+msgid "Glass Sheets"
 msgstr "Стекло"
 
 #: /Language/Things/Record[Key='ItemGasTankStorage']
 msgctxt "Things"
-msgid "ItemGasTankStorage"
+msgid "Gas Tank Storage"
 msgstr "Стойка для баллона"
 
 #: /Language/Things/Record[Key='ItemGasFilterWater']
 msgctxt "Things"
-msgid "ItemGasFilterWater"
+msgid "Filter (Water)"
 msgstr "Фильтр (Вода)"
 
 #: /Language/Things/Record[Key='ItemGasFilterVolatiles']
 msgctxt "Things"
-msgid "ItemGasFilterVolatiles"
+msgid "Filter (Volatiles)"
 msgstr "Фильтр (Летучее вещество)"
 
 #: /Language/Things/Record[Key='ItemGasFilterOxygen']
 msgctxt "Things"
-msgid "ItemGasFilterOxygen"
+msgid "Filter (Oxygen)"
 msgstr "Фильтр (Кислород)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrogen']
 msgctxt "Things"
-msgid "ItemGasFilterNitrogen"
+msgid "Filter (Nitrogen)"
 msgstr "Фильтр (Азот)"
 
 #: /Language/Things/Record[Key='ItemGasFilterPollutants']
 msgctxt "Things"
-msgid "ItemGasFilterPollutants"
+msgid "Filter (Pollutant)"
 msgstr "Фильтр (Токсины)"
 
 #: /Language/Things/Record[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things"
-msgid "ItemGasFilterCarbonDioxide"
+msgid "Filter (CO2)"
 msgstr "Фильтр (Углекислый газ)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterWater']
 msgctxt "Things"
-msgid "ItemGasCanisterWater"
+msgid "Canister (Water)"
 msgstr "Газовый баллон (Вода)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterOxygen']
 msgctxt "Things"
-msgid "ItemGasCanisterOxygen"
+msgid "Canister (Oxygen)"
 msgstr "Газовый баллон (Кислород)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterNitrogen']
 msgctxt "Things"
-msgid "ItemGasCanisterNitrogen"
+msgid "Canister (Nitrogen)"
 msgstr "Газовый баллон (Азот)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterVolatiles']
 msgctxt "Things"
-msgid "ItemGasCanisterVolatiles"
+msgid "Canister (Volatiles)"
 msgstr "Газовый баллон (Летучее вещество)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterFuel']
 msgctxt "Things"
-msgid "ItemGasCanisterFuel"
+msgid "Canister (Fuel)"
 msgstr "Газовый баллон (Топливо)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterEmpty']
 msgctxt "Things"
-msgid "ItemGasCanisterEmpty"
+msgid "Canister"
 msgstr "Газовый баллон"
 
 #: /Language/Things/Record[Key='ItemGasCanisterPollutants']
 msgctxt "Things"
-msgid "ItemGasCanisterPollutants"
+msgid "Canister (Pollutants)"
 msgstr "Газовый баллон (Токсины)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterCarbonDioxide']
 msgctxt "Things"
-msgid "ItemGasCanisterCarbonDioxide"
+msgid "Canister (CO2)"
 msgstr "Газовый баллон (Углекислый газ)"
 
 #: /Language/Things/Record[Key='ItemFlour']
 msgctxt "Things"
-msgid "ItemFlour"
+msgid "Flour"
 msgstr "Мука"
 
 #: /Language/Things/Record[Key='ItemFlashingLight']
 msgctxt "Things"
-msgid "ItemFlashingLight"
+msgid "Flashing Light"
 msgstr "Мигающая лампочка"
 
 #: /Language/Things/Record[Key='ItemFireExtinguisher']
 msgctxt "Things"
-msgid "ItemFireExtinguisher"
+msgid "Fire Extinguisher"
 msgstr "Огнетушитель"
 
 #: /Language/Things/Record[Key='ItemFertilizedEgg']
 msgctxt "Things"
-msgid "ItemFertilizedEgg"
+msgid "Fertilized Egg"
 msgstr "Оплодотворённое яйцо"
 
 #: /Language/Things/Record[Key='ItemEvaSuit']
 msgctxt "Things"
-msgid "ItemEvaSuit"
+msgid "Eva Suit"
 msgstr "Скафандр \"EVA\""
 
 #: /Language/Things/Record[Key='ItemEggTop']
 msgctxt "Things"
-msgid "ItemEggTop"
+msgid "Egg Top"
 msgstr "Верхняя часть скорлупы"
 
 #: /Language/Things/Record[Key='ItemEggCarton']
 msgctxt "Things"
-msgid "ItemEggCarton"
+msgid "Egg Carton"
 msgstr "Упаковка яиц"
 
 #: /Language/Things/Record[Key='ItemEggBottom']
 msgctxt "Things"
-msgid "ItemEggBottom"
+msgid "Egg Bottom"
 msgstr "Нижняя часть скорлупы"
 
 #: /Language/Things/Record[Key='ItemEgg']
 msgctxt "Things"
-msgid "ItemEgg"
+msgid "Egg"
 msgstr "Яйцо"
 
 #: /Language/Things/Record[Key='ItemDynamite']
 msgctxt "Things"
-msgid "ItemDynamite"
+msgid "Dynamite"
 msgstr "Динамит"
 
 #: /Language/Things/Record[Key='ItemDuctTape']
 msgctxt "Things"
-msgid "ItemDuctTape"
+msgid "Duct Tape"
 msgstr "Скотч"
 
 #: /Language/Things/Record[Key='ItemDrill']
 msgctxt "Things"
-msgid "ItemDrill"
+msgid "Hand Drill"
 msgstr "Дрель"
 
 #: /Language/Things/Record[Key='ItemDataDisk']
 msgctxt "Things"
-msgid "ItemDataDisk"
+msgid "Data Disk"
 msgstr "Диск (Настройка)"
 
 #: /Language/Things/Record[Key='ItemCrowbar']
 msgctxt "Things"
-msgid "ItemCrowbar"
+msgid "Crowbar"
 msgstr "Лом"
 
 #: /Language/Things/Record[Key='ItemCorn']
 msgctxt "Things"
-msgid "ItemCorn"
+msgid "Corn"
 msgstr "Кукуруза"
 
 #: /Language/Things/Record[Key='ItemCopperOre']
 msgctxt "Things"
-msgid "ItemCopperOre"
+msgid "Ore (Copper)"
 msgstr "Медная руда"
 
 #: /Language/Things/Record[Key='ItemCopperIngot']
 msgctxt "Things"
-msgid "ItemCopperIngot"
+msgid "Ingot (Copper)"
 msgstr "Слиток меди"
 
 #: /Language/Things/Record[Key='ItemCompositeFloorGrating']
 msgctxt "Things"
-msgid "ItemCompositeFloorGrating"
+msgid "Composite Floor Grating"
 msgstr "Решётчатый настил"
 
 #: /Language/Things/Record[Key='ItemCoalOre']
 msgctxt "Things"
-msgid "ItemCoalOre"
+msgid "Ore (Coal)"
 msgstr "Уголь"
 
 #: /Language/Things/Record[Key='ItemChemLightYellow']
 msgctxt "Things"
-msgid "ItemChemLightYellow"
+msgid "Chem Light (Yellow)"
 msgstr "Хемилюминесцентный источник света (Жёлтый)"
 
 #: /Language/Things/Record[Key='ItemChemLightWhite']
 msgctxt "Things"
-msgid "ItemChemLightWhite"
+msgid "Chem Light (White)"
 msgstr "Хемилюминесцентный источник света (Белый)"
 
 #: /Language/Things/Record[Key='ItemChemLightRed']
 msgctxt "Things"
-msgid "ItemChemLightRed"
+msgid "Chem Light (Red)"
 msgstr "Хемилюминесцентный источник света (Красный)"
 
 #: /Language/Things/Record[Key='ItemChemLightGreen']
 msgctxt "Things"
-msgid "ItemChemLightGreen"
+msgid "Chem Light (Green)"
 msgstr "Хемилюминесцентный источник света (Зеленый)"
 
 #: /Language/Things/Record[Key='ItemChemLightBlue']
 msgctxt "Things"
-msgid "ItemChemLightBlue"
+msgid "Chem Light (Blue)"
 msgstr "Хемилюминесцентный источник света (Синий)"
 
 #: /Language/Things/Record[Key='ItemCableCoil']
 msgctxt "Things"
-msgid "ItemCableCoil"
+msgid "Cable Coil"
 msgstr "Моток кабеля"
 
 #: /Language/Things/Record[Key='ItemBook']
 msgctxt "Things"
-msgid "ItemBook"
+msgid "Book"
 msgstr "Книга"
 
 #: /Language/Things/Record[Key='ItemBatteryCharger']
 msgctxt "Things"
-msgid "ItemBatteryCharger"
+msgid "Battery Cell Charger"
 msgstr "Зарядное устройство"
 
 #: /Language/Things/Record[Key='ItemBatteryCellNuclear']
 msgctxt "Things"
-msgid "ItemBatteryCellNuclear"
+msgid "Battery Cell (Nuclear)"
 msgstr "Ядерный аккумулятор"
 
 #: /Language/Things/Record[Key='ItemBatteryCellLarge']
 msgctxt "Things"
-msgid "ItemBatteryCellLarge"
+msgid "Battery Cell (Large)"
 msgstr "Высокоёмкий аккумулятор"
 
 #: /Language/Things/Record[Key='ItemBatteryCell']
 msgctxt "Things"
-msgid "ItemBatteryCell"
+msgid "Battery Cell (Small)"
 msgstr "Аккумулятор"
 
 #: /Language/Things/Record[Key='ItemAreaPowerControl']
 msgctxt "Things"
-msgid "ItemAreaPowerControl"
+msgid "Power Controller"
 msgstr "ИБП"
 
 #: /Language/Things/Record[Key='ItemActiveVent']
 msgctxt "Things"
-msgid "ItemActiveVent"
+msgid "Active Vent"
 msgstr "Активная вентиляция"
 
 #: /Language/Things/Record[Key='GasTankAir']
 msgctxt "Things"
-msgid "GasTankAir"
+msgid "Gas Tank (Air)"
 msgstr "Резервуар (Воздух)"
 
 #: /Language/Things/Record[Key='EntityRoosterBrown']
 msgctxt "Things"
-msgid "EntityRoosterBrown"
+msgid "Entity Rooster Brown"
 msgstr "Существо (Коричневый петух)"
 
 #: /Language/Things/Record[Key='EntityRoosterBlack']
 msgctxt "Things"
-msgid "EntityRoosterBlack"
+msgid "Entity Rooster Black"
 msgstr "Существо (Черный петух)"
 
 #: /Language/Things/Record[Key='EntityGraylien']
 msgctxt "Things"
-msgid "EntityGraylien"
+msgid "Entity Graylien"
 msgstr "Существо (Грейлин)"
 
 #: /Language/Things/Record[Key='EntityChickenWhite']
 msgctxt "Things"
-msgid "EntityChickenWhite"
+msgid "Entity Chicken White"
 msgstr "Существо (Белая курица)"
 
 #: /Language/Things/Record[Key='EntityChickenBrown']
 msgctxt "Things"
-msgid "EntityChickenBrown"
+msgid "Entity Chicken Brown"
 msgstr "Существо (Коричневая курица)"
 
 #: /Language/Things/Record[Key='EntityChick']
 msgctxt "Things"
-msgid "EntityChick"
+msgid "Entity Chick"
 msgstr "Существо (Цыпленок)"
 
 #: /Language/Things/Record[Key='EntityAlien']
 msgctxt "Things"
-msgid "EntityAlien"
+msgid "Entity Alien"
 msgstr "Существо (Инопланетянин)"
 
 #: /Language/Things/Record[Key='EffectSplatEgg']
 msgctxt "Things"
-msgid "EffectSplatEgg"
+msgid "Effect Splat Egg"
 msgstr "Effect Splat Egg"
 
 #: /Language/Things/Record[Key='DynamicScrubber']
 msgctxt "Things"
-msgid "DynamicScrubber"
+msgid "Portable Air Scrubber"
 msgstr "Переносной воздушный фильтр"
 
 #: /Language/Things/Record[Key='DynamicLight']
 msgctxt "Things"
-msgid "DynamicLight"
+msgid "Portable Light"
 msgstr "Переносной светильник"
 
 #: /Language/Things/Record[Key='DynamicGenerator']
 msgctxt "Things"
-msgid "DynamicGenerator"
+msgid "Portable Generator"
 msgstr "Переносной электрогенератор"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterWater']
 msgctxt "Things"
-msgid "DynamicGasCanisterWater"
+msgid "Portable Tank (Water)"
 msgstr "Большой баллон (Вода)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things"
-msgid "DynamicGasCanisterVolatiles"
+msgid "Portable Tank (Volatiles)"
 msgstr "Большой баллон (Летучее вещество)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterOxygen']
 msgctxt "Things"
-msgid "DynamicGasCanisterOxygen"
+msgid "Portable Tank (Oxygen)"
 msgstr "Большой баллон (Кислород)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things"
-msgid "DynamicGasCanisterNitrogen"
+msgid "Portable Tank (Nitrogen)"
 msgstr "Большой баллон (Азот)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterFuel']
 msgctxt "Things"
-msgid "DynamicGasCanisterFuel"
+msgid "Portable Tank (Fuel)"
 msgstr "Большой баллон (Топливо)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterEmpty']
 msgctxt "Things"
-msgid "DynamicGasCanisterEmpty"
+msgid "Portable Tank"
 msgstr "Большой баллон"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things"
-msgid "DynamicGasCanisterCarbonDioxide"
+msgid "Portable Tank (CO2)"
 msgstr "Большой баллон (Углекислый газ)"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterAir']
 msgctxt "Things"
-msgid "DynamicGasCanisterAir"
+msgid "Portable Tank (Air)"
 msgstr "Большой баллон (Воздух)"
 
 #: /Language/Things/Record[Key='DynamicCratePipeSupplies']
 msgctxt "Things"
-msgid "DynamicCratePipeSupplies"
+msgid "Crate (Pipe Supplies)"
 msgstr "Ящик (Трубы)"
 
 #: /Language/Things/Record[Key='DynamicCrateConveyorSupplies']
 msgctxt "Things"
-msgid "DynamicCrateConveyorSupplies"
+msgid "Crate (Conveyor Supplies)"
 msgstr "Ящик (Конвейер)"
 
 #: /Language/Things/Record[Key='DynamicCrateCableSupplies']
 msgctxt "Things"
-msgid "DynamicCrateCableSupplies"
+msgid "Crate (Cabling Supplies)"
 msgstr "Ящик (Электроника)"
 
 #: /Language/Things/Record[Key='DynamicCrateBuildingSupplies']
 msgctxt "Things"
-msgid "DynamicCrateBuildingSupplies"
+msgid "Crate (Building Supplies)"
 msgstr "Ящик (Строительные принадлежности)"
 
 #: /Language/Things/Record[Key='DynamicCrate']
 msgctxt "Things"
-msgid "DynamicCrate"
+msgid "Dynamic Crate"
 msgstr "Переносной ящик"
 
 #: /Language/Things/Record[Key='DynamicAirConditioner']
 msgctxt "Things"
-msgid "DynamicAirConditioner"
+msgid "Portable Air Conditioner"
 msgstr "Переносной кондиционер"
 
 #: /Language/Things/Record[Key='CircuitboardSolarControl']
 msgctxt "Things"
-msgid "CircuitboardSolarControl"
+msgid "Circuitboard (Solar Control)"
 msgstr "Плата для консоли (Управление солнечными панелями)"
 
 #: /Language/Things/Record[Key='CircuitboardShipDisplay']
 msgctxt "Things"
-msgid "CircuitboardShipDisplay"
+msgid "Circuitboard (Ship Display)"
 msgstr "Плата для консоли (Параметры корабля)"
 
 #: /Language/Things/Record[Key='CircuitboardPowerControl']
 msgctxt "Things"
-msgid "CircuitboardPowerControl"
+msgid "Circuitboard (Power Control)"
 msgstr "Плата для консоли (Управление питанием)"
 
 #: /Language/Things/Record[Key='CircuitboardModeControl']
 msgctxt "Things"
-msgid "CircuitboardModeControl"
+msgid "Circuitboard (Mode Control)"
 msgstr "Плата для консоли (Управление режимом)"
 
 #: /Language/Things/Record[Key='CircuitboardGasDisplay']
 msgctxt "Things"
-msgid "CircuitboardGasDisplay"
+msgid "Circuitboard (Gas Display)"
 msgstr "Плата для консоли (Мониторинг атмосферы)"
 
 #: /Language/Things/Record[Key='CircuitboardDoorControl']
 msgctxt "Things"
-msgid "CircuitboardDoorControl"
+msgid "Circuitboard (Door Control)"
 msgstr "Плата для консоли (Управление дверями)"
 
 #: /Language/Things/Record[Key='CircuitboardCameraDisplay']
 msgctxt "Things"
-msgid "CircuitboardCameraDisplay"
+msgid "Circuitboard (Camera Display)"
 msgstr "Плата для консоли (Видеонаблюдение)"
 
 #: /Language/Things/Record[Key='CircuitboardAirlockControl']
 msgctxt "Things"
-msgid "CircuitboardAirlockControl"
+msgid "Circuitboard (Airlock)"
 msgstr "Плата для консоли (Управление шлюзом)"
 
 #: /Language/Things/Record[Key='CircuitboardAirControl']
 msgctxt "Things"
-msgid "CircuitboardAirControl"
+msgid "Circuitboard (Air Control)"
 msgstr "Плата для консоли (Управление атмосферой)"
 
 #: /Language/Things/Record[Key='Character']
@@ -3247,295 +3247,295 @@ msgstr "Персонаж"
 
 #: /Language/Things/Record[Key='CartridgeNetworkAnalyser']
 msgctxt "Things"
-msgid "CartridgeNetworkAnalyser"
+msgid "Cartridge (Network Analyser)"
 msgstr "Картридж (Сетевой анализатор)"
 
 #: /Language/Things/Record[Key='CartridgeMedicalAnalyser']
 msgctxt "Things"
-msgid "CartridgeMedicalAnalyser"
+msgid "Cartridge (Medical Analyser)"
 msgstr "Картридж (Медицинский анализатор)"
 
 #: /Language/Things/Record[Key='CartridgeAtmosAnalyser']
 msgctxt "Things"
-msgid "CartridgeAtmosAnalyser"
+msgid "Cartridge (Atmos Analyser)"
 msgstr "Картридж (Анализатор атмосферы)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownWingR']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownWingR"
+msgid "Body Part Rooster Brown Wing R"
 msgstr "Часть коричневого петуха (Правое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownWingL']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownWingL"
+msgid "Body Part Rooster Brown Wing)"
 msgstr "Часть коричневого петуха (Левое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownTail']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownTail"
+msgid "Body Part Rooster Brown Tail"
 msgstr "Часть коричневого петуха (Хвост)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownLegR']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownLegR"
+msgid "Body Part Rooster Brown Leg R"
 msgstr "Часть коричневого петуха (Правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownLegL']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownLegL"
+msgid "Body Part Rooster Brown Leg)"
 msgstr "Часть коричневого петуха (Левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownHead']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownHead"
+msgid "Body Part Rooster Brown Head"
 msgstr "Часть коричневого петуха (Голова)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBrownBody']
 msgctxt "Things"
-msgid "BodyPartRoosterBrownBody"
+msgid "Body Part Rooster Brown Body"
 msgstr "Часть коричневого петуха (Тушка)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackWingR']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackWingR"
+msgid "Body Part Rooster Black Wing R"
 msgstr "Часть черного петуха (Правое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackTail']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackTail"
+msgid "Body Part Rooster Black Tail"
 msgstr "Часть черного петуха (Хвост)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackLegR']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackLegR"
+msgid "Body Part Rooster Black Leg R"
 msgstr "Часть черного петуха (Правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackLegL']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackLegL"
+msgid "Body Part Rooster Black Leg)"
 msgstr "Часть черного петуха (Левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackHead']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackHead"
+msgid "Body Part Rooster Black Head"
 msgstr "Часть черного петуха (Head)"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackBody']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackBody"
+msgid "Body Part Rooster Black Body"
 msgstr "Часть черного петуха (Тушка)"
 
 #: /Language/Things/Record[Key='BodyPartGraylienPelvis ']
 msgctxt "Things"
-msgid "BodyPartGraylienPelvis "
+msgid "Body Part Graylien Pelvis "
 msgstr "Часть грейлина (Таз) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienLegR ']
 msgctxt "Things"
-msgid "BodyPartGraylienLegR "
+msgid "Body Part Graylien Leg R "
 msgstr "Часть грейлина (Правая нога) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienLegL ']
 msgctxt "Things"
-msgid "BodyPartGraylienLegL "
+msgid "Body Part Graylien Leg L "
 msgstr "Часть грейлина (Левая нога) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienHead ']
 msgctxt "Things"
-msgid "BodyPartGraylienHead "
+msgid "Body Part Graylien Head "
 msgstr "Часть грейлина (Голова) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienBody ']
 msgctxt "Things"
-msgid "BodyPartGraylienBody "
+msgid "Body Part Graylien Body "
 msgstr "Часть грейлина (Тело) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienArmR ']
 msgctxt "Things"
-msgid "BodyPartGraylienArmR "
+msgid "Body Part Graylien Arm R "
 msgstr "Часть грейлина (Правая рука) "
 
 #: /Language/Things/Record[Key='BodyPartGraylienArmL ']
 msgctxt "Things"
-msgid "BodyPartGraylienArmL "
+msgid "Body Part Graylien Arm L "
 msgstr "Часть грейлина (Левая рука)  "
 
 #: /Language/Things/Record[Key='BodyPartChickWingR']
 msgctxt "Things"
-msgid "BodyPartChickWingR"
+msgid "Body Part Chick Wing R"
 msgstr "Часть цыпленка (Правое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickWingL']
 msgctxt "Things"
-msgid "BodyPartChickWingL"
+msgid "Body Part Chick Wing)"
 msgstr "Часть цыпленка (Левое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickTail']
 msgctxt "Things"
-msgid "BodyPartChickTail"
+msgid "Body Part Chick Tail"
 msgstr "Часть цыпленка (Хвост)"
 
 #: /Language/Things/Record[Key='BodyPartChickLegR']
 msgctxt "Things"
-msgid "BodyPartChickLegR"
+msgid "Body Part Chick Leg R"
 msgstr "Часть цыпленка (правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickLegL']
 msgctxt "Things"
-msgid "BodyPartChickLegL"
+msgid "Body Part Chick Leg)"
 msgstr "Часть цыпленка (Левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickHead']
 msgctxt "Things"
-msgid "BodyPartChickHead"
+msgid "Body Part Chick Head"
 msgstr "Часть цыпленка (Голова)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteWingR']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteWingR"
+msgid "Body Part Chicken White Wing R"
 msgstr "Часть белой курицы (Правое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteWingL']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteWingL"
+msgid "Body Part Chicken White Wing)"
 msgstr "Часть белой курицы (Левое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteTail']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteTail"
+msgid "Body Part Chicken White Tail"
 msgstr "Часть белой курицы (Хвост)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteLegR']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteLegR"
+msgid "Body Part Chicken White Leg R"
 msgstr "Часть белой курицы (Правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteLegL']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteLegL"
+msgid "Body Part Chicken White Leg)"
 msgstr "Часть белой курицы (Левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteHead']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteHead"
+msgid "Body Part Chicken White Head"
 msgstr "Часть белой курицы (Голова)"
 
 #: /Language/Things/Record[Key='BodyPartChickenWhiteBody']
 msgctxt "Things"
-msgid "BodyPartChickenWhiteBody"
+msgid "Body Part Chicken White Body"
 msgstr "Часть белой курицы (Тушка)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownWingR']
 msgctxt "Things"
-msgid "BodyPartChickenBrownWingR"
+msgid "Body Part Chicken Brown Wing R"
 msgstr "Часть корчиневой курицы (Правое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownWingL']
 msgctxt "Things"
-msgid "BodyPartChickenBrownWingL"
+msgid "Body Part Chicken Brown Wing)"
 msgstr "Часть корчиневой курицы (Левое крыло)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownTail']
 msgctxt "Things"
-msgid "BodyPartChickenBrownTail"
+msgid "Body Part Chicken Brown Tail"
 msgstr "Часть корчиневой курицы (Хвост)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownLegR']
 msgctxt "Things"
-msgid "BodyPartChickenBrownLegR"
+msgid "Body Part Chicken Brown Leg R"
 msgstr "Часть корчиневой курицы (Правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownLegL']
 msgctxt "Things"
-msgid "BodyPartChickenBrownLegL"
+msgid "Body Part Chicken Brown Leg)"
 msgstr "Часть корчиневой курицы (Левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownHead']
 msgctxt "Things"
-msgid "BodyPartChickenBrownHead"
+msgid "Body Part Chicken Brown Head"
 msgstr "Часть корчиневой курицы (Голова)"
 
 #: /Language/Things/Record[Key='BodyPartChickenBrownBody']
 msgctxt "Things"
-msgid "BodyPartChickenBrownBody"
+msgid "Body Part Chicken Brown Body"
 msgstr "Часть корчиневой курицы (Тушка)"
 
 #: /Language/Things/Record[Key='BodyPartChickBody']
 msgctxt "Things"
-msgid "BodyPartChickBody"
+msgid "Body Part Chick Body"
 msgstr "Часть цыпленка (Тушка)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautTorso']
 msgctxt "Things"
-msgid "BodyPartAstronautTorso"
+msgid "Body Part Astronaut Torso"
 msgstr "Часть тела астронавта (мужской торс)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautMaleLegR']
 msgctxt "Things"
-msgid "BodyPartAstronautMaleLegR"
+msgid "Body Part Astronaut Male Leg R"
 msgstr "Часть тела астронавта (мужская правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautMaleLegL']
 msgctxt "Things"
-msgid "BodyPartAstronautMaleLegL"
+msgid "Body Part Astronaut Male Leg)"
 msgstr "Часть тела астронавта (мужская левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautMaleHead']
 msgctxt "Things"
-msgid "BodyPartAstronautMaleHead"
+msgid "Body Part Astronaut Male Head"
 msgstr "Часть тела астронавта (мужская голова)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautMaleArmR']
 msgctxt "Things"
-msgid "BodyPartAstronautMaleArmR"
+msgid "Body Part Astronaut Male Arm R"
 msgstr "Часть тела астронавта (мужская правая рука)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautMaleArmL']
 msgctxt "Things"
-msgid "BodyPartAstronautMaleArmL"
+msgid "Body Part Astronaut Male Arm)"
 msgstr "Часть тела астронавта (мужская левая рука)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleTorso']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleTorso"
+msgid "Body Part Astronaut Female Torso"
 msgstr "Часть тела астронавта (женский торс)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleLegR']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleLegR"
+msgid "Body Part Astronaut Female Leg R"
 msgstr "Часть тела астронавта (женская правая нога)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleLegL']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleLegL"
+msgid "Body Part Astronaut Female Leg)"
 msgstr "Часть тела астронавта (женская левая нога)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleHead']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleHead"
+msgid "Body Part Astronaut Female Head"
 msgstr "Часть тела астронавта (женская голова)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleArmR']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleArmR"
+msgid "Body Part Astronaut Female Arm R"
 msgstr "Часть тела астронавта (женская правая рука)"
 
 #: /Language/Things/Record[Key='BodyPartAstronautFemaleArmL']
 msgctxt "Things"
-msgid "BodyPartAstronautFemaleArmL"
+msgid "Body Part Astronaut Female Arm)"
 msgstr "Часть тела астронавта (женская левая рука)"
 
 #: /Language/Things/Record[Key='ApplianceReagentProcessor']
 msgctxt "Things"
-msgid "ApplianceReagentProcessor"
+msgid "Reagent Processor"
 msgstr "Процессор реагентов"
 
 #: /Language/Things/Record[Key='ApplianceMicrowave']
 msgctxt "Things"
-msgid "ApplianceMicrowave"
+msgid "Microwave"
 msgstr "Микроволновая печь"
 
 #: /Language/Things/Record[Key='BodyPartRoosterBlackWingL']
 msgctxt "Things"
-msgid "BodyPartRoosterBlackWingL"
+msgid "Body Part Rooster Black Wing)"
 msgstr "Часть черного петуха (Левое крыло)"

@@ -2,60 +2,60 @@
 
 #: /Language/Colors/Record[Key='ColorPink']
 msgctxt "Colors"
-msgid "ColorPink"
+msgid "Pink"
 msgstr "Розовый"
 
 #: /Language/Colors/Record[Key='ColorKhaki']
 msgctxt "Colors"
-msgid "ColorKhaki"
+msgid "Khaki"
 msgstr "Хаки"
 
 #: /Language/Colors/Record[Key='ColorBrown']
 msgctxt "Colors"
-msgid "ColorBrown"
+msgid "Brown"
 msgstr "Коричневый"
 
 #: /Language/Colors/Record[Key='ColorBlack']
 msgctxt "Colors"
-msgid "ColorBlack"
+msgid "Black"
 msgstr "Чёрный"
 
 #: /Language/Colors/Record[Key='ColorWhite']
 msgctxt "Colors"
-msgid "ColorWhite"
+msgid "White"
 msgstr "Белый"
 
 #: /Language/Colors/Record[Key='ColorRed']
 msgctxt "Colors"
-msgid "ColorRed"
+msgid "Red"
 msgstr "Красный"
 
 #: /Language/Colors/Record[Key='ColorOrange']
 msgctxt "Colors"
-msgid "ColorOrange"
+msgid "Orange"
 msgstr "Оранжевый"
 
 #: /Language/Colors/Record[Key='ColorGreen']
 msgctxt "Colors"
-msgid "ColorGreen"
+msgid "Green"
 msgstr "Зеленый"
 
 #: /Language/Colors/Record[Key='ColorGray']
 msgctxt "Colors"
-msgid "ColorGray"
+msgid "Gray"
 msgstr "Серый"
 
 #: /Language/Colors/Record[Key='ColorBlue']
 msgctxt "Colors"
-msgid "ColorBlue"
+msgid "Blue"
 msgstr "Синий"
 
 #: /Language/Colors/Record[Key='ColorPurple']
 msgctxt "Colors"
-msgid "ColorPurple"
+msgid "Purple"
 msgstr "Фиолетовый"
 
 #: /Language/Colors/Record[Key='ColorYellow']
 msgctxt "Colors"
-msgid "ColorYellow"
+msgid "Yellow"
 msgstr "Жёлтый"

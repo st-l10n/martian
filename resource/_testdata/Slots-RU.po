@@ -2,7 +2,7 @@
 
 #: /Language/Slots/Record[Key='ProgrammableChip']
 msgctxt "Slots"
-msgid "ProgrammableChip"
+msgid "Programmable Chip"
 msgstr ""
 
 #: /Language/Slots/Record[Key='Circuit']
@@ -22,7 +22,7 @@ msgstr "Растение"
 
 #: /Language/Slots/Record[Key='ContainerSlot']
 msgctxt "Slots"
-msgid "ContainerSlot"
+msgid "Container Slot"
 msgstr "Слот контейнера"
 
 #: /Language/Slots/Record[Key='Magazine']
@@ -32,12 +32,12 @@ msgstr "Магазин"
 
 #: /Language/Slots/Record[Key='AccessCard']
 msgctxt "Slots"
-msgid "AccessCard"
+msgid "Access Card"
 msgstr "Карта доступа"
 
 #: /Language/Slots/Record[Key='LoadingRail']
 msgctxt "Slots"
-msgid "LoadingRail"
+msgid "Loading Rail"
 msgstr "Загрузочный шлюз"
 
 #: /Language/Slots/Record[Key='Torpedo']
@@ -57,7 +57,7 @@ msgstr "Кровать"
 
 #: /Language/Slots/Record[Key='PortableSlot']
 msgctxt "Slots"
-msgid "PortableSlot"
+msgid "Portable Slot"
 msgstr "Слот (Переносной)"
 
 #: /Language/Slots/Record[Key='Occupant']
@@ -77,7 +77,7 @@ msgstr "Материнская плата"
 
 #: /Language/Slots/Record[Key='TransportSlot']
 msgctxt "Slots"
-msgid "TransportSlot"
+msgid "Transport Slot"
 msgstr "Слот (Транспорт)"
 
 #: /Language/Slots/Record[Key='Seat']
@@ -97,32 +97,32 @@ msgstr "Импорт"
 
 #: /Language/Slots/Record[Key='Appliance2']
 msgctxt "Slots"
-msgid "Appliance2"
+msgid "Appliance 2"
 msgstr "Устройство 2"
 
 #: /Language/Slots/Record[Key='Appliance1']
 msgctxt "Slots"
-msgid "Appliance1"
+msgid "Appliance 1"
 msgstr "Устройство 1"
 
 #: /Language/Slots/Record[Key='DataDisk']
 msgctxt "Slots"
-msgid "DataDisk"
+msgid "Data Disk"
 msgstr "Диск (Настройка)"
 
 #: /Language/Slots/Record[Key='PassengerSeatRight']
 msgctxt "Slots"
-msgid "PassengerSeatRight"
+msgid "Passenger Seat Right"
 msgstr "Сиденье пассажира (Правое)"
 
 #: /Language/Slots/Record[Key='PassengerSeatLeft']
 msgctxt "Slots"
-msgid "PassengerSeatLeft"
+msgid "Passenger Seat Left"
 msgstr "Сиденье пассажира (Левое)"
 
 #: /Language/Slots/Record[Key='CaptainsSeat']
 msgctxt "Slots"
-msgid "CaptainsSeat"
+msgid "Captain's Seat"
 msgstr "Сиденье капитана"
 
 #: /Language/Slots/Record[Key='Cartridge']
@@ -152,7 +152,7 @@ msgstr "Фильтр"
 
 #: /Language/Slots/Record[Key='LifeSupport']
 msgctxt "Slots"
-msgid "LifeSupport"
+msgid "Life Support"
 msgstr "Жизнеобеспечение"
 
 #: /Language/Slots/Record[Key='Output']
@@ -162,17 +162,17 @@ msgstr "Вывод"
 
 #: /Language/Slots/Record[Key='AirTank']
 msgctxt "Slots"
-msgid "AirTank"
+msgid "Air Tank"
 msgstr "Баллон (Воздух)"
 
 #: /Language/Slots/Record[Key='GasFilter']
 msgctxt "Slots"
-msgid "GasFilter"
+msgid "Gas Filter"
 msgstr "Фильтр"
 
 #: /Language/Slots/Record[Key='GasCanister']
 msgctxt "Slots"
-msgid "GasCanister"
+msgid "Gas Canister"
 msgstr "Газовый баллон"
 
 #: /Language/Slots/Record[Key='Battery']
@@ -217,12 +217,12 @@ msgstr "Шлем"
 
 #: /Language/Slots/Record[Key='RightHand']
 msgctxt "Slots"
-msgid "RightHand"
+msgid "Right Hand"
 msgstr "Правая рука"
 
 #: /Language/Slots/Record[Key='LeftHand']
 msgctxt "Slots"
-msgid "LeftHand"
+msgid "Left Hand"
 msgstr "Левая рука"
 
 #: /Language/Slots/Record[Key='Input']
@@ -232,5 +232,5 @@ msgstr "Приёмник"
 
 #: /Language/Slots/Record[Key='WasteTank']
 msgctxt "Slots"
-msgid "WasteTank"
+msgid "Waste Tank"
 msgstr "Баллон (Отходы)"
