@@ -20,6 +20,7 @@ type Entry struct {
 	ID                string `json:"id"`
 	Str               string `json:"str"`
 	Context           string `json:"context,omitempty"`
+	Original          string `json:"original"`
 }
 
 type Entries []Entry
@@ -266,6 +267,10 @@ func Gen(original, translated []byte) (Entries, error) {
 					File:      part.Tag,
 					ID:        elemKey,
 					Reference: dPath,
+					Original:  elemPart.Text(),
+				}
+				if entry.Original == "" {
+					entry.Original = Blank
 				}
 				if dElem != nil {
 					dPart = dElem.FindElement(p)

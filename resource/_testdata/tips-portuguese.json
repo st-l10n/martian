@@ -3,144 +3,168 @@
     "file": "Tips",
     "reference": "/Language/GameTip/String[0]",
     "id": "Press {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, or {KEY:ToolBeltSlot} to toggle through interactions and slots on any slot item you're wearing. Press and hold to swap between that slot and your active hands.",
-    "str": "Pressione {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou {KEY:ToolBeltSlot} para alternar entre interações e slots em qualquer item de slot que estiver usando. Pressione e segure para alternar entre esse slot e suas mãos ativas."
+    "str": "Pressione {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou {KEY:ToolBeltSlot} para alternar entre interações e slots em qualquer item de slot que estiver usando. Pressione e segure para alternar entre esse slot e suas mãos ativas.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[1]",
     "id": "Press {KEY:ToggleHandPower} to toggle what you're holding in your hands on or off quickly.",
-    "str": "Pressione {KEY:ToggleHandPower} para ativar ou desativar rapidamente o que você está segurando em suas mãos."
+    "str": "Pressione {KEY:ToggleHandPower} para ativar ou desativar rapidamente o que você está segurando em suas mãos.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[2]",
     "id": "Press {KEY:ToggleLight} to toggle your {THING:ItemSpaceHelmet} lights on or off quickly.",
-    "str": "Pressione {KEY:ToggleLight} para ativar ou desativar rapidamente as luzes de {THING:ItemSpaceHelmet}."
+    "str": "Pressione {KEY:ToggleLight} para ativar ou desativar rapidamente as luzes de {THING:ItemSpaceHelmet}.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[3]",
     "id": "Press {KEY:EmoteWave} to make your character wave at other stationeers.",
-    "str": "Pressione {KEY:EmoteWave} para fazer seu personagem acenar para outros stationeers."
+    "str": "Pressione {KEY:EmoteWave} para fazer seu personagem acenar para outros stationeers.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[4]",
     "id": "Press {KEY:Jetpack} to toggle your {THING:ItemSpacepack} propulsion on or off quickly.",
-    "str": "Pressione {KEY:Jetpack} para ativar ou desativar a propulsão de {THING:ItemSpacepack} rapidamente."
+    "str": "Pressione {KEY:Jetpack} para ativar ou desativar a propulsão de {THING:ItemSpacepack} rapidamente.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[5]",
     "id": "Press {KEY:ToggleUI} to toggle the User Interface on or off to get amazing screenshots or video.",
-    "str": "Pressione {KEY:ToggleUI} para ativar ou desativar a Interface do usuário para obter imagens ou vídeos incríveis."
+    "str": "Pressione {KEY:ToggleUI} para ativar ou desativar a Interface do usuário para obter imagens ou vídeos incríveis.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[6]",
     "id": "Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.",
-    "str": ""
+    "str": "",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[7]",
     "id": "Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.",
-    "str": ""
+    "str": "",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[8]",
     "id": "Press the {KEY:InventorySelect} key if you want to swap something between an open inventory slot and your active hand.",
-    "str": "Pressione a tecla {KEY:InventorySelect} se você quiser trocar algo entre um slot de inventário aberto e sua mão ativa."
+    "str": "Pressione a tecla {KEY:InventorySelect} se você quiser trocar algo entre um slot de inventário aberto e sua mão ativa.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[9]",
     "id": "Pressing and releasing the {KEY:Drop} key will make you immediately drop whatever is in your hands. If you hold the {KEY:Drop} key down, it will try to throw it. The longer you hold it, the further you will throw.",
-    "str": "Pressionar e liberar a tecla {KEY:Drop} fará você largar imediatamente o que estiver em suas mãos. Se você segurar a tecla {KEY:Drop}, tentará jogá-la. Quanto mais tempo você segurá-lo, mais você jogará."
+    "str": "Pressionar e liberar a tecla {KEY:Drop} fará você largar imediatamente o que estiver em suas mãos. Se você segurar a tecla {KEY:Drop}, tentará jogá-la. Quanto mais tempo você segurá-lo, mais você jogará.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[10]",
     "id": "Pressing {KEY:SwapHands} swaps what hand is active. Pressing {KEY:ActiveHandSlot} will cycle through the interaction options on whatever is in your active hand.",
-    "str": "Pressionar {KEY:SwapHands} troca a mão que está ativa. Pressionar {KEY:ActiveHandSlot} alternará entre as opções de interação no que estiver em sua mão ativa."
+    "str": "Pressionar {KEY:SwapHands} troca a mão que está ativa. Pressionar {KEY:ActiveHandSlot} alternará entre as opções de interação no que estiver em sua mão ativa.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[11]",
     "id": "Press {KEY:Internals} to quickly toggle your {THING:ItemSpaceHelmet} open or closed.",
-    "str": "Pressione {KEY:Internals} para alternar rapidamente o seu {THING:ItemSpaceHelmet} aberto ou fechado."
+    "str": "Pressione {KEY:Internals} para alternar rapidamente o seu {THING:ItemSpaceHelmet} aberto ou fechado.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[12]",
     "id": "Press {KEY:Chatting} to start chatting to other players. A small box will appear in the lower right of the screen with the text you write before sending.",
-    "str": "Pressione {KEY:Chatting} para começar a conversar com outros jogadores. Uma pequena caixa aparecerá no canto inferior direito da tela com o texto que você escreve antes de enviar."
+    "str": "Pressione {KEY:Chatting} para começar a conversar com outros jogadores. Uma pequena caixa aparecerá no canto inferior direito da tela com o texto que você escreve antes de enviar.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[13]",
     "id": "To change the orientation of your construction cursor, press {KEY:RotateLeft} to rotate left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or {KEY:RotateRollRight} to roll right.",
-    "str": ""
+    "str": "",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[14]",
     "id": "Want to know how to make something? Insert a {THING:CartridgeElectronicReader} into a {THING:ItemTablet} and turn it on with the {KEY:ToggleHandPower} key while it's in your active hand.",
-    "str": "Quer saber como fazer algo? Insira um {THING:CartridgeElectronicReader} em um {THING:ItemTablet} e ligue-o com a tecla {KEY:ToggleHandPower} enquanto estiver na sua mão ativa."
+    "str": "Quer saber como fazer algo? Insira um {THING:CartridgeElectronicReader} em um {THING:ItemTablet} e ligue-o com a tecla {KEY:ToggleHandPower} enquanto estiver na sua mão ativa.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[15]",
     "id": "Hold a {THING:ItemWeldingTorch} in one hand while turned on, and a stack of {THING:ItemIronSheets} in another in order to upgrade the build state of an {THING:StructureFrameIron}.",
-    "str": "Mantenha um {THING:ItemWeldingTorch} em um lado enquanto está ligado, e uma pilha de {THING:ItemIronSheets} em outro para atualizar o estado de construção de um {THING:StructureFrameIron}."
+    "str": "Mantenha um {THING:ItemWeldingTorch} em um lado enquanto está ligado, e uma pilha de {THING:ItemIronSheets} em outro para atualizar o estado de construção de um {THING:StructureFrameIron}.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[16]",
     "id": "Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} in order to smelt it into an {THING:ItemIronIngot}.",
-    "str": "Coloque uma pilha de {THING:ItemIronOre} em uma {THING:StructureArcFurnace} energizada para fundi-la em {THING:ItemIronIngot}."
+    "str": "Coloque uma pilha de {THING:ItemIronOre} em uma {THING:StructureArcFurnace} energizada para fundi-la em {THING:ItemIronIngot}.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[17]",
     "id": "Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic control. You will be able to add conditions and actions that control the states of devices on the same data network.",
-    "str": "Coloque um {THING:MotherboardLogic} em um {THING:StructureComputer} para habilitar o controle lógico. Você poderá adicionar condições e ações que controlam os estados dos dispositivos na mesma rede de dados."
+    "str": "Coloque um {THING:MotherboardLogic} em um {THING:StructureComputer} para habilitar o controle lógico. Você poderá adicionar condições e ações que controlam os estados dos dispositivos na mesma rede de dados.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[18]",
     "id": "When altering the quantity of something via a button in world, hold down {KEY:QuantityModifier} while clicking to use smaller increments.",
-    "str": "Ao alterar a quantidade de algo por meio de um botão no mundo, mantenha {KEY:QuantityModifier} pressionado enquanto clica para usar incrementos menores."
+    "str": "Ao alterar a quantidade de algo por meio de um botão no mundo, mantenha {KEY:QuantityModifier} pressionado enquanto clica para usar incrementos menores.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[19]",
     "id": "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicReader} or {THING:StructureLogicWriter}. Readers allow you to read values from other devices, writers allow you to change values on devices. When combined with Math Units, you can make extremely complex automated systems.",
-    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Os leitores permitem que você leia valores de outros dispositivos. Os escritores permitem que você altere valores em dispositivos. Quando combinado com as Unidades de Matemática, você pode criar sistemas automatizados extremamente complexos."
+    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Os leitores permitem que você leia valores de outros dispositivos. Os escritores permitem que você altere valores em dispositivos. Quando combinado com as Unidades de Matemática, você pode criar sistemas automatizados extremamente complexos.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[20]",
     "id": "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicBatchReader} or {THING:StructureLogicBatchWriter}. Readers allow you to read values from an entire group of other devices, writers allow you to change values on entire groups of other devices.",
-    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicBatchReader} ou {THING:StructureLogicBatchWriter}. Os leitores permitem que você leia valores de um grupo inteiro de outros dispositivos. Os escritores permitem que você altere valores em grupos inteiros de outros dispositivos."
+    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicBatchReader} ou {THING:StructureLogicBatchWriter}. Os leitores permitem que você leia valores de um grupo inteiro de outros dispositivos. Os escritores permitem que você altere valores em grupos inteiros de outros dispositivos.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[21]",
     "id": "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicSlotReader} which allows you to read slot values from device with slots. Some devices allow you to get specialist slot information such as plant growth in the {THING:StructureHydroponicsStation}.",
-    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicSlotReader}, que permite que você leia os valores dos slots do dispositivo com slots. Alguns dispositivos permitem que você obtenha informações de slots especializadas, como o crescimento de plantas na {THING:StructureHydroponicsStation}."
+    "str": "Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicSlotReader}, que permite que você leia os valores dos slots do dispositivo com slots. Alguns dispositivos permitem que você obtenha informações de slots especializadas, como o crescimento de plantas na {THING:StructureHydroponicsStation}.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[22]",
     "id": "Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, ready for a {THING:StructureFurnace}.",
-    "str": "Use um {THING:StructureRecycler} para converter as coisas que você não deseja mais em reagentes utilizáveis. Passe o resultado {THING:ItemReagentMix} para um {THING:StructureCentrifuge} para convertê-lo de volta em minério, pronto para um {THING:StructureFurnace}."
+    "str": "Use um {THING:StructureRecycler} para converter as coisas que você não deseja mais em reagentes utilizáveis. Passe o resultado {THING:ItemReagentMix} para um {THING:StructureCentrifuge} para convertê-lo de volta em minério, pronto para um {THING:StructureFurnace}.",
+    "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[23]",
     "id": "Use a {THING:StructureHydraulicPipeBender} to manufacture atmospheric items, such as the {THING:ItemKitAtmospherics} which allows you to build useful machines such as the {THING:StructureAirConditioner} or {THING:StructureFiltration}.",
-    "str": "Use um {THING:StructureHydraulicPipeBender} para fabricar itens atmosféricos, como o {THING:ItemKitAtmospherics}, que permite criar máquinas úteis, como o {THING:StructureAirConditioner} ou o {THING:StructureFiltration}."
+    "str": "Use um {THING:StructureHydraulicPipeBender} para fabricar itens atmosféricos, como o {THING:ItemKitAtmospherics}, que permite criar máquinas úteis, como o {THING:StructureAirConditioner} ou o {THING:StructureFiltration}.",
+    "original": ""
   }
 ]
