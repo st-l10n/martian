@@ -100,11 +100,17 @@ var genCmd = &cobra.Command{
 		fmt.Println("postfixes:", postfixes)
 	Loop:
 		for _, lang := range languages {
-			for _, limitLang := range limit {
-				if strings.ToLower(limitLang) == strings.ToLower(lang.Name) {
-					continue Loop
+			if len(limit) > 0 {
+				isSelected := false
+				for _, limitLang := range limit {
+					if strings.ToLower(limitLang) == strings.ToLower(lang.Name) {
+						isSelected = true
+					}
+					if strings.ToLower(limitLang) == strings.ToLower(lang.Code) {
+						isSelected = true
+					}
 				}
-				if strings.ToLower(limitLang) == strings.ToLower(lang.Code) {
+				if !isSelected {
 					continue Loop
 				}
 			}
