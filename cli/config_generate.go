@@ -4,13 +4,16 @@ package main
 
 import (
 	"log"
+	"net/http"
 
 	"github.com/shurcooL/vfsgen"
-	"github.com/st-10n/martian/assets"
 )
 
+// Config contains project configuration.
+var cfg http.FileSystem = http.Dir("config")
+
 func main() {
-	err := vfsgen.Generate(assets.Config, vfsgen.Options{
+	err := vfsgen.Generate(cfg, vfsgen.Options{
 		PackageName:  "cli",
 		BuildTags:    "!dev",
 		VariableName: "Config",
