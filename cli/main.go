@@ -1,3 +1,6 @@
+// Package cli implements command line interface for martian.
+//
+//go:generate go run -tags=dev config_generate.go
 package cli
 
 import (
