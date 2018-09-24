@@ -59,6 +59,14 @@ languages:
   name: Slovak
   font: russian
 
+- code: CS
+  name: Czech
+  font: extended
+
+- code: ES
+  name: Spanish
+  font: extended
+
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
 # relative path of translated element, not the original text.
