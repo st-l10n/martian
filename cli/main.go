@@ -233,7 +233,12 @@ func initConfig() {
 	}
 	cfgErr := viper.ReadInConfig()
 	if _, ok := cfgErr.(viper.ConfigFileNotFoundError); ok {
-		cfgErr = viper.ReadConfig(strings.NewReader(defaultCfg))
+		f, err := Config.Open("martian.yml")
+		if err != nil {
+			log.Fatalf("failed to open default config: %v", err)
+		}
+		defer f.Close()
+		cfgErr = viper.ReadConfig(f)
 	}
 	if cfgErr != nil {
 		log.Fatalln("failed to read config:", cfgErr)

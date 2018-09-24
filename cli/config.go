@@ -1,3 +1,4 @@
+//go:generate go run -tags=dev config_generate.go
 package cli
 
 const defaultCfg = `# Configuration for martian, tool for Stationeers localization.
