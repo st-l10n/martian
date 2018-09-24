@@ -41,7 +41,7 @@ languages:
   - code: PT
     name: Portuges
     prefix: portuguese
-	locale: pt-PT
+    locale: pt-PT
 
   - code: CN
     name: Simplified Chinese
