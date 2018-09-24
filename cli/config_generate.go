@@ -10,7 +10,7 @@ import (
 )
 
 // Config contains project configuration.
-var cfg http.FileSystem = http.Dir("config")
+var cfg http.FileSystem = http.Dir("_config")
 
 func main() {
 	err := vfsgen.Generate(cfg, vfsgen.Options{
