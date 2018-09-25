@@ -127,7 +127,6 @@ func Bake(o Options) ([]byte, error) {
 			}
 		}
 	}
-	d.WriteSettings.WhitespaceEndTags = true
 	d.Indent(2)
 	return d.WriteToBytes()
 }
