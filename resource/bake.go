@@ -54,6 +54,7 @@ func Bake(o Options) ([]byte, error) {
 	} else if f != nil {
 		e.RemoveChild(f)
 	}
+
 	for _, part := range e.ChildElements() {
 		switch part.Tag {
 		case "Name", "Code", "Font":
@@ -65,6 +66,7 @@ func Bake(o Options) ([]byte, error) {
 				simplified = true
 			}
 		}
+	Loop:
 		for _, e := range part.ChildElements() {
 			k := e.SelectElement("Key")
 			if k == nil {
@@ -113,7 +115,8 @@ func Bake(o Options) ([]byte, error) {
 				}
 				translated := t.GetC(id, part.Tag+"."+elemKey)
 				if translated == "" || translated == id {
-					translated = engText
+					part.RemoveChild(e)
+					continue Loop
 				}
 				elemPart.SetText(translated)
 				if translated == Blank {
