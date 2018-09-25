@@ -45,14 +45,14 @@
     "file": "Tips",
     "reference": "/Language/GameTip/String[6]",
     "id": "Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.",
-    "str": "",
+    "str": "Pressionar {KEY:Ascend} fará você subir se o seu {THING:ItemSpacepack} estiver ativado, caso contrário seu personagem tentará pular. Você pode ativar ou desativar o [THING:ItemSpacepack} usando a tecla {KEY:Jetpack}.",
     "original": ""
   },
   {
     "file": "Tips",
     "reference": "/Language/GameTip/String[7]",
     "id": "Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.",
-    "str": "",
+    "str": "Pressionar {KEY:Descend} fará você descer se o seu {THING:ItemSpacepack} estiver ativado. Você pode ativar ou desativar o [THING:ItemSpacepack} usando a tecla {KEY:Jetpack}.",
     "original": ""
   },
   {

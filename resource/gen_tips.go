@@ -46,12 +46,25 @@ type tip struct {
 	codeReference string
 }
 
-func (t tip) equal(b []reference) bool {
-	if len(b) != len(t.refs) {
+func (t tip) equal(refs []reference) bool {
+	a := make(map[reference]bool)
+	for _, v := range t.refs {
+		a[v] = true
+	}
+	b := make(map[reference]bool)
+	for _, v := range refs {
+		b[v] = true
+	}
+	if len(b) != len(a) {
 		return false
 	}
-	for i, r := range b {
-		if t.refs[i] != r {
+	for v := range b {
+		if !a[v] {
+			return false
+		}
+	}
+	for v := range a {
+		if !b[v] {
 			return false
 		}
 	}

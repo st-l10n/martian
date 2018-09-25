@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"PO-Revision-Date: 2018-09-25 00:56:57+0000\n"
+"PO-Revision-Date: 2074-01-01 23:59:11+0000\n"
 "X-Generator: Martian\n"
 
 #: /Language/GameTip/String[0]

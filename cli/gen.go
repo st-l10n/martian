@@ -7,6 +7,7 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -22,6 +23,7 @@ var genCmd = &cobra.Command{
 	RunE: func(cmd *cobra.Command, args []string) error {
 		var (
 			f = cmd.Flags()
+			t = time.Now()
 
 			outDir, inDir string
 			postfixes     []string
@@ -148,7 +150,7 @@ var genCmd = &cobra.Command{
 					if createErr != nil {
 						return createErr
 					}
-					if err = entries.WriteFile(name, outFile); err != nil {
+					if err = entries.WriteFile(name, t, outFile); err != nil {
 						return err
 					}
 					if err = outFile.Close(); err != nil {

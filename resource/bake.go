@@ -70,6 +70,10 @@ func Bake(o Options) ([]byte, error) {
 			if k == nil {
 				// Tips.
 				translated := t.Get(e.Text())
+				if translated == "" || translated == e.Text() {
+					part.RemoveChild(e)
+					continue
+				}
 				e.SetText(translated)
 				continue
 			}
@@ -121,5 +125,6 @@ func Bake(o Options) ([]byte, error) {
 		}
 	}
 	d.WriteSettings.WhitespaceEndTags = true
+	d.Indent(2)
 	return d.WriteToBytes()
 }

@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"testing"
+	"time"
 )
 
 var (
@@ -185,6 +186,8 @@ var testSimplifiedParts = []string{
 	"Reagents.Unit",
 }
 
+var defaultTime = time.Date(2074, 1, 1, 23, 59, 11, 0, time.UTC)
+
 func TestLoad(t *testing.T) {
 	t.Run("Keys", func(t *testing.T) {
 		engF, enfFClose := open(t, "Language", "english_keys.xml")
@@ -219,7 +222,7 @@ func TestLoad(t *testing.T) {
 			outClose()
 			for _, f := range result.Files() {
 				out, outClose = create(t, f+"-RU.po")
-				if err = result.WriteFile(f, out); err != nil {
+				if err = result.WriteFile(f, defaultTime, out); err != nil {
 					t.Fatal(err)
 				}
 				outClose()
@@ -262,7 +265,7 @@ func TestLoad(t *testing.T) {
 			outClose()
 			for _, f := range result.Files() {
 				out, outClose = create(t, f+"-RU.po")
-				if err = result.WriteFile(f, out); err != nil {
+				if err = result.WriteFile(f, defaultTime, out); err != nil {
 					t.Fatal(err)
 				}
 				outClose()
@@ -321,7 +324,7 @@ func TestLoad(t *testing.T) {
 			outClose()
 			for _, f := range result.Files() {
 				out, outClose = create(t, f+"-RU.po")
-				if err = result.WriteFile(f, out); err != nil {
+				if err = result.WriteFile(f, defaultTime, out); err != nil {
 					t.Fatal(err)
 				}
 				outClose()
