@@ -185,7 +185,11 @@ var genCmd = &cobra.Command{
 				}
 
 				// Running gettext merge to add new msgid's to ".po" file.
-				cmd := exec.Command("msgmerge", "-U", poName, fileName)
+				cmd := exec.Command("msgmerge",
+					"-U", "--no-wrap",
+					"--backup=off",
+					poName, fileName,
+				)
 				cmd.Dir = targetDir
 				buf := new(bytes.Buffer)
 				cmd.Stderr = buf
