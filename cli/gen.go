@@ -11,7 +11,6 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
-	"time"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -27,7 +26,6 @@ var genCmd = &cobra.Command{
 	RunE: func(cmd *cobra.Command, args []string) error {
 		var (
 			f = cmd.Flags()
-			t = time.Now()
 
 			outDir, inDir string
 			postfixes     []string
@@ -155,7 +153,7 @@ var genCmd = &cobra.Command{
 					if createErr != nil {
 						return createErr
 					}
-					if err = entries.WriteFile(name, t, outFile); err != nil {
+					if err = entries.WriteFile(name, outFile); err != nil {
 						return err
 					}
 					if err = outFile.Close(); err != nil {
@@ -163,7 +161,8 @@ var genCmd = &cobra.Command{
 					}
 				}
 				fileName := fmt.Sprintf("%s.pot", prefix+name)
-				outFile, createErr := os.Create(path.Join(targetDir, fileName))
+				filePath := path.Join(targetDir, fileName)
+				outFile, createErr := os.Create(filePath)
 				if createErr != nil {
 					return createErr
 				}
@@ -173,7 +172,9 @@ var genCmd = &cobra.Command{
 				if err = outFile.Close(); err != nil {
 					return err
 				}
-				cmd := exec.Command("msgmerge", "-U", fileName, poName)
+
+				// Running gettext merge to add new msgid's to ".po" file.
+				cmd := exec.Command("msgmerge", "-U", poName, fileName)
 				cmd.Dir = targetDir
 				buf := new(bytes.Buffer)
 				cmd.Stderr = buf
