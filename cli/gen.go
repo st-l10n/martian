@@ -1,9 +1,13 @@
 package cli
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
+	"io"
+	"log"
 	"os"
+	"os/exec"
 	"path"
 	"path/filepath"
 	"strings"
@@ -144,8 +148,9 @@ var genCmd = &cobra.Command{
 				return err
 			}
 			for _, name := range entries.Files() {
+				poName := fmt.Sprintf("%s.po", prefix+name)
 				if !templateOnly {
-					fileName := fmt.Sprintf("%s.po", prefix+name)
+					fileName := poName
 					outFile, createErr := os.Create(path.Join(targetDir, fileName))
 					if createErr != nil {
 						return createErr
@@ -167,6 +172,15 @@ var genCmd = &cobra.Command{
 				}
 				if err = outFile.Close(); err != nil {
 					return err
+				}
+				cmd := exec.Command("msgmerge", "-U", fileName, poName)
+				cmd.Dir = targetDir
+				buf := new(bytes.Buffer)
+				cmd.Stderr = buf
+				cmd.Stdout = buf
+				if err = cmd.Run(); err != nil {
+					io.Copy(os.Stderr, buf)
+					log.Printf("failed to merge %s: %v", path.Join(targetDir, poName), err)
 				}
 			}
 		}
