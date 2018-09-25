@@ -20,6 +20,7 @@ type GenOptions struct {
 	//
 	// The "Tips" part is always assumed as non-simplified.
 	Simplified []string
+	FilePrefix string
 }
 
 // Gen generates .po entry list from original xml, trying to apply translations
@@ -74,7 +75,7 @@ func Gen(o GenOptions) (Entries, error) {
 				var dPart *etree.Element
 				entry := Entry{
 					Context:   part.Tag + "." + elemKey,
-					File:      part.Tag,
+					File:      o.FilePrefix + part.Tag,
 					Reference: dPath,
 					Original:  elemPart.Text(),
 				}

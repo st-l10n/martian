@@ -28,7 +28,7 @@ var genCmd = &cobra.Command{
 			f = cmd.Flags()
 
 			outDir, inDir string
-			postfixes     []string
+			templates     []originalFile
 			limit         []string
 			err           error
 			languages     Languages
@@ -67,21 +67,25 @@ var genCmd = &cobra.Command{
 			return errors.New("no english language configured (code=EN)")
 		}
 		if err = filepath.Walk(inDir, func(path string, info os.FileInfo, err error) error {
-			if path != inDir && info.IsDir() {
-				return filepath.SkipDir
-			}
 			base := filepath.Base(path)
-			if strings.HasPrefix(base, "english") {
-				postfixes = append(postfixes, strings.TrimPrefix(base, "english"))
+			relative, err := filepath.Rel(inDir, filepath.Dir(path))
+			if err != nil {
+				return err
+			}
+			if strings.HasPrefix(base, "english") && strings.HasSuffix(base, ".xml") {
+				templates = append(templates, originalFile{
+					Postfix: strings.TrimPrefix(base, "english"),
+					Path:    relative,
+				})
 			}
 			return nil
 		}); err != nil {
 			return err
 		}
-		if len(postfixes) == 0 {
+		if len(templates) == 0 {
 			return errors.New("no english files found in input folder")
 		}
-		fmt.Println("postfixes:", postfixes)
+		fmt.Println("templates:", templates)
 	Loop:
 		for _, lang := range languages {
 			if len(limit) > 0 {
@@ -111,26 +115,33 @@ var genCmd = &cobra.Command{
 			fmt.Printf("  code: %s\n", lang.Code)
 			fmt.Printf("  locale: %s\n", lang.Locale)
 			var entries resource.Entries
-			for _, p := range postfixes {
-				original, err := readFile(filepath.Join(
-					inDir, "english"+p,
-				))
+			for _, t := range templates {
+				name := lang.Prefix + t.Postfix
+				translatedPath := filepath.Join(inDir, t.Path, name)
+				origPath := filepath.Join(inDir, t.Path, "english"+t.Postfix)
+				original, err := readFile(origPath)
 				if err != nil {
 					return fmt.Errorf("failed to read english translation file: %v", err)
 				}
-				translated, err := readFile(filepath.Join(
-					inDir, lang.Prefix+p,
-				))
+				translated, err := readFile(translatedPath)
 				if err != nil {
-					if !(os.IsNotExist(err) && p != ".xml") {
+					if !(os.IsNotExist(err) && t.Postfix != ".xml") {
 						return fmt.Errorf("failed to find translated file for %s", lang.Code)
 					}
 				}
-				gotEntries, err := resource.Gen(resource.GenOptions{
+				o := resource.GenOptions{
 					Original:   original,
 					Translated: translated,
 					Simplified: viper.GetStringSlice("simplified"),
-				})
+				}
+				// Scenario/EscapeFromMars/Language/english_mars_mission.xml -> EscapeFromMars
+				// Language -> ""
+				for _, s := range strings.Split(t.Path, string(filepath.Separator)) {
+					if s != "Language" {
+						o.FilePrefix = s
+					}
+				}
+				gotEntries, err := resource.Gen(o)
 				if err != nil {
 					return err
 				}
