@@ -101,7 +101,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>SalicylicAcid</Key>
-      <Value>Salicylic Acid</Value>
+      <Value>Салициловая кислота</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -131,27 +131,27 @@
     </RecordReagent>
     <RecordReagent>
       <Key>ColorRed</Key>
-      <Value>Red Coloring</Value>
+      <Value>Красный краситель</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorGreen</Key>
-      <Value>Green Coloring</Value>
+      <Value>Зеленый краситель</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorBlue</Key>
-      <Value>Blue Coloring</Value>
+      <Value>Синий краситель</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
-      <Value>Yellow Coloring</Value>
+      <Value>Желтый краситель</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorOrange</Key>
-      <Value>Orange Coloring</Value>
+      <Value>Оранжевый краситель</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -1636,7 +1636,7 @@
     </Record>
     <Record>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Анализатор атмосферы</Value>
+      <Value>Анализатор атмосферы трубы</Value>
     </Record>
     <Record>
       <Key>StructurePipeCorner</Key>
@@ -1660,7 +1660,7 @@
     </Record>
     <Record>
       <Key>StructurePipeLabel</Key>
-      <Value>Наклейка для трубы</Value>
+      <Value>Наклейка на трубу</Value>
     </Record>
     <Record>
       <Key>StructurePipeMeter</Key>
@@ -1672,7 +1672,7 @@
     </Record>
     <Record>
       <Key>StructurePipeStraight</Key>
-      <Value>Труба (прямая)</Value>
+      <Value>Труба (Прямая)</Value>
     </Record>
     <Record>
       <Key>StructurePipeTJunction</Key>
@@ -1856,19 +1856,19 @@
     </Record>
     <Record>
       <Key>StructureCableJunction6HBurnt</Key>
-      <Value>Сгоревший кабель (6-конечный)</Value>
+      <Value>Сгоревший силовой кабель (6-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableJunction4HBurnt</Key>
-      <Value>Сгоревший кабель (4-конечный)</Value>
+      <Value>Сгоревший силовой кабель (Угловой 4-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableStraightHBurnt</Key>
-      <Value>Сгоревший кабель (Прямой)</Value>
+      <Value>Сгоревший силовой кабель (Прямой)</Value>
     </Record>
     <Record>
       <Key>StructureCableJunctionHBurnt</Key>
-      <Value>Сгоревший кабель (3-конечный)</Value>
+      <Value>Сгоревший силовой кабель (Угловой 3-конечный)</Value>
     </Record>
     <Record>
       <Key>StructureCableCornerHBurnt</Key>
@@ -2272,11 +2272,11 @@
     </Record>
     <Record>
       <Key>StructureConsoleLED1x2</Key>
-      <Value>Светодиодный дисплей (Средний)</Value>
+      <Value>ЖК дисплей (Средний)</Value>
     </Record>
     <Record>
       <Key>StructureConsoleLED1x3</Key>
-      <Value>Светодиодный дисплей (Большой)</Value>
+      <Value>ЖК дисплей (Большой)</Value>
     </Record>
     <Record>
       <Key>NpcChick</Key>
@@ -3838,7 +3838,7 @@
     </Record>
     <Record>
       <Key>JoinMenuButtonJoin</Key>
-      <Value>Присоединиться к миру</Value>
+      <Value>Присоединиться</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListName</Key>
@@ -3894,7 +3894,7 @@
     </Record>
     <Record>
       <Key>InventorySlotBackpack</Key>
-      <Value>Назад</Value>
+      <Value>Рюкзак</Value>
     </Record>
     <Record>
       <Key>InventorySlotSuit</Key>
@@ -4452,7 +4452,7 @@
     </Record>
     <Record>
       <Key>PromptDebugLoadTitle</Key>
-      <Value>Отладка</Value>
+      <Value>Отладочная загрузка</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadBody</Key>
@@ -4460,7 +4460,7 @@
     </Record>
     <Record>
       <Key>PromptDebugLoadConfirm</Key>
-      <Value>Отладка</Value>
+      <Value>Загрузить</Value>
     </Record>
     <Record>
       <Key>PromptRespawnTitle</Key>
@@ -4484,7 +4484,7 @@
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
-      <Value>Сдаться</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -4601,11 +4601,11 @@
     </Record>
     <Record>
       <Key>JoinMenuInfoPlayers</Key>
-      <Value>Игроки:</Value>
+      <Value>Игроков:</Value>
     </Record>
     <Record>
       <Key>ChangeAppearanceTitle</Key>
-      <Value>Изменить внешность</Value>
+      <Value>Изменение внешнего вида</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
@@ -4741,7 +4741,7 @@
     </Record>
     <Record>
       <Key>WorldResetButton</Key>
-      <Value>Сбросить</Value>
+      <Value>Сброс</Value>
     </Record>
     <Record>
       <Key>WorldSaveButton</Key>
@@ -4870,7 +4870,7 @@
     </Record>
     <Record>
       <Key>ButtonReset</Key>
-      <Value>Сбросить</Value>
+      <Value>Сброс</Value>
     </Record>
     <Record>
       <Key>ButtonClear</Key>

@@ -33,6 +33,7 @@ type Language struct {
 	Name   string `mapstructure:"name"`
 	Prefix string `mapstructure:"prefix"`
 	Locale string `mapstructure:"locale"`
+	Font   string `mapstructure:"font"`
 }
 
 type Languages []Language
@@ -46,6 +47,7 @@ var rootCmd = &cobra.Command{
 }
 
 func init() {
+	cobra.OnInitialize(initConfig)
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/martian.yml)")
 }
 

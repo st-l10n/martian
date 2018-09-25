@@ -107,11 +107,11 @@ func Bake(o Options) ([]byte, error) {
 					// Using original text as ID.
 					id = engText
 				}
-				translated := t.GetC(id, part.Tag)
-				elemPart.SetText(translated)
-				if translated == "" {
+				translated := t.GetC(id, part.Tag+"."+elemKey)
+				if translated == "" || translated == id {
 					translated = engText
 				}
+				elemPart.SetText(translated)
 				if translated == Blank {
 					for _, child := range elemPart.Child {
 						elemPart.RemoveChild(child)

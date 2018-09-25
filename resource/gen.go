@@ -73,7 +73,7 @@ func Gen(o GenOptions) (Entries, error) {
 				p := elemPart.GetRelativePath(c)
 				var dPart *etree.Element
 				entry := Entry{
-					Context:   part.Tag,
+					Context:   part.Tag + "." + elemKey,
 					File:      part.Tag,
 					Reference: dPath,
 					Original:  elemPart.Text(),

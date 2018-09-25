@@ -28,9 +28,13 @@ var genCmd = &cobra.Command{
 			limit         []string
 			err           error
 			languages     Languages
-
-			english Language
+			templateOnly  bool
+			english       Language
+			prefix        string
 		)
+		if prefix, err = f.GetString("prefix"); err != nil {
+			return err
+		}
 		if inDir, err = f.GetString("input"); err != nil {
 			return err
 		}
@@ -44,6 +48,9 @@ var genCmd = &cobra.Command{
 			return err
 		}
 		if limit, err = f.GetStringSlice("limit"); err != nil {
+			return err
+		}
+		if templateOnly, err = f.GetBool("template"); err != nil {
 			return err
 		}
 		for _, lang := range languages {
@@ -135,20 +142,21 @@ var genCmd = &cobra.Command{
 				return err
 			}
 			for _, name := range entries.Files() {
-				fileName := fmt.Sprintf("%s.po", name)
+				if !templateOnly {
+					fileName := fmt.Sprintf("%s.po", prefix+name)
+					outFile, createErr := os.Create(path.Join(targetDir, fileName))
+					if createErr != nil {
+						return createErr
+					}
+					if err = entries.WriteFile(name, outFile); err != nil {
+						return err
+					}
+					if err = outFile.Close(); err != nil {
+						return err
+					}
+				}
+				fileName := fmt.Sprintf("%s.pot", prefix+name)
 				outFile, createErr := os.Create(path.Join(targetDir, fileName))
-				if createErr != nil {
-					return createErr
-				}
-				if err = entries.WriteFile(name, outFile); err != nil {
-					return err
-				}
-				if err = outFile.Close(); err != nil {
-					return err
-				}
-
-				fileName = fmt.Sprintf("%s.pot", name)
-				outFile, createErr = os.Create(path.Join(targetDir, fileName))
 				if createErr != nil {
 					return createErr
 				}
@@ -165,12 +173,13 @@ var genCmd = &cobra.Command{
 }
 
 func init() {
-	cobra.OnInitialize(initConfig)
 	{
 		f := genCmd.Flags()
 		f.StringP("output", "o", ".", "output directory")
 		f.StringP("input", "i", ".", "input directory")
 		f.StringSlice("limit", nil, "limit languages")
+		f.BoolP("template", "t", true, "generate templates (.pot) only")
+		f.StringP("prefix", "p", "", "filename prefix")
 	}
 	rootCmd.AddCommand(
 		genCmd,
