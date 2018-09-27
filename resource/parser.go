@@ -3,6 +3,7 @@ package resource
 import (
 	"bufio"
 	"bytes"
+	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -25,39 +26,45 @@ func readAll(name string) ([]byte, error) {
 }
 
 // Merge merges original .po file with updated template .po file.
-func Merge(original, template string) error {
+func Merge(input, merged, template string) error {
 	var (
 		err  error
 		orig []byte
 	)
-	if orig, err = readAll(original); err != nil {
+	if orig, err = readAll(input); err != nil {
 		return err
 	}
 	p := &parser{
 		orig: orig,
 	}
 	p.populate()
+	if len(p.origID) == 0 {
+		return errors.New("not populated")
+	}
+
 	b := new(bytes.Buffer)
 
-	// Running gettext merge to add new msgid's to ".po" file.
-	cmd := exec.Command("msgmerge",
-		"-U", "--no-wrap",
-		"--backup=off",
-		original, template,
-	)
-	cmd.Stdout = b
-	cmd.Stderr = b
-	if err = cmd.Run(); err != nil {
-		return fmt.Errorf("failed to merge: %s (%v)", b, err)
+	if len(template) > 0 {
+		// Running gettext merge to add new msgid's to ".po" file.
+		cmd := exec.Command("msgmerge",
+			"-U", "--no-wrap",
+			"--backup=off",
+			input, template,
+		)
+		cmd.Stdout = b
+		cmd.Stderr = b
+		if err = cmd.Run(); err != nil {
+			return fmt.Errorf("failed to merge: %s (%v)", b, err)
+		}
 	}
 
 	// Merge.
-	if p.merged, err = readAll(original); err != nil {
+	if p.merged, err = readAll(merged); err != nil {
 		return err
 	}
 	p.merge()
 
-	f, createErr := os.Create(original)
+	f, createErr := os.Create(merged)
 	if createErr != nil {
 		return createErr
 	}
@@ -131,7 +138,6 @@ func (p *parser) merge() {
 			lines = lines[:0]
 			isFuzzy = false
 		} else {
-			isFuzzy = false
 			lines = append(lines, l)
 		}
 	}

@@ -181,6 +181,7 @@ var genCmd = &cobra.Command{
 				}
 				if err = resource.Merge(
 					filepath.Join(targetDir, poName),
+					filepath.Join(targetDir, poName), // replace
 					filepath.Join(targetDir, fileName),
 				); err != nil {
 					return err
