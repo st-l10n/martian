@@ -1,13 +1,9 @@
 package cli
 
 import (
-	"bytes"
 	"errors"
 	"fmt"
-	"io"
-	"log"
 	"os"
-	"os/exec"
 	"path"
 	"path/filepath"
 	"strings"
@@ -183,20 +179,11 @@ var genCmd = &cobra.Command{
 				if err = outFile.Close(); err != nil {
 					return err
 				}
-
-				// Running gettext merge to add new msgid's to ".po" file.
-				cmd := exec.Command("msgmerge",
-					"-U", "--no-wrap",
-					"--backup=off",
-					poName, fileName,
-				)
-				cmd.Dir = targetDir
-				buf := new(bytes.Buffer)
-				cmd.Stderr = buf
-				cmd.Stdout = buf
-				if err = cmd.Run(); err != nil {
-					io.Copy(os.Stderr, buf)
-					log.Printf("failed to merge %s: %v", path.Join(targetDir, poName), err)
+				if err = resource.Merge(
+					filepath.Join(targetDir, poName),
+					filepath.Join(targetDir, fileName),
+				); err != nil {
+					return err
 				}
 			}
 		}

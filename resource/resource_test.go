@@ -34,6 +34,17 @@ func create(t *testing.T, path ...string) (*os.File, func()) {
 	}
 }
 
+func read(t *testing.T, path ...string) []byte {
+	t.Helper()
+	f, c := open(t, path...)
+	d, err := ioutil.ReadAll(f)
+	if err != nil {
+		t.Fatal(err)
+	}
+	c()
+	return d
+}
+
 func open(t *testing.T, path ...string) (*os.File, func()) {
 	t.Helper()
 	p := []string{"_testdata"}
