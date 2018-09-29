@@ -161,6 +161,7 @@ var notifyNewAssets = &cobra.Command{
 						affected = append(affected, l.Name)
 					}
 				}
+				sort.Strings(affected)
 				fmt.Fprint(description, "\n")
 				fmt.Fprintln(description, "**Languages affected:**", strings.Join(affected, ", "))
 			}
