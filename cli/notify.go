@@ -1,7 +1,6 @@
 package cli
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
 	"os"
@@ -9,6 +8,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/spf13/viper"
 
 	discord "github.com/bwmarrin/discordgo"
 	"github.com/dustin/go-humanize"
@@ -47,8 +48,14 @@ const (
 var notifyNewAssets = &cobra.Command{
 	Use: "assets",
 	RunE: func(cmd *cobra.Command, args []string) error {
+		var (
+			languages Languages
+		)
 		d, err := getDiscord(cmd)
 		if err != nil {
+			return err
+		}
+		if err = viper.UnmarshalKey("languages", &languages); err != nil {
 			return err
 		}
 		verRaw, err := readFile("version.txt")
@@ -76,10 +83,18 @@ var notifyNewAssets = &cobra.Command{
 			return err
 		}
 		folders := make(map[string][]string)
+		langChanged := make(map[Language]bool)
 		files.ForEach(func(file *object.File) error {
 			if strings.HasSuffix(file.Name, ".xml") {
 				dir := filepath.Dir(file.Name)
-				folders[dir] = append(folders[dir], strings.TrimSuffix(filepath.Base(file.Name), ".xml"))
+				base := filepath.Base(file.Name)
+				folders[dir] = append(folders[dir], strings.TrimSuffix(base, ".xml"))
+
+				for _, l := range languages {
+					if strings.HasPrefix(base, l.GetPrefix()) {
+						langChanged[l] = true
+					}
+				}
 			}
 			return nil
 		})
@@ -128,19 +143,29 @@ var notifyNewAssets = &cobra.Command{
 		fmt.Fprintln(description, "The assets were automatically generated.")
 		fmt.Fprint(description, "\n")
 		if len(folders) == 0 {
-			fmt.Fprintln(description, "No xml files changed.")
+			fmt.Fprintln(description, "**No xml files changed.**")
 		} else {
 			var foldersList []string
 			for k := range folders {
 				foldersList = append(foldersList, k)
 			}
 			sort.Strings(foldersList)
-			fmt.Fprintln(description, "Files changed:")
+			fmt.Fprintln(description, "**Files changed:**")
 			for _, folder := range foldersList {
 				fmt.Fprintf(description, "[%s]: %d\n", folder, len(folders[folder]))
 			}
-			fmt.Fprintf(description, "\nSee raw commit:\nhttps://github.com/st-l10n/resources/commit/%s", resRef.Hash().String()[:7])
+			if len(langChanged) > 0 {
+				var affected []string
+				for _, l := range languages {
+					if langChanged[l] {
+						affected = append(affected, l.Name)
+					}
+				}
+				fmt.Fprint(description, "\n")
+				fmt.Fprintln(description, "**Languages affected:**", strings.Join(affected, ", "))
+			}
 		}
+		fmt.Fprintf(description, "\nSee raw commit:\nhttps://github.com/st-l10n/resources/commit/%s", resRef.Hash().String()[:7])
 		descriptionStr := description.String()
 		if description.Len() > 2000 {
 			descriptionStr = descriptionStr[:2000] + "..."
@@ -156,7 +181,7 @@ var notifyNewAssets = &cobra.Command{
 		embed.Fields = []*discord.MessageEmbedField{
 			{
 				Name:  "Version",
-				Value: ver,
+				Value: "v" + ver,
 			},
 			{
 				Name:  "Locale commit",
@@ -167,20 +192,18 @@ var notifyNewAssets = &cobra.Command{
 				Value: humanize.Time(latest),
 			},
 		}
-		enc := json.NewEncoder(os.Stdout)
-		enc.SetIndent("", "  ")
 		mes := &discord.MessageSend{
 			Embed: embed,
 			Files: []*discord.File{
 				df,
 			},
 		}
-		enc.Encode(mes)
 		st, err := d.ChannelMessageSendComplex("495320457491251201", mes)
 		if err != nil {
 			return fmt.Errorf("failed to send message: %v", err)
 		}
 		fmt.Println("OK", st.ID)
+		return nil
 	},
 }
 

@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
@@ -34,6 +35,15 @@ type Language struct {
 	Prefix string `mapstructure:"prefix"`
 	Locale string `mapstructure:"locale"`
 	Font   string `mapstructure:"font"`
+}
+
+func (l Language) GetPrefix() string {
+	if l.Prefix != "" {
+		return l.Prefix
+	}
+	return strings.ToLower(
+		strings.Replace(l.Name, " ", "_", -1),
+	)
 }
 
 type Languages []Language
