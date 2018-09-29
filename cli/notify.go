@@ -9,11 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spf13/viper"
-
 	discord "github.com/bwmarrin/discordgo"
 	"github.com/dustin/go-humanize"
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 	"gopkg.in/src-d/go-git.v4/plumbing/storer"
