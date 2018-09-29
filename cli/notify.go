@@ -77,26 +77,37 @@ var notifyNewAssets = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		files, err := resCommit.Files()
-		if err != nil {
-			return err
-		}
 		folders := make(map[string][]string)
 		langChanged := make(map[Language]bool)
-		files.ForEach(func(file *object.File) error {
-			if strings.HasSuffix(file.Name, ".xml") {
-				dir := filepath.Dir(file.Name)
-				base := filepath.Base(file.Name)
-				folders[dir] = append(folders[dir], strings.TrimSuffix(base, ".xml"))
+		if err = resCommit.Parents().ForEach(func(commit *object.Commit) error {
+			patch, err := resCommit.Patch(commit)
+			if err != nil {
+				return err
+			}
+			for _, p := range patch.FilePatches() {
+				from, to := p.Files()
+				for _, name := range []string{
+					from.Path(),
+					to.Path(),
+				} {
+					if strings.HasSuffix(name, ".xml") {
+						dir := filepath.Dir(name)
+						base := filepath.Base(name)
+						folders[dir] = append(folders[dir], strings.TrimSuffix(base, ".xml"))
 
-				for _, l := range languages {
-					if strings.HasPrefix(base, l.GetPrefix()) {
-						langChanged[l] = true
+						for _, l := range languages {
+							if strings.HasPrefix(base, l.GetPrefix()) {
+								langChanged[l] = true
+							}
+						}
 					}
+					return nil
 				}
 			}
 			return nil
-		})
+		}); err != nil {
+			return err
+		}
 		repo, err := git.PlainOpen("locales")
 		if err != nil {
 			return err
