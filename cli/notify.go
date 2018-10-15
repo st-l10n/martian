@@ -84,10 +84,14 @@ var notifyNewAssets = &cobra.Command{
 			}
 			for _, p := range patch.FilePatches() {
 				from, to := p.Files()
-				for _, name := range []string{
-					from.Path(),
-					to.Path(),
-				} {
+				var searchIn []string
+				if from != nil {
+					searchIn = append(searchIn, from.Path())
+				}
+				if to != nil {
+					searchIn = append(searchIn, to.Path())
+				}
+				for _, name := range searchIn {
 					if strings.HasSuffix(name, ".xml") {
 						dir := filepath.Dir(name)
 						base := filepath.Base(name)
