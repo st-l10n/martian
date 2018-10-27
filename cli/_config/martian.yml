@@ -62,7 +62,7 @@ languages:
 
 - code: CS
   name: Czech
-  font: extended
+  font: russian
 
 - code: ES
   name: Spanish
