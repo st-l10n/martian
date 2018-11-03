@@ -154,7 +154,14 @@ var genCmd = &cobra.Command{
 			}
 			for _, name := range entries.Files() {
 				poName := fmt.Sprintf("%s.po", prefix+name)
-				if !templateOnly {
+				_, statErr := os.Stat(path.Join(targetDir, poName))
+				exists := true
+				if os.IsNotExist(statErr) {
+					exists = false
+				} else if statErr != nil {
+					return fmt.Errorf("failed to stat: %v", statErr)
+				}
+				if !templateOnly || !exists {
 					fileName := poName
 					outFile, createErr := os.Create(path.Join(targetDir, fileName))
 					if createErr != nil {
