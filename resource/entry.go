@@ -19,6 +19,23 @@ type Entry struct {
 
 type Entries []Entry
 
+func (e Entries) DifferentFromOriginal() Entries {
+	var b Entries
+	for _, entry := range e {
+		if entry.Str == "" {
+			continue
+		}
+		if entry.Str == entry.Original {
+			continue
+		}
+		if entry.Original == "" {
+			continue
+		}
+		b = append(b, entry)
+	}
+	return b
+}
+
 func (e Entries) TranslatedCount() int {
 	var count int
 	for _, entry := range e {
@@ -48,10 +65,24 @@ func (e Entries) WriteTemplateFile(file string, w io.Writer) error {
 	if err != nil {
 		return err
 	}
+	type key struct {
+		ID  string
+		Ctx string
+	}
+	wrote := make(map[key]struct{})
 	for _, entry := range e {
+		k := key{
+			ID:  entry.ID,
+			Ctx: entry.Context,
+		}
 		if entry.File != file {
 			continue
 		}
+		if _, ok := wrote[k]; ok {
+			// Early fix for duplicates.
+			continue
+		}
+		wrote[k] = struct{}{}
 		entry.Str = ""
 		if err = entry.WriteTo(w); err != nil {
 			return err

@@ -76,7 +76,7 @@ var genCmd = &cobra.Command{
 			}
 			return nil
 		}); err != nil {
-			return err
+			return fmt.Errorf("failed to walk %s: %v", inDir, err)
 		}
 		if len(templates) == 0 {
 			return errors.New("no english files found in input folder")
@@ -139,7 +139,7 @@ var genCmd = &cobra.Command{
 				}
 				gotEntries, err := resource.Gen(o)
 				if err != nil {
-					return err
+					return fmt.Errorf("failed to gen: %v", err)
 				}
 				entries = append(entries, gotEntries...)
 			}
@@ -184,7 +184,7 @@ var genCmd = &cobra.Command{
 					filepath.Join(targetDir, poName), // replace
 					filepath.Join(targetDir, fileName),
 				); err != nil {
-					return err
+					return fmt.Errorf("failed to merge: %v", err)
 				}
 			}
 		}

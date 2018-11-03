@@ -32,6 +32,9 @@ func Merge(input, merged, template string) error {
 		orig []byte
 	)
 	if orig, err = readAll(input); err != nil {
+		if os.IsNotExist(err) {
+			return nil
+		}
 		return err
 	}
 	p := &parser{
