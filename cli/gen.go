@@ -121,7 +121,7 @@ var genCmd = &cobra.Command{
 				}
 				translated, err := readFile(translatedPath)
 				if err != nil {
-					if !(os.IsNotExist(err) && t.Postfix != ".xml") {
+					if !os.IsNotExist(err) {
 						return fmt.Errorf("failed to find translated file for %s", lang.Code)
 					}
 				}
