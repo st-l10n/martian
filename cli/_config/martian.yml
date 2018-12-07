@@ -37,7 +37,7 @@ languages:
   font: extended
 
 - code: PT
-  name: Portuges
+  name: Português
   prefix: portuguese
   locale: pt-PT
 
@@ -70,7 +70,7 @@ languages:
 
 - code: TR
   name: Turkish
-  font: extended
+  font: russian
 
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
