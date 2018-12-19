@@ -72,6 +72,10 @@ languages:
   name: Turkish
   font: russian
 
+- code: DA
+  name: Danish
+  font: extended
+
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
 # relative path of translated element, not the original text.
