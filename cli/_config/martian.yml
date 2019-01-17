@@ -76,6 +76,10 @@ languages:
   name: Danish
   font: extended
 
+- code: NL
+  name: Dutch
+  font: extended
+
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
 # relative path of translated element, not the original text.
