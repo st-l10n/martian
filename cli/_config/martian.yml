@@ -82,7 +82,7 @@ languages:
 
 - code: HU
   name: Hungarian
-  font: extended  
+  font: russian
 
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
