@@ -84,6 +84,10 @@ languages:
   name: Hungarian
   font: russian
 
+- code: RO
+  name: Romanian
+  font: extended
+
 # Simplified translation parts.
 # If simplified, the "msgid" value of translation is set to simplified
 # relative path of translated element, not the original text.
