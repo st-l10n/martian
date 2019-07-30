@@ -34,7 +34,7 @@ languages:
 
 - code: PL
   name: Polish
-  font: extended
+  font: russian
 
 - code: PT
   name: Português
