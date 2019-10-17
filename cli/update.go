@@ -63,7 +63,7 @@ var updateCmd = &cobra.Command{
 			}
 			return nil
 		}); err != nil {
-			return err
+			return fmt.Errorf("failed to walk %d: %v", inDir, err)
 		}
 		if len(templates) == 0 {
 			return errors.New("no english files found in output folder")
@@ -74,12 +74,12 @@ var updateCmd = &cobra.Command{
 			origName := filepath.Join(inDir, t.Path, name)
 			orig, err := readFile(origName)
 			if err != nil {
-				return err
+				return fmt.Errorf("failed to read orig file %s: %v", origName, err)
 			}
 			outName := filepath.Join(outDir, t.Path, name)
 			outF, err := os.Create(outName)
 			if err != nil {
-				return err
+				return fmt.Errorf("failed to create out file: %v", err)
 			}
 			if _, err = outF.Write(orig); err != nil {
 				return err
