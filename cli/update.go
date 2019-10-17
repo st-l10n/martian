@@ -76,6 +76,7 @@ var updateCmd = &cobra.Command{
 			if err != nil {
 				return fmt.Errorf("failed to read orig file %s: %v", origName, err)
 			}
+			_ = os.MkdirAll(filepath.Join(outDir, t.Path), 0777)
 			outName := filepath.Join(outDir, t.Path, name)
 			outF, err := os.Create(outName)
 			if err != nil {
