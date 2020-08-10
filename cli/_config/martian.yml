@@ -41,6 +41,11 @@ languages:
   prefix: portuguese
   locale: pt-PT
 
+- code: PB
+  name: Brazilian Portuguese
+  prefix: portuguese-brazilian
+  locale: pt-BR
+
 - code: CN
   name: Simplified Chinese
   font: cjk
