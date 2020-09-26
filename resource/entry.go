@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"sort"
+	"strconv"
 	"strings"
 )
 
@@ -157,6 +158,10 @@ func (e Entries) Swap(i, j int) {
 	e[i], e[j] = e[j], e[i]
 }
 
+func Escape(raw string) string {
+	return strings.ReplaceAll(strconv.Quote(raw), "\\u00a0", " ")
+}
+
 func (e Entry) WriteTo(w io.Writer) error {
 	fmt.Fprint(w, "\n")
 	if len(e.TranslatorComment) > 0 {
@@ -168,7 +173,7 @@ func (e Entry) WriteTo(w io.Writer) error {
 	if len(e.Context) > 0 {
 		fmt.Fprintf(w, "msgctxt %q\n", e.Context)
 	}
-	fmt.Fprintf(w, "msgid %q\n", e.ID)
-	fmt.Fprintf(w, "msgstr %q\n", e.Str)
+	fmt.Fprintf(w, "msgid %s\n", Escape(e.ID))
+	fmt.Fprintf(w, "msgstr %s\n", Escape(e.Str))
 	return nil
 }

@@ -57,7 +57,7 @@ func Merge(input, merged, template string) error {
 		cmd.Stdout = b
 		cmd.Stderr = b
 		if err = cmd.Run(); err != nil {
-			return fmt.Errorf("failed to merge: %s (%v)", b, err)
+			return fmt.Errorf("msgmerge: %s (%v)", b, err)
 		}
 	}
 

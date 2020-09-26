@@ -4,8 +4,20 @@ import (
 	"bytes"
 	"fmt"
 	"io"
+	"strings"
 	"testing"
 )
+
+func TestQuote(t *testing.T) {
+	raw := Escape(`The portable canister is the Stationeer's basic unit of 
+<color=#0080FFFF>{LINK:GasPage;gas}</color> delivery. Rated to a standard pressure o
+f 8000kPa (80 atmospheres), empty gas canisters can be mounted to a 
+{thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful n
+ot to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas.`)
+	if !strings.ContainsRune(raw, ' ') {
+		t.Error("Should leave NBSP")
+	}
+}
 
 func TestMerge(t *testing.T) {
 	r := &parser{
