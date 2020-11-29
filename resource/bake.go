@@ -98,6 +98,10 @@ func Bake(o Options) ([]byte, error) {
 				}
 				p := elemPart.GetRelativePath(e)
 				engPart := engElem.FindElement(p)
+				if engPart == nil {
+					// TODO(ernado): Probably we should not just skip here
+					continue
+				}
 				engText := engPart.Text()
 				var id string
 				if elemPart.Tag != "Value" {
