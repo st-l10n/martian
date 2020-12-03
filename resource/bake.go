@@ -90,6 +90,12 @@ func Bake(o Options) ([]byte, error) {
 				switch elemPart.Tag {
 				case "Key":
 					continue
+				case "Description":
+					fmt.Println("ignoring description for", engPath)
+					// TODO(ernado): Handle "Description" field
+					// Ref: https://github.com/st-l10n/martian/issues/3
+					e.RemoveChild(elemPart)
+					continue
 				}
 				for _, s := range o.Simplified {
 					if s == part.Tag+"."+elemPart.Tag {
@@ -99,7 +105,6 @@ func Bake(o Options) ([]byte, error) {
 				p := elemPart.GetRelativePath(e)
 				engPart := engElem.FindElement(p)
 				if engPart == nil {
-					// TODO(ernado): Probably we should not just skip here
 					continue
 				}
 				engText := engPart.Text()
